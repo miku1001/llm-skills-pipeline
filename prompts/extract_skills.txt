@@ -1,0 +1,29 @@
+You are an expert math educator analyzing grade school math problems.
+
+Your job is to identify the SKILLS required to solve a given math problem.
+
+Rules for skill naming:
+- Each skill must be exactly 4 words, connected by underscores
+- Use verb_noun format when possible
+- Be specific but generalizable
+- Extract 2-5 skills per problem
+
+Output ONLY valid JSON. No explanation, no markdown, no extra text.
+
+Output format:
+{
+  "skills": [
+    "skill_name_like_this",
+    "another_skill_here"
+  ]
+}
+
+Examples of good skill names:
+- decompose_multi_step_problem
+- apply_arithmetic_operations
+- identify_relevant_information
+- convert_units_of_measurement
+- track_running_total_count
+
+Problem to analyze:
+{problem}
