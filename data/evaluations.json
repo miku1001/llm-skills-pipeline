@@ -1,0 +1,747 @@
+[
+  {
+    "task_uid": "72a2-d211-61cb-7a26",
+    "skill_uid": "ebdc-01d8-7c80-d212",
+    "skill_name": "perform_basic_arithmetic_operations",
+    "difficulty": "easy",
+    "problem": "Samantha has 3 apples. She buys 2 more apples. How many apples does she have now?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Samantha starts with 3 apples.",
+        "skill_used": "identify_initial_quantity"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Samantha buys 2 more apples.",
+        "skill_used": "add_quantity_to_initial"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Calculate the total number of apples.",
+        "skill_used": "calculate_total_quantity"
+      }
+    ],
+    "final_answer": "5",
+    "is_correct": false,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "587f-c19b-8c2f-f88e",
+    "skill_uid": "ebdc-01d8-7c80-d212",
+    "skill_name": "perform_basic_arithmetic_operations",
+    "difficulty": "medium",
+    "problem": "Tom had 15 candies. He gave 4 candies to his friend and then bought 6 more. How many candies does Tom have now?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Tom starts with 15 candies.",
+        "skill_used": "identify_initial_quantity"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Tom gives away 4 candies to his friend.",
+        "skill_used": "subtract_quantity_from_initial"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Tom buys 6 more candies.",
+        "skill_used": "add_quantity_to_current"
+      },
+      {
+        "step_number": 4,
+        "reasoning": "Calculate the total number of candies Tom has now.",
+        "skill_used": "calculate_final_quantity"
+      }
+    ],
+    "final_answer": "17",
+    "is_correct": false,
+    "num_steps": 4
+  },
+  {
+    "task_uid": "ec4a-1088-a452-f8f5",
+    "skill_uid": "ebdc-01d8-7c80-d212",
+    "skill_name": "perform_basic_arithmetic_operations",
+    "difficulty": "hard",
+    "problem": "A baker made 24 cookies. He sold 7 cookies in the morning and then baked 15 more cookies in the afternoon. How many cookies does he have now?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Start with the initial number of cookies made by the baker.",
+        "skill_used": "identify_initial_quantity"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Subtract the number of cookies sold in the morning from the initial quantity.",
+        "skill_used": "subtract_sold_from_initial"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Add the number of cookies baked in the afternoon to the remaining quantity.",
+        "skill_used": "add_baked_to_remaining"
+      }
+    ],
+    "final_answer": "32",
+    "is_correct": false,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "8e8f-8dda-4e10-5155",
+    "skill_uid": "6723-9702-1bed-5c06",
+    "skill_name": "calculate_half_of_quantity",
+    "difficulty": "easy",
+    "problem": "You have 10 apples. How many apples do you have if you take half of them?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "I calculated half of 10 apples.",
+        "skill_used": "divide_total_by_two"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "I confirmed the number of apples after taking half.",
+        "skill_used": "subtract_from_total_apples"
+      }
+    ],
+    "final_answer": "5",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "5a2f-7ad2-eebc-fcb5",
+    "skill_uid": "6723-9702-1bed-5c06",
+    "skill_name": "calculate_half_of_quantity",
+    "difficulty": "medium",
+    "problem": "A box contains 24 crayons. If you give half of the crayons to your friend, how many crayons will you have left?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Divided the total number of crayons by 2 to find half.",
+        "skill_used": "divide_total_by_two"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Subtracted the number of crayons given away from the total.",
+        "skill_used": "subtract_given_from_total"
+      }
+    ],
+    "final_answer": "12",
+    "is_correct": true,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "4574-43fe-a49c-4009",
+    "skill_uid": "6723-9702-1bed-5c06",
+    "skill_name": "calculate_half_of_quantity",
+    "difficulty": "hard",
+    "problem": "There are 50 marbles in a jar. You decide to share them equally with your 3 friends. How many marbles will each person get if you take half of the marbles out of the jar first?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Calculate half of the marbles in the jar.",
+        "skill_used": "divide_total_by_two"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Determine the number of marbles left after taking half out.",
+        "skill_used": "subtract_half_from_total"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Divide the remaining marbles equally among four people.",
+        "skill_used": "divide_remaining_by_four"
+      }
+    ],
+    "final_answer": "12.5",
+    "is_correct": false,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "4a62-2e4e-5946-1e33",
+    "skill_uid": "05ae-2bfa-2eaf-af9b",
+    "skill_name": "sum_total_values_from_months",
+    "difficulty": "easy",
+    "problem": "In January, Mia saved $10. In February, she saved $15. How much money did Mia save in total for January and February?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "I added the savings from January and February.",
+        "skill_used": "add_january_and_february_savings"
+      }
+    ],
+    "final_answer": "25",
+    "is_correct": false,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "2403-9587-e8cd-8dc7",
+    "skill_uid": "05ae-2bfa-2eaf-af9b",
+    "skill_name": "sum_total_values_from_months",
+    "difficulty": "medium",
+    "problem": "Liam collected 20 stickers in March and 30 stickers in April. How many stickers did he collect in total during these two months?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "I added the stickers collected in March and April to find the total.",
+        "skill_used": "add_march_stickers_to_april"
+      }
+    ],
+    "final_answer": "50",
+    "is_correct": false,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "2675-0b81-4cdb-cf68",
+    "skill_uid": "05ae-2bfa-2eaf-af9b",
+    "skill_name": "sum_total_values_from_months",
+    "difficulty": "hard",
+    "problem": "Sophia earned $150 in May, $200 in June, and $250 in July. What is the total amount of money she earned over these three months?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Add the earnings from May, June, and July together.",
+        "skill_used": "add_monthly_earnings_together"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Calculate the total amount earned: 150 + 200 + 250.",
+        "skill_used": "perform_addition_operation"
+      }
+    ],
+    "final_answer": "600",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "39a6-73e8-bb8f-4681",
+    "skill_uid": "5cfd-cae4-9e02-a549",
+    "skill_name": "interpret_word_problem_context",
+    "difficulty": "easy",
+    "problem": "Samantha has 3 apples. If she buys 2 more apples, how many apples does she have now?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Samantha starts with 3 apples.",
+        "skill_used": "identify_initial_quantity"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Samantha buys 2 more apples.",
+        "skill_used": "add_quantity_to_initial"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Calculate the total number of apples.",
+        "skill_used": "calculate_total_quantity"
+      }
+    ],
+    "final_answer": "5",
+    "is_correct": false,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "a7b8-6520-3ad8-31a2",
+    "skill_uid": "5cfd-cae4-9e02-a549",
+    "skill_name": "interpret_word_problem_context",
+    "difficulty": "medium",
+    "problem": "Tom has 12 candies. He wants to share them equally with his 3 friends. How many candies will each person get?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Divide the total candies by the number of people sharing them.",
+        "skill_used": "divide_total_by_people"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Calculate the result of the division to find out how many candies each person gets.",
+        "skill_used": "calculate_division_result"
+      }
+    ],
+    "final_answer": "4",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "7be2-274c-7738-81bc",
+    "skill_uid": "5cfd-cae4-9e02-a549",
+    "skill_name": "interpret_word_problem_context",
+    "difficulty": "hard",
+    "problem": "A farmer has 50 chickens and 30 cows. If he sells 10 chickens and buys 5 more cows, how many animals does he have now?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Calculate the total number of animals before any sales or purchases.",
+        "skill_used": "add_chickens_and_cows"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Subtract the number of chickens sold from the total.",
+        "skill_used": "subtract_chickens_sold"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Add the number of cows bought to the total.",
+        "skill_used": "add_cows_bought"
+      },
+      {
+        "step_number": 4,
+        "reasoning": "Calculate the final total of animals after sales and purchases.",
+        "skill_used": "calculate_final_total_animals"
+      }
+    ],
+    "final_answer": "75",
+    "is_correct": false,
+    "num_steps": 4
+  },
+  {
+    "task_uid": "94f8-7f8a-b5cb-4641",
+    "skill_uid": "9e1c-3034-b44b-ff96",
+    "skill_name": "calculate_hourly_wage_earned",
+    "difficulty": "easy",
+    "problem": "If you earn $10 per hour and you work for 2 hours, how much money do you earn?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Multiply the hourly rate by the number of hours worked to find total earnings.",
+        "skill_used": "multiply_rate_by_time"
+      }
+    ],
+    "final_answer": "20",
+    "is_correct": false,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "0ef7-02b9-201f-f3fb",
+    "skill_uid": "9e1c-3034-b44b-ff96",
+    "skill_name": "calculate_hourly_wage_earned",
+    "difficulty": "medium",
+    "problem": "You work at a bakery and earn $12 per hour. If you work for 5 hours on Saturday and 3 hours on Sunday, how much money do you earn in total?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Calculate total hours worked over the weekend.",
+        "skill_used": "add_hours_worked"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Multiply total hours by hourly wage to find total earnings.",
+        "skill_used": "multiply_rate_by_time"
+      }
+    ],
+    "final_answer": "96",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "e704-259e-95c7-86b5",
+    "skill_uid": "9e1c-3034-b44b-ff96",
+    "skill_name": "calculate_hourly_wage_earned",
+    "difficulty": "hard",
+    "problem": "Maria earns $15 per hour. Last week, she worked 8 hours on Monday, 6 hours on Tuesday, and 4 hours on Wednesday. How much did she earn in total for those three days?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Calculate total hours worked by Maria.",
+        "skill_used": "add_hours_worked_each_day"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Multiply total hours by hourly wage.",
+        "skill_used": "multiply_rate_by_time"
+      }
+    ],
+    "final_answer": "210",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "ae4c-2a5e-c587-9520",
+    "skill_uid": "ecdd-1e77-ff21-c1fb",
+    "skill_name": "convert_minutes_to_hours",
+    "difficulty": "easy",
+    "problem": "If you watch TV for 30 minutes, how many hours did you spend watching TV?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Convert 30 minutes to hours by dividing by 60.",
+        "skill_used": "divide_minutes_by_hours"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Calculate 30 divided by 60 to find the hours.",
+        "skill_used": "perform_division_operation"
+      }
+    ],
+    "final_answer": "0.5",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "8e76-26a9-8ef3-878d",
+    "skill_uid": "ecdd-1e77-ff21-c1fb",
+    "skill_name": "convert_minutes_to_hours",
+    "difficulty": "medium",
+    "problem": "You have been studying for 150 minutes. How many hours is that?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Convert minutes to hours by dividing by 60.",
+        "skill_used": "divide_minutes_by_sixty"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Calculate the total hours by performing the division.",
+        "skill_used": "perform_division_operation"
+      }
+    ],
+    "final_answer": "2.5",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "256b-c7d5-04dc-ed26",
+    "skill_uid": "ecdd-1e77-ff21-c1fb",
+    "skill_name": "convert_minutes_to_hours",
+    "difficulty": "hard",
+    "problem": "You played soccer for 240 minutes and then had dinner for 90 minutes. How many total hours did you spend on these activities?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Convert 240 minutes to hours by dividing by 60.",
+        "skill_used": "divide_minutes_by_hours"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Convert 90 minutes to hours by dividing by 60.",
+        "skill_used": "divide_minutes_by_hours"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Add the two hour values together to find the total time spent.",
+        "skill_used": "add_time_values"
+      }
+    ],
+    "final_answer": "5.5",
+    "is_correct": false,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "8496-98ed-40a9-e5b5",
+    "skill_uid": "e93f-1cce-528e-195d",
+    "skill_name": "apply_multiplication_for_earnings",
+    "difficulty": "easy",
+    "problem": "Emily earns $5 for each lemonade she sells at her stand. If she sells 3 lemonades, how much money does she make?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Multiply the number of lemonades sold by the price per lemonade.",
+        "skill_used": "multiply_rate_by_time"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Calculate the total earnings from selling lemonades.",
+        "skill_used": "calculate_total_earnings"
+      }
+    ],
+    "final_answer": "15",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "b468-1f0b-fdfa-1fb1",
+    "skill_uid": "e93f-1cce-528e-195d",
+    "skill_name": "apply_multiplication_for_earnings",
+    "difficulty": "medium",
+    "problem": "A gardener earns $15 for every hour he works. If he works for 4 hours one day, how much does he earn that day?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Calculate total earnings by multiplying hourly rate by hours worked.",
+        "skill_used": "multiply_rate_by_time"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Multiply the hourly wage of $15 by the number of hours worked, which is 4.",
+        "skill_used": "multiply_hourly_wage_by_hours"
+      }
+    ],
+    "final_answer": "60",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "13f3-6963-426d-bf09",
+    "skill_uid": "e93f-1cce-528e-195d",
+    "skill_name": "apply_multiplication_for_earnings",
+    "difficulty": "hard",
+    "problem": "A toy factory produces 120 toys each hour. If the factory operates for 8 hours a day, how many toys does it produce in a day?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Multiply the number of toys produced per hour by the number of hours the factory operates.",
+        "skill_used": "multiply_rate_by_time"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Calculate the total number of toys produced in a day.",
+        "skill_used": "calculate_total_production"
+      }
+    ],
+    "final_answer": "960",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "8df9-d27e-5d01-e54d",
+    "skill_uid": "9867-5ab5-ac70-195e",
+    "skill_name": "calculate_total_savings_amount",
+    "difficulty": "easy",
+    "problem": "Emily has $10 saved in her piggy bank. If she saves another $5 this week, how much money will she have in total?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "I added the amount Emily has saved to the amount she saves this week.",
+        "skill_used": "add_current_savings_with_new"
+      }
+    ],
+    "final_answer": "15",
+    "is_correct": false,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "a6ac-965e-897d-296f",
+    "skill_uid": "9867-5ab5-ac70-195e",
+    "skill_name": "calculate_total_savings_amount",
+    "difficulty": "medium",
+    "problem": "Jake has $25 in his savings account. He plans to save $15 every month for the next 3 months. How much will he have saved in total after those 3 months?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Calculate the total savings after 3 months by adding the initial amount to the savings from the monthly deposits.",
+        "skill_used": "add_initial_amount_to_savings"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Determine the total amount saved from monthly deposits by multiplying the monthly savings by the number of months.",
+        "skill_used": "multiply_monthly_savings_by_months"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Add the initial savings to the total savings from monthly deposits to find the final total.",
+        "skill_used": "add_initial_savings_to_total"
+      }
+    ],
+    "final_answer": "70",
+    "is_correct": false,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "a830-d282-7960-e39c",
+    "skill_uid": "9867-5ab5-ac70-195e",
+    "skill_name": "calculate_total_savings_amount",
+    "difficulty": "hard",
+    "problem": "Samantha has $120 saved for a new bike. She saves $30 every week. If she continues saving for 5 weeks, how much total money will she have for the bike?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Calculate total savings after 5 weeks by multiplying weekly savings by number of weeks.",
+        "skill_used": "multiply_rate_by_time"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Add the initial amount saved to the total savings calculated in step 1.",
+        "skill_used": "add_initial_amount_to_total"
+      }
+    ],
+    "final_answer": "150",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "4575-748f-da1c-0574",
+    "skill_uid": "eb82-debf-ad48-5636",
+    "skill_name": "determine_remaining_funds_needed",
+    "difficulty": "easy",
+    "problem": "You want to buy a toy that costs $10. You have $4. How much more money do you need to buy the toy?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Identify the total cost of the toy and the amount of money you currently have.",
+        "skill_used": "identify_cost_and_amount"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Subtract the amount you have from the total cost to find out how much more is needed.",
+        "skill_used": "subtract_amount_from_cost"
+      }
+    ],
+    "final_answer": "6",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "c19e-94f1-e7d2-5118",
+    "skill_uid": "eb82-debf-ad48-5636",
+    "skill_name": "determine_remaining_funds_needed",
+    "difficulty": "medium",
+    "problem": "Emma wants to buy a new backpack that costs $25. She has saved $15. How much more does she need to save to buy the backpack?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Determine how much more money is needed by subtracting the amount saved from the total cost.",
+        "skill_used": "subtract_saved_from_cost"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Calculate the difference between the cost of the backpack and the amount saved.",
+        "skill_used": "calculate_difference_between_values"
+      }
+    ],
+    "final_answer": "10",
+    "is_correct": true,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "9306-b6d6-3b50-d233",
+    "skill_uid": "eb82-debf-ad48-5636",
+    "skill_name": "determine_remaining_funds_needed",
+    "difficulty": "hard",
+    "problem": "A bicycle costs $150. Michael has $70 saved up. If he wants to buy the bicycle next month, how much more money does he need to save before he can buy it?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Calculate the amount needed to buy the bicycle by subtracting the amount Michael has from the cost of the bicycle.",
+        "skill_used": "subtract_amount_from_cost"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Determine how much more money Michael needs by subtracting his savings from the bicycle cost.",
+        "skill_used": "subtract_savings_from_cost"
+      }
+    ],
+    "final_answer": "80",
+    "is_correct": false,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "a815-4493-7a97-76fb",
+    "skill_uid": "5ee6-9252-23d6-fc99",
+    "skill_name": "apply_basic_arithmetic_operations",
+    "difficulty": "easy",
+    "problem": "Samantha has 3 apples. She buys 2 more apples. How many apples does she have in total?",
+    "correct_answer": "Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n#### 72",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Samantha starts with 3 apples.",
+        "skill_used": "identify_initial_quantity"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Samantha buys 2 more apples.",
+        "skill_used": "add_quantity_to_initial"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Calculate the total number of apples by adding 3 and 2.",
+        "skill_used": "perform_addition_operation"
+      }
+    ],
+    "final_answer": "5",
+    "is_correct": false,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "4aed-5025-8477-8605",
+    "skill_uid": "5ee6-9252-23d6-fc99",
+    "skill_name": "apply_basic_arithmetic_operations",
+    "difficulty": "medium",
+    "problem": "Tom has 5 toy cars. He gives 2 cars to his friend and then buys 3 more. How many toy cars does Tom have now?",
+    "correct_answer": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Tom starts with 5 toy cars.",
+        "skill_used": "identify_initial_quantity"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Tom gives away 2 cars to his friend.",
+        "skill_used": "subtract_quantity_from_initial"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Tom buys 3 more cars.",
+        "skill_used": "add_quantity_to_current"
+      },
+      {
+        "step_number": 4,
+        "reasoning": "Calculate the total number of cars Tom has now.",
+        "skill_used": "calculate_final_total"
+      }
+    ],
+    "final_answer": "6",
+    "is_correct": false,
+    "num_steps": 4
+  },
+  {
+    "task_uid": "1432-490a-17db-146b",
+    "skill_uid": "5ee6-9252-23d6-fc99",
+    "skill_name": "apply_basic_arithmetic_operations",
+    "difficulty": "hard",
+    "problem": "Lily has 12 cupcakes. She wants to share them equally among 4 friends. After sharing, she buys 6 more cupcakes. How many cupcakes does she have now?",
+    "correct_answer": "In the beginning, Betty has only 100 / 2 = $<<100/2=50>>50.\nBetty's grandparents gave her 15 * 2 = $<<15*2=30>>30.\nThis means, Betty needs 100 - 50 - 30 - 15 = $<<100-50-30-15=5>>5 more.\n#### 5",
+    "steps": [
+      {
+        "step_number": 1,
+        "reasoning": "Lily divides 12 cupcakes by 4 friends to find how many each gets.",
+        "skill_used": "divide_total_by_friends"
+      },
+      {
+        "step_number": 2,
+        "reasoning": "Each friend receives 3 cupcakes, calculated from the division.",
+        "skill_used": "calculate_cupcakes_per_friend"
+      },
+      {
+        "step_number": 3,
+        "reasoning": "Lily adds 6 more cupcakes to the remaining after sharing.",
+        "skill_used": "add_cupcakes_after_sharing"
+      },
+      {
+        "step_number": 4,
+        "reasoning": "Total cupcakes now is 6 (remaining) + 3 (each friend) * 4 (friends) = 12.",
+        "skill_used": "calculate_total_cupcakes"
+      }
+    ],
+    "final_answer": "18",
+    "is_correct": false,
+    "num_steps": 4
+  }
+]

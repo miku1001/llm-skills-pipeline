@@ -28,8 +28,8 @@ def generate_tasks(skill: dict) -> list[dict]:
    prompt = prompt_template.replace("{skill_name}", skill['skill_name'])
 
    response = client.chat.completions.create(
-      # model="openai/gpt-4o-mini",
-      model="nvidia/nemotron-3-super-120b-a12b:free",
+      model="openai/gpt-4o-mini",
+      # model="nvidia/nemotron-3-super-120b-a12b:free",
       messages = [
          {'role': 'user', "content": prompt}
       ],
@@ -38,19 +38,20 @@ def generate_tasks(skill: dict) -> list[dict]:
 
    raw = response.choices[0].message.content
 
-   #Parse JSON response
+   # Parse JSON response
    parsed = json.loads(raw)
 
     # Attach UIDs and link to skill
    tasks = []
    for task in parsed["tasks"]:
-    tasks.append({
-        "uid": generate_uid(),
-        "skill_uid": skill["uid"],
-        "skill_name": skill["skill_name"],
-        "difficulty": task["difficulty"],
-        "problem": task["problem"]
-    })
+      tasks.append({
+         "uid": generate_uid(),
+         "skill_uid": skill["uid"],
+         "skill_name": skill["skill_name"],
+         "difficulty": task["difficulty"],
+         "problem": task["problem"],
+         "answer": task.get("answer", "")
+      })
 
    return tasks
 #process all skills.json
@@ -69,7 +70,7 @@ def run_generate_tasks():
            tasks = generate_tasks(skill)
            all_tasks.extend(tasks)
            for task in tasks:
-              print(f'{task['difficulty'].upper()} : {task['problem'][:70]}')
+              print(f"{task['difficulty'].upper()} : {task['problem'][:70]}")
         except Exception as e:
            print("ERROR!!!")
            continue

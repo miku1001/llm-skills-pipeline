@@ -1,0 +1,890 @@
+[
+  {
+    "uid": "fe52-0fd2-b69f-dbb8",
+    "skill_uid": "c4f1-b34e-335b-303c",
+    "skill_name": "calculate_total_sales_amount",
+    "difficulty": "easy",
+    "problem": "Lucy sells 3 lemonade cups for $2 each. How much money does she make in total?",
+    "answer": "6"
+  },
+  {
+    "uid": "327c-84ca-d1a3-1d0b",
+    "skill_uid": "c4f1-b34e-335b-303c",
+    "skill_name": "calculate_total_sales_amount",
+    "difficulty": "medium",
+    "problem": "Tom has a toy store. He sells 5 action figures for $8 each and 3 dolls for $10 each. What is the total sales amount?",
+    "answer": "66"
+  },
+  {
+    "uid": "1d2e-f89f-7258-2da7",
+    "skill_uid": "c4f1-b34e-335b-303c",
+    "skill_name": "calculate_total_sales_amount",
+    "difficulty": "hard",
+    "problem": "A bakery sells 12 muffins for $3 each and 10 cakes for $15 each. If they also sell 8 cookies for $2 each, what is the total sales amount for the day?",
+    "answer": "114"
+  },
+  {
+    "uid": "92d2-6e39-5a02-2053",
+    "skill_uid": "7092-69ab-7855-9079",
+    "skill_name": "apply_fractional_operations",
+    "difficulty": "easy",
+    "problem": "You have a pizza that is cut into 8 equal slices. If you eat 3 slices, what fraction of the pizza is left?",
+    "answer": "5/8"
+  },
+  {
+    "uid": "a1b0-9daa-bd94-9eba",
+    "skill_uid": "7092-69ab-7855-9079",
+    "skill_name": "apply_fractional_operations",
+    "difficulty": "medium",
+    "problem": "Samantha has 2/3 of a chocolate bar. She gives 1/4 of it to her friend. How much of the chocolate bar does Samantha have left?",
+    "answer": "5/12"
+  },
+  {
+    "uid": "a8aa-24e2-84ed-6fbb",
+    "skill_uid": "7092-69ab-7855-9079",
+    "skill_name": "apply_fractional_operations",
+    "difficulty": "hard",
+    "problem": "A recipe requires 3/4 cup of sugar. If you want to make half of the recipe, how much sugar will you need?",
+    "answer": "3/8"
+  },
+  {
+    "uid": "d71e-be14-298f-0ca1",
+    "skill_uid": "7205-498b-0dfc-7639",
+    "skill_name": "perform_addition_of_numbers",
+    "difficulty": "easy",
+    "problem": "You have 2 apples and your friend gives you 3 more. How many apples do you have now?",
+    "answer": "5"
+  },
+  {
+    "uid": "ebf1-97f9-6ac0-72e8",
+    "skill_uid": "7205-498b-0dfc-7639",
+    "skill_name": "perform_addition_of_numbers",
+    "difficulty": "medium",
+    "problem": "Liam has 15 marbles, and he buys 7 more from the store. How many marbles does Liam have in total?",
+    "answer": "22"
+  },
+  {
+    "uid": "2739-95b6-7f96-3d03",
+    "skill_uid": "7205-498b-0dfc-7639",
+    "skill_name": "perform_addition_of_numbers",
+    "difficulty": "hard",
+    "problem": "A bookstore sold 45 books in the morning and 38 books in the afternoon. How many books did the bookstore sell in total?",
+    "answer": "83"
+  },
+  {
+    "uid": "0329-244e-8539-6103",
+    "skill_uid": "3fd8-b979-f729-6d3b",
+    "skill_name": "calculate_hourly_earnings",
+    "difficulty": "easy",
+    "problem": "Sophie earns $10 per hour at her part-time job. If she works for 3 hours, how much money does she earn?",
+    "answer": "30"
+  },
+  {
+    "uid": "8534-4216-b118-93ce",
+    "skill_uid": "3fd8-b979-f729-6d3b",
+    "skill_name": "calculate_hourly_earnings",
+    "difficulty": "medium",
+    "problem": "Liam works at a caf\u00e9 and earns $12 per hour. If he works 5 hours on Saturday and 4 hours on Sunday, what is his total earnings for the weekend?",
+    "answer": "108"
+  },
+  {
+    "uid": "6bea-0c42-88bc-0505",
+    "skill_uid": "3fd8-b979-f729-6d3b",
+    "skill_name": "calculate_hourly_earnings",
+    "difficulty": "hard",
+    "problem": "Emma is a babysitter who earns $15 per hour. In one week, she worked 6 hours on Monday, 4 hours on Wednesday, and 5 hours on Saturday. How much money did she earn in total for that week?",
+    "answer": "165"
+  },
+  {
+    "uid": "98d5-3d17-ccac-f14f",
+    "skill_uid": "cceb-e520-3caa-e26d",
+    "skill_name": "convert_time_to_hours",
+    "difficulty": "easy",
+    "problem": "You have a movie that lasts 120 minutes. How many hours does the movie last?",
+    "answer": "2"
+  },
+  {
+    "uid": "8230-f337-251b-43bb",
+    "skill_uid": "cceb-e520-3caa-e26d",
+    "skill_name": "convert_time_to_hours",
+    "difficulty": "medium",
+    "problem": "A train journey takes 150 minutes. How many hours is that?",
+    "answer": "2.5"
+  },
+  {
+    "uid": "1de6-7662-28d7-3962",
+    "skill_uid": "cceb-e520-3caa-e26d",
+    "skill_name": "convert_time_to_hours",
+    "difficulty": "hard",
+    "problem": "You are baking cookies and the total baking time is 3 hours and 45 minutes. How many hours is that in total?",
+    "answer": "3.75"
+  },
+  {
+    "uid": "6e27-5c28-b55b-65ae",
+    "skill_uid": "1ab5-fd59-95ca-cf36",
+    "skill_name": "apply_multiplication_to_find_earnings",
+    "difficulty": "easy",
+    "problem": "Liam sells lemonade for $2 per cup. If he sells 5 cups, how much money does he make?",
+    "answer": "10"
+  },
+  {
+    "uid": "eba9-10e4-d059-4d61",
+    "skill_uid": "1ab5-fd59-95ca-cf36",
+    "skill_name": "apply_multiplication_to_find_earnings",
+    "difficulty": "medium",
+    "problem": "Sofia earns $15 for each dog she walks. If she walks 4 dogs in a day, how much does she earn that day?",
+    "answer": "60"
+  },
+  {
+    "uid": "40fa-c830-4926-0dac",
+    "skill_uid": "1ab5-fd59-95ca-cf36",
+    "skill_name": "apply_multiplication_to_find_earnings",
+    "difficulty": "hard",
+    "problem": "Aisha makes handmade bracelets and sells them for $8 each. If she sells 12 bracelets in a week and has a goal to make $100 by the end of the month, how much more does she need to earn to reach her goal?",
+    "answer": "76"
+  },
+  {
+    "uid": "ea9e-1da6-83d9-b886",
+    "skill_uid": "3f89-2118-9731-376d",
+    "skill_name": "calculate_total_amount_saved",
+    "difficulty": "easy",
+    "problem": "Lily saves $5 each week. How much will she have saved after 4 weeks?",
+    "answer": "20"
+  },
+  {
+    "uid": "baf8-00ad-c0e6-29c4",
+    "skill_uid": "3f89-2118-9731-376d",
+    "skill_name": "calculate_total_amount_saved",
+    "difficulty": "medium",
+    "problem": "Jack saves $10 every month. If he saves for 6 months, how much money will he have saved in total?",
+    "answer": "60"
+  },
+  {
+    "uid": "4f8d-4889-f4c8-1fcb",
+    "skill_uid": "3f89-2118-9731-376d",
+    "skill_name": "calculate_total_amount_saved",
+    "difficulty": "hard",
+    "problem": "Emma saves $15 every week, and she has been saving for 10 weeks. Then, she starts saving $20 each week for the next 5 weeks. How much money has Emma saved in total?",
+    "answer": "175"
+  },
+  {
+    "uid": "066b-ecea-453e-4889",
+    "skill_uid": "a480-e0d3-4c3a-29cc",
+    "skill_name": "determine_remaining_amount_needed",
+    "difficulty": "easy",
+    "problem": "Samantha has $10 and wants to buy a toy that costs $15. How much more money does she need?",
+    "answer": "5"
+  },
+  {
+    "uid": "4920-2ca1-8557-24c0",
+    "skill_uid": "a480-e0d3-4c3a-29cc",
+    "skill_name": "determine_remaining_amount_needed",
+    "difficulty": "medium",
+    "problem": "David wants to buy a video game that costs $50. He has saved $30. How much more money does he need to buy the game?",
+    "answer": "20"
+  },
+  {
+    "uid": "04c1-afa7-9140-1613",
+    "skill_uid": "a480-e0d3-4c3a-29cc",
+    "skill_name": "determine_remaining_amount_needed",
+    "difficulty": "hard",
+    "problem": "Emily is saving up for a bicycle that costs $200. She has already saved $75 from her allowance and $50 from her birthday. How much more does she need to save?",
+    "answer": "75"
+  },
+  {
+    "uid": "9a11-d681-97bc-595b",
+    "skill_uid": "4b2d-3a51-45c0-1a09",
+    "skill_name": "apply_basic_arithmetic_operations",
+    "difficulty": "easy",
+    "problem": "You have 3 apples, and your friend gives you 2 more. How many apples do you have now?",
+    "answer": "5"
+  },
+  {
+    "uid": "f1ee-ee01-d433-433b",
+    "skill_uid": "4b2d-3a51-45c0-1a09",
+    "skill_name": "apply_basic_arithmetic_operations",
+    "difficulty": "medium",
+    "problem": "A toy costs $15. If you buy 3 toys, how much money do you spend in total?",
+    "answer": "45"
+  },
+  {
+    "uid": "6bea-bb87-a46a-7a8e",
+    "skill_uid": "4b2d-3a51-45c0-1a09",
+    "skill_name": "apply_basic_arithmetic_operations",
+    "difficulty": "hard",
+    "problem": "There are 24 cookies in a jar. If you and your 3 friends want to share them equally, how many cookies will each person get?",
+    "answer": "6"
+  },
+  {
+    "uid": "d84c-14b6-9874-5330",
+    "skill_uid": "a5d7-0b27-db4b-0eac",
+    "skill_name": "interpret_word_problem_context",
+    "difficulty": "easy",
+    "problem": "Sarah has 3 apples. She buys 2 more apples from the store. How many apples does she have now?",
+    "answer": "5"
+  },
+  {
+    "uid": "dca0-53da-a568-4009",
+    "skill_uid": "a5d7-0b27-db4b-0eac",
+    "skill_name": "interpret_word_problem_context",
+    "difficulty": "medium",
+    "problem": "Tom has 10 marbles. He gives 4 marbles to his friend. How many marbles does Tom have left?",
+    "answer": "6"
+  },
+  {
+    "uid": "ed77-bf8b-bc5d-da7c",
+    "skill_uid": "a5d7-0b27-db4b-0eac",
+    "skill_name": "interpret_word_problem_context",
+    "difficulty": "hard",
+    "problem": "A bakery has 50 cookies. They sell 15 cookies in the morning and 20 cookies in the afternoon. How many cookies are left at the end of the day?",
+    "answer": "15"
+  },
+  {
+    "uid": "4172-bebc-3042-7dc6",
+    "skill_uid": "9399-47ae-5447-748b",
+    "skill_name": "calculate_total_pages_read",
+    "difficulty": "easy",
+    "problem": "Sara read 10 pages of her book on Monday and 15 pages on Tuesday. How many pages did she read in total?",
+    "answer": "25"
+  },
+  {
+    "uid": "64bd-1ac0-0990-713f",
+    "skill_uid": "9399-47ae-5447-748b",
+    "skill_name": "calculate_total_pages_read",
+    "difficulty": "medium",
+    "problem": "Tom read 30 pages of a novel on Saturday and 45 pages on Sunday. How many pages did he read altogether over the weekend?",
+    "answer": "75"
+  },
+  {
+    "uid": "82cd-46a2-6945-a8d1",
+    "skill_uid": "9399-47ae-5447-748b",
+    "skill_name": "calculate_total_pages_read",
+    "difficulty": "hard",
+    "problem": "Emily has three books. In the first book, she read 120 pages, in the second book, she read 150 pages, and in the third book, she read 90 pages. How many pages did she read in total from all three books?",
+    "answer": "360"
+  },
+  {
+    "uid": "6ff0-6cf2-1f63-5a6d",
+    "skill_uid": "8cb9-77dd-2056-7331",
+    "skill_name": "determine_remaining_pages",
+    "difficulty": "easy",
+    "problem": "Sarah has a book with 30 pages. She has read 10 pages. How many pages does she have left to read?",
+    "answer": "20"
+  },
+  {
+    "uid": "a9c4-d1b6-88cf-db7f",
+    "skill_uid": "8cb9-77dd-2056-7331",
+    "skill_name": "determine_remaining_pages",
+    "difficulty": "medium",
+    "problem": "Tom is reading a book that has 150 pages. After reading for 2 days, he has completed 45 pages. How many pages are left for him to read?",
+    "answer": "105"
+  },
+  {
+    "uid": "ab4f-0fe2-8c83-c1cb",
+    "skill_uid": "8cb9-77dd-2056-7331",
+    "skill_name": "determine_remaining_pages",
+    "difficulty": "hard",
+    "problem": "Emma is working on her reading goal. She has a book with 250 pages. She plans to read 50 pages each day. If she has already read 120 pages, how many pages will she have left after 3 more days of reading?",
+    "answer": "80"
+  },
+  {
+    "uid": "5f9a-4e6a-4dfa-3702",
+    "skill_uid": "6038-ffca-c881-a285",
+    "skill_name": "apply_multiplication_to_find",
+    "difficulty": "easy",
+    "problem": "There are 3 apples in each basket. If you have 4 baskets, how many apples do you have in total?",
+    "answer": "12"
+  },
+  {
+    "uid": "c1bb-85b0-6aca-3dbd",
+    "skill_uid": "6038-ffca-c881-a285",
+    "skill_name": "apply_multiplication_to_find",
+    "difficulty": "medium",
+    "problem": "A school has 5 classes, and each class has 20 students. How many students are there in total?",
+    "answer": "100"
+  },
+  {
+    "uid": "6ca6-a41d-60ae-e2c2",
+    "skill_uid": "6038-ffca-c881-a285",
+    "skill_name": "apply_multiplication_to_find",
+    "difficulty": "hard",
+    "problem": "A farmer has 7 fields, and in each field, he plants 15 rows of corn. If each row has 10 corn plants, how many corn plants does he have in total?",
+    "answer": "1050"
+  },
+  {
+    "uid": "9461-2a14-79a7-f08e",
+    "skill_uid": "946b-bc64-ef68-2b87",
+    "skill_name": "compute_half_of_quantity",
+    "difficulty": "easy",
+    "problem": "You have 10 apples. What is half of the apples you have?",
+    "answer": "5"
+  },
+  {
+    "uid": "b80c-266b-bb84-9308",
+    "skill_uid": "946b-bc64-ef68-2b87",
+    "skill_name": "compute_half_of_quantity",
+    "difficulty": "medium",
+    "problem": "There are 24 cookies in a jar. If you take half of them, how many cookies will you have?",
+    "answer": "12"
+  },
+  {
+    "uid": "a02e-9988-bb74-ecff",
+    "skill_uid": "946b-bc64-ef68-2b87",
+    "skill_name": "compute_half_of_quantity",
+    "difficulty": "hard",
+    "problem": "A farmer has 56 chickens. He sells half of them at the market. How many chickens does he have left?",
+    "answer": "28"
+  },
+  {
+    "uid": "21d8-2e19-e0b5-2a31",
+    "skill_uid": "516d-dc9c-9464-543f",
+    "skill_name": "calculate_total_pages_written",
+    "difficulty": "easy",
+    "problem": "Emily wrote 5 pages in her notebook on Monday and 3 pages on Tuesday. How many pages did she write in total?",
+    "answer": "8"
+  },
+  {
+    "uid": "e392-684e-e363-2d95",
+    "skill_uid": "516d-dc9c-9464-543f",
+    "skill_name": "calculate_total_pages_written",
+    "difficulty": "medium",
+    "problem": "Jason is writing a book. He wrote 12 pages on the first day and 15 pages on the second day. How many pages has he written in total so far?",
+    "answer": "27"
+  },
+  {
+    "uid": "2b05-7f16-d8ff-bc3a",
+    "skill_uid": "516d-dc9c-9464-543f",
+    "skill_name": "calculate_total_pages_written",
+    "difficulty": "hard",
+    "problem": "Sophia is working on a research paper. She wrote 20 pages in the first week, 15 pages in the second week, and 10 pages in the third week. How many pages did she write in total over these three weeks?",
+    "answer": "45"
+  },
+  {
+    "uid": "57ed-4ddd-7679-b51b",
+    "skill_uid": "e055-63a1-d963-5163",
+    "skill_name": "convert_weeks_to_years",
+    "difficulty": "easy",
+    "problem": "If you have 52 weeks, how many years is that?",
+    "answer": "1"
+  },
+  {
+    "uid": "9c92-9de8-99b9-5f09",
+    "skill_uid": "e055-63a1-d963-5163",
+    "skill_name": "convert_weeks_to_years",
+    "difficulty": "medium",
+    "problem": "There are 104 weeks in total. How many years is that?",
+    "answer": "2"
+  },
+  {
+    "uid": "2f4b-9adb-9140-1740",
+    "skill_uid": "e055-63a1-d963-5163",
+    "skill_name": "convert_weeks_to_years",
+    "difficulty": "hard",
+    "problem": "A project will take 156 weeks to complete. How many years will it take?",
+    "answer": "3"
+  },
+  {
+    "uid": "f2ea-0399-48b4-a679",
+    "skill_uid": "5552-2764-4399-864d",
+    "skill_name": "identify_repetitive_writing_pattern",
+    "difficulty": "easy",
+    "problem": "Samantha is writing a list of her favorite fruits. She writes 'apple' 3 times, 'banana' 2 times, and 'grape' 4 times. How many times did she write a fruit in total?",
+    "answer": "9"
+  },
+  {
+    "uid": "a6df-0d5e-cb02-3cfa",
+    "skill_uid": "5552-2764-4399-864d",
+    "skill_name": "identify_repetitive_writing_pattern",
+    "difficulty": "medium",
+    "problem": "Tom is making a scrapbook and uses the phrase 'Best Day Ever' 5 times on different pages. If he also uses 'Memories' 3 times and 'Fun Times' 2 times, how many total phrases did he write?",
+    "answer": "10"
+  },
+  {
+    "uid": "e51d-f32e-8de3-6e1b",
+    "skill_uid": "5552-2764-4399-864d",
+    "skill_name": "identify_repetitive_writing_pattern",
+    "difficulty": "hard",
+    "problem": "In her diary, Lucy writes about her weekend. She writes 'I love to play soccer' 7 times, 'I had ice cream' 5 times, and 'I went to the park' 6 times. How many total sentences did she write about her weekend?",
+    "answer": "18"
+  },
+  {
+    "uid": "09c5-1af9-4e05-454f",
+    "skill_uid": "9d49-6ce0-ef91-04e0",
+    "skill_name": "calculate_percentage_increase",
+    "difficulty": "easy",
+    "problem": "Lucy had 20 apples. She got 5 more apples from her friend. What is the percentage increase in the number of apples Lucy has?",
+    "answer": "25"
+  },
+  {
+    "uid": "e7c8-25c8-ce25-c4ba",
+    "skill_uid": "9d49-6ce0-ef91-04e0",
+    "skill_name": "calculate_percentage_increase",
+    "difficulty": "medium",
+    "problem": "A toy originally costs $40. After a sale, the price increases to $50. What is the percentage increase in the price of the toy?",
+    "answer": "25"
+  },
+  {
+    "uid": "90d3-b385-d7e7-0527",
+    "skill_uid": "9d49-6ce0-ef91-04e0",
+    "skill_name": "calculate_percentage_increase",
+    "difficulty": "hard",
+    "problem": "A school had 200 students last year. This year, the number of students increased to 240. What is the percentage increase in the number of students at the school?",
+    "answer": "20"
+  },
+  {
+    "uid": "daaa-15d7-f31a-3b6f",
+    "skill_uid": "6bfb-7e56-b221-63a1",
+    "skill_name": "apply_fractional_relationships",
+    "difficulty": "easy",
+    "problem": "Emma has a pizza that is cut into 8 equal slices. If she eats 2 slices, what fraction of the pizza does she have left?",
+    "answer": "3/4"
+  },
+  {
+    "uid": "69f6-a5ed-1827-33a8",
+    "skill_uid": "6bfb-7e56-b221-63a1",
+    "skill_name": "apply_fractional_relationships",
+    "difficulty": "medium",
+    "problem": "A recipe calls for 3/4 cup of sugar. If Sarah wants to make half of the recipe, how much sugar does she need?",
+    "answer": "3/8"
+  },
+  {
+    "uid": "889c-46e5-414f-e4c9",
+    "skill_uid": "6bfb-7e56-b221-63a1",
+    "skill_name": "apply_fractional_relationships",
+    "difficulty": "hard",
+    "problem": "John has 2/3 of a gallon of paint. He uses 1/4 of the paint to finish one room. How much paint does he have left after painting the room?",
+    "answer": "5/12"
+  },
+  {
+    "uid": "0d2e-6aa4-561d-1d0c",
+    "skill_uid": "860a-096d-9e03-fc9c",
+    "skill_name": "perform_basic_arithmetic_operations",
+    "difficulty": "easy",
+    "problem": "Lucy has 3 apples. She buys 2 more apples. How many apples does she have now?",
+    "answer": "5"
+  },
+  {
+    "uid": "cab4-783b-3e6b-f5fb",
+    "skill_uid": "860a-096d-9e03-fc9c",
+    "skill_name": "perform_basic_arithmetic_operations",
+    "difficulty": "medium",
+    "problem": "Tom has 10 marbles. He gives 4 marbles to his friend. How many marbles does Tom have left?",
+    "answer": "6"
+  },
+  {
+    "uid": "23e4-3934-a4ad-327e",
+    "skill_uid": "860a-096d-9e03-fc9c",
+    "skill_name": "perform_basic_arithmetic_operations",
+    "difficulty": "hard",
+    "problem": "A bakery sold 15 cupcakes in the morning and 28 cupcakes in the afternoon. If they started with 50 cupcakes, how many cupcakes do they have left?",
+    "answer": "7"
+  },
+  {
+    "uid": "9932-28cc-99b8-e554",
+    "skill_uid": "a6f0-e0b7-5a39-08f3",
+    "skill_name": "analyze_multi_step_problem",
+    "difficulty": "easy",
+    "problem": "Anna has 3 apples. She buys 2 more apples from the store. How many apples does Anna have now?",
+    "answer": "5"
+  },
+  {
+    "uid": "97f9-1edf-21a8-3a87",
+    "skill_uid": "a6f0-e0b7-5a39-08f3",
+    "skill_name": "analyze_multi_step_problem",
+    "difficulty": "medium",
+    "problem": "Liam has 5 toy cars. He gives 2 cars to his friend and then buys 3 more cars. How many toy cars does Liam have now?",
+    "answer": "6"
+  },
+  {
+    "uid": "07ae-85e1-88f1-443c",
+    "skill_uid": "a6f0-e0b7-5a39-08f3",
+    "skill_name": "analyze_multi_step_problem",
+    "difficulty": "hard",
+    "problem": "Sophia has 10 marbles. She gives 3 marbles to each of her 2 friends and then finds 5 more marbles under her bed. How many marbles does Sophia have now?",
+    "answer": "4"
+  },
+  {
+    "uid": "f83f-c970-6897-b633",
+    "skill_uid": "2914-2e6b-f2de-65c0",
+    "skill_name": "calculate_total_number_slices",
+    "difficulty": "easy",
+    "problem": "You have a pizza that is cut into 8 slices. If you eat 2 slices, how many slices are left?",
+    "answer": "6"
+  },
+  {
+    "uid": "ff9a-4d92-7421-0fd9",
+    "skill_uid": "2914-2e6b-f2de-65c0",
+    "skill_name": "calculate_total_number_slices",
+    "difficulty": "medium",
+    "problem": "A party has 3 pizzas. Each pizza is cut into 10 slices. How many slices of pizza are there in total?",
+    "answer": "30"
+  },
+  {
+    "uid": "f184-3acc-9020-54dd",
+    "skill_uid": "2914-2e6b-f2de-65c0",
+    "skill_name": "calculate_total_number_slices",
+    "difficulty": "hard",
+    "problem": "You order 4 large pizzas and each pizza is cut into 12 slices. After a party, 3 pizzas were completely eaten. How many slices are left?",
+    "answer": "24"
+  },
+  {
+    "uid": "bd01-d2ce-ece3-bcfc",
+    "skill_uid": "13c8-5eb3-0af1-243f",
+    "skill_name": "apply_multiplication_to_quantities",
+    "difficulty": "easy",
+    "problem": "If there are 3 apples in each basket and you have 4 baskets, how many apples do you have in total?",
+    "answer": "12"
+  },
+  {
+    "uid": "1770-dd2a-5be6-3d18",
+    "skill_uid": "13c8-5eb3-0af1-243f",
+    "skill_name": "apply_multiplication_to_quantities",
+    "difficulty": "medium",
+    "problem": "A pack of pencils contains 6 pencils. If you buy 5 packs, how many pencils do you have altogether?",
+    "answer": "30"
+  },
+  {
+    "uid": "49d4-6ab2-7e78-df6c",
+    "skill_uid": "13c8-5eb3-0af1-243f",
+    "skill_name": "apply_multiplication_to_quantities",
+    "difficulty": "hard",
+    "problem": "A farmer has 8 fields, and each field has 15 rows of corn. How many rows of corn does the farmer have in total?",
+    "answer": "120"
+  },
+  {
+    "uid": "be44-462e-064f-adf1",
+    "skill_uid": "3196-a319-c830-0784",
+    "skill_name": "sum_parts_to_find_total",
+    "difficulty": "easy",
+    "problem": "Emma has 3 apples and her friend gives her 2 more apples. How many apples does Emma have in total?",
+    "answer": "5"
+  },
+  {
+    "uid": "3ff9-5337-a42e-30c0",
+    "skill_uid": "3196-a319-c830-0784",
+    "skill_name": "sum_parts_to_find_total",
+    "difficulty": "medium",
+    "problem": "A toy store has 15 teddy bears and 10 dolls on the shelf. How many toys are there in total?",
+    "answer": "25"
+  },
+  {
+    "uid": "9409-8a9a-ee22-5928",
+    "skill_uid": "3196-a319-c830-0784",
+    "skill_name": "sum_parts_to_find_total",
+    "difficulty": "hard",
+    "problem": "In a school, there are 120 students in the first grade, 135 students in the second grade, and 110 students in the third grade. How many students are there in total in these three grades?",
+    "answer": "365"
+  },
+  {
+    "uid": "bfce-1ef4-bafa-6e1d",
+    "skill_uid": "add9-e9f4-3e7e-d0b1",
+    "skill_name": "interpret_problem_context_correctly",
+    "difficulty": "easy",
+    "problem": "You have 3 apples. Your friend gives you 2 more apples. How many apples do you have now?",
+    "answer": "5"
+  },
+  {
+    "uid": "582a-5b92-1185-f7e3",
+    "skill_uid": "add9-e9f4-3e7e-d0b1",
+    "skill_name": "interpret_problem_context_correctly",
+    "difficulty": "medium",
+    "problem": "Sarah has 7 marbles. She wins 5 more marbles in a game. Then, she gives 3 marbles to her brother. How many marbles does Sarah have left?",
+    "answer": "9"
+  },
+  {
+    "uid": "1e36-8579-81d7-fad1",
+    "skill_uid": "add9-e9f4-3e7e-d0b1",
+    "skill_name": "interpret_problem_context_correctly",
+    "difficulty": "hard",
+    "problem": "A bakery sells cupcakes for $2 each. If you buy 4 cupcakes and then return 2 of them, how much money did you spend in total?",
+    "answer": "4"
+  },
+  {
+    "uid": "636d-012f-4226-0207",
+    "skill_uid": "4da8-8b43-2695-80b7",
+    "skill_name": "track_weight_changes_over_time",
+    "difficulty": "easy",
+    "problem": "Lily weighed herself today and found she weighs 50 pounds. Last week, she weighed 48 pounds. How much weight has she gained since last week?",
+    "answer": "2"
+  },
+  {
+    "uid": "edf0-a1be-d449-7b1f",
+    "skill_uid": "4da8-8b43-2695-80b7",
+    "skill_name": "track_weight_changes_over_time",
+    "difficulty": "medium",
+    "problem": "Jason weighed 120 pounds at the beginning of the month. By the middle of the month, he weighed 125 pounds. At the end of the month, he weighed 122 pounds. How much weight did he gain or lose from the beginning to the end of the month?",
+    "answer": "2"
+  },
+  {
+    "uid": "d428-4421-5a3a-21fe",
+    "skill_uid": "4da8-8b43-2695-80b7",
+    "skill_name": "track_weight_changes_over_time",
+    "difficulty": "hard",
+    "problem": "Samantha tracked her weight over three months. In January, she weighed 130 pounds. In February, she gained 4 pounds, and in March, she lost 3 pounds. What is her weight at the end of March?",
+    "answer": "131"
+  },
+  {
+    "uid": "3aaa-4648-eb29-35dd",
+    "skill_uid": "2e09-99dd-bf12-93f3",
+    "skill_name": "apply_multiplicative_reasoning",
+    "difficulty": "easy",
+    "problem": "If there are 3 bags of apples and each bag has 4 apples, how many apples are there in total?",
+    "answer": "12"
+  },
+  {
+    "uid": "b6f3-2e20-4f31-5723",
+    "skill_uid": "2e09-99dd-bf12-93f3",
+    "skill_name": "apply_multiplicative_reasoning",
+    "difficulty": "medium",
+    "problem": "A box of chocolates has 5 rows, and each row contains 6 chocolates. How many chocolates are there in total?",
+    "answer": "30"
+  },
+  {
+    "uid": "7d56-83e8-ce3a-cf44",
+    "skill_uid": "2e09-99dd-bf12-93f3",
+    "skill_name": "apply_multiplicative_reasoning",
+    "difficulty": "hard",
+    "problem": "A farmer has 8 fields, and each field produces 15 bags of corn. If he sells all the corn, how many bags does he sell in total?",
+    "answer": "120"
+  },
+  {
+    "uid": "a176-5a0f-f930-5c4c",
+    "skill_uid": "39cf-9efc-5d72-3df9",
+    "skill_name": "perform_additive_calculations",
+    "difficulty": "easy",
+    "problem": "Samantha has 3 apples. Her friend gives her 2 more apples. How many apples does Samantha have now?",
+    "answer": "5"
+  },
+  {
+    "uid": "126b-e1d0-d7c7-2440",
+    "skill_uid": "39cf-9efc-5d72-3df9",
+    "skill_name": "perform_additive_calculations",
+    "difficulty": "medium",
+    "problem": "Tom has 12 marbles. He finds 7 more marbles in his toy box. How many marbles does Tom have in total?",
+    "answer": "19"
+  },
+  {
+    "uid": "eb1a-f781-d62e-7684",
+    "skill_uid": "39cf-9efc-5d72-3df9",
+    "skill_name": "perform_additive_calculations",
+    "difficulty": "hard",
+    "problem": "A bakery sold 25 loaves of bread in the morning and 37 more in the afternoon. How many loaves of bread did the bakery sell that day?",
+    "answer": "62"
+  },
+  {
+    "uid": "4d10-fe61-afae-e1c2",
+    "skill_uid": "b5e4-33bc-2a1d-a67e",
+    "skill_name": "interpret_weight_measurements",
+    "difficulty": "easy",
+    "problem": "A bag of apples weighs 2 pounds. If you buy 3 bags, how much do the apples weigh in total?",
+    "answer": "6"
+  },
+  {
+    "uid": "4880-27e1-23bf-ab1f",
+    "skill_uid": "b5e4-33bc-2a1d-a67e",
+    "skill_name": "interpret_weight_measurements",
+    "difficulty": "medium",
+    "problem": "A package of flour weighs 5 pounds. If you use 2 pounds for a cake and 1 pound for cookies, how much flour do you have left?",
+    "answer": "2"
+  },
+  {
+    "uid": "de1b-41c6-849b-2200",
+    "skill_uid": "b5e4-33bc-2a1d-a67e",
+    "skill_name": "interpret_weight_measurements",
+    "difficulty": "hard",
+    "problem": "A watermelon weighs 10 pounds, a cantaloupe weighs 4 pounds, and a pineapple weighs 3 pounds. If you buy 2 watermelons, 3 cantaloupes, and 1 pineapple, what is the total weight of your fruits?",
+    "answer": "34"
+  },
+  {
+    "uid": "96bf-1ccf-fdf8-1eb8",
+    "skill_uid": "7b33-c17e-1b28-a25a",
+    "skill_name": "calculate_total_spent_amount",
+    "difficulty": "easy",
+    "problem": "You bought a toy for $5 and a book for $10. How much did you spend in total?",
+    "answer": "15"
+  },
+  {
+    "uid": "b959-d5c5-4181-f502",
+    "skill_uid": "7b33-c17e-1b28-a25a",
+    "skill_name": "calculate_total_spent_amount",
+    "difficulty": "medium",
+    "problem": "You went to the store and bought 3 bags of chips for $2 each and a soda for $1. How much did you spend in total?",
+    "answer": "7"
+  },
+  {
+    "uid": "7b98-8de5-f2a6-87a8",
+    "skill_uid": "7b33-c17e-1b28-a25a",
+    "skill_name": "calculate_total_spent_amount",
+    "difficulty": "hard",
+    "problem": "You went to a farmers market and bought 2 pounds of apples for $3 per pound, 3 pounds of oranges for $4 per pound, and a jar of honey for $5. How much did you spend in total?",
+    "answer": "25"
+  },
+  {
+    "uid": "3e10-ddf7-e710-d3bd",
+    "skill_uid": "19df-4ac4-ce26-840c",
+    "skill_name": "determine_remaining_budget",
+    "difficulty": "easy",
+    "problem": "Lily has $20. She buys a toy for $8. How much money does she have left?",
+    "answer": "12"
+  },
+  {
+    "uid": "3a55-4914-d074-2bc3",
+    "skill_uid": "19df-4ac4-ce26-840c",
+    "skill_name": "determine_remaining_budget",
+    "difficulty": "medium",
+    "problem": "Tom has a budget of $50 for party supplies. He spends $18 on balloons and $15 on snacks. How much money does he have remaining?",
+    "answer": "17"
+  },
+  {
+    "uid": "938a-6e9f-d72d-24a6",
+    "skill_uid": "19df-4ac4-ce26-840c",
+    "skill_name": "determine_remaining_budget",
+    "difficulty": "hard",
+    "problem": "Sarah planned to spend $100 on a new bike. She found one for $85 but also wants to buy a helmet for $25. If she buys both, how much will she go over her budget or how much will she have left?",
+    "answer": "10"
+  },
+  {
+    "uid": "9246-16e0-fdac-52ec",
+    "skill_uid": "cc1d-c576-11a7-264d",
+    "skill_name": "solve_for_unknown_value",
+    "difficulty": "easy",
+    "problem": "Lily has 5 apples. She buys some more apples and now has 8 apples. How many apples did she buy?",
+    "answer": "3"
+  },
+  {
+    "uid": "281d-0964-f2cc-3817",
+    "skill_uid": "cc1d-c576-11a7-264d",
+    "skill_name": "solve_for_unknown_value",
+    "difficulty": "medium",
+    "problem": "Tom has x marbles. If he gives away 4 marbles, he will have 10 marbles left. How many marbles did Tom start with?",
+    "answer": "14"
+  },
+  {
+    "uid": "22f9-b552-ecef-4b28",
+    "skill_uid": "cc1d-c576-11a7-264d",
+    "skill_name": "solve_for_unknown_value",
+    "difficulty": "hard",
+    "problem": "A box contains y candies. If you take away 12 candies, there are 20 candies left. How many candies were originally in the box?",
+    "answer": "32"
+  },
+  {
+    "uid": "6103-138c-1d2d-2793",
+    "skill_uid": "f863-926e-22ad-3fef",
+    "skill_name": "apply_subtraction_to_find",
+    "difficulty": "easy",
+    "problem": "You have 10 apples. You give 3 apples to your friend. How many apples do you have left?",
+    "answer": "7"
+  },
+  {
+    "uid": "6bba-513f-dc34-265c",
+    "skill_uid": "f863-926e-22ad-3fef",
+    "skill_name": "apply_subtraction_to_find",
+    "difficulty": "medium",
+    "problem": "There were 25 books on the shelf. 9 books were taken out. How many books remain on the shelf?",
+    "answer": "16"
+  },
+  {
+    "uid": "c4b2-b46b-349d-40fb",
+    "skill_uid": "f863-926e-22ad-3fef",
+    "skill_name": "apply_subtraction_to_find",
+    "difficulty": "hard",
+    "problem": "A farmer had 100 chickens. After selling 27 of them, he bought 15 more. How many chickens does he have now?",
+    "answer": "88"
+  },
+  {
+    "uid": "8658-1c6f-6d24-7a80",
+    "skill_uid": "801f-08d6-a0b2-51c1",
+    "skill_name": "calculate_total_hours_worked",
+    "difficulty": "easy",
+    "problem": "Emma worked for 2 hours on Monday and 3 hours on Tuesday. How many hours did she work in total?",
+    "answer": "5"
+  },
+  {
+    "uid": "d809-c059-9402-8b2c",
+    "skill_uid": "801f-08d6-a0b2-51c1",
+    "skill_name": "calculate_total_hours_worked",
+    "difficulty": "medium",
+    "problem": "Liam worked 4 hours on Saturday and 6 hours on Sunday. How many hours did he work in total over the weekend?",
+    "answer": "10"
+  },
+  {
+    "uid": "d380-cfd8-0ecd-1f4f",
+    "skill_uid": "801f-08d6-a0b2-51c1",
+    "skill_name": "calculate_total_hours_worked",
+    "difficulty": "hard",
+    "problem": "Sophia worked 5 hours on Monday, 7 hours on Tuesday, and 3 hours on Wednesday. How many hours did she work in total over these three days?",
+    "answer": "15"
+  },
+  {
+    "uid": "dc26-ffe2-23f2-4f34",
+    "skill_uid": "f5e8-5d68-0e86-da60",
+    "skill_name": "apply_overtime_pay_formula",
+    "difficulty": "easy",
+    "problem": "Emma worked for 8 hours on Saturday and 6 hours on Sunday. If she earns $10 per hour, how much will she earn for the weekend, not including overtime?",
+    "answer": "140"
+  },
+  {
+    "uid": "b13d-84aa-ae7d-bc58",
+    "skill_uid": "f5e8-5d68-0e86-da60",
+    "skill_name": "apply_overtime_pay_formula",
+    "difficulty": "medium",
+    "problem": "Liam worked 40 hours in a week and 5 hours of overtime. If he earns $12 per hour and overtime is paid at 1.5 times his regular rate, how much will he earn for that week?",
+    "answer": "540"
+  },
+  {
+    "uid": "7dd0-3541-067a-dbb2",
+    "skill_uid": "f5e8-5d68-0e86-da60",
+    "skill_name": "apply_overtime_pay_formula",
+    "difficulty": "hard",
+    "problem": "Sophia worked a total of 50 hours this week, which includes 10 hours of overtime. If her regular pay rate is $15 per hour, how much will she earn this week, considering her overtime pay is 1.5 times her regular rate?",
+    "answer": "900"
+  },
+  {
+    "uid": "e05d-a882-374c-03fb",
+    "skill_uid": "e600-9bd4-52b1-94b1",
+    "skill_name": "perform_multiplication_operations",
+    "difficulty": "easy",
+    "problem": "If there are 3 apples in each bag and you have 4 bags, how many apples do you have in total?",
+    "answer": "12"
+  },
+  {
+    "uid": "25b9-70c4-8199-ff06",
+    "skill_uid": "e600-9bd4-52b1-94b1",
+    "skill_name": "perform_multiplication_operations",
+    "difficulty": "medium",
+    "problem": "A pack of stickers has 6 stickers. If you buy 5 packs, how many stickers do you have altogether?",
+    "answer": "30"
+  },
+  {
+    "uid": "171d-36de-f2d0-8a85",
+    "skill_uid": "e600-9bd4-52b1-94b1",
+    "skill_name": "perform_multiplication_operations",
+    "difficulty": "hard",
+    "problem": "A farmer has 8 fields. Each field produces 15 bushels of corn. How many bushels of corn does the farmer produce in total?",
+    "answer": "120"
+  },
+  {
+    "uid": "51d5-7501-2f7b-5373",
+    "skill_uid": "0c3e-383c-cb53-1caa",
+    "skill_name": "add_regular_and_overtime_pay",
+    "difficulty": "easy",
+    "problem": "Emily works 8 hours a day at her job and earns $10 per hour. How much does she earn in one day?",
+    "answer": "80"
+  },
+  {
+    "uid": "ae69-f6be-12a0-3969",
+    "skill_uid": "0c3e-383c-cb53-1caa",
+    "skill_name": "add_regular_and_overtime_pay",
+    "difficulty": "medium",
+    "problem": "Jacob works 40 hours in a week at a rate of $15 per hour. He also worked 5 hours of overtime at a rate of $22.50 per hour. How much did he earn that week?",
+    "answer": "375"
+  },
+  {
+    "uid": "420c-3a52-4bea-cc07",
+    "skill_uid": "0c3e-383c-cb53-1caa",
+    "skill_name": "add_regular_and_overtime_pay",
+    "difficulty": "hard",
+    "problem": "Sophia has a regular pay rate of $12 per hour for her first 40 hours of work. She worked 10 hours of overtime at a rate of $18 per hour. If she also earned a bonus of $50 that week, what is her total pay for that week?",
+    "answer": "530"
+  }
+]

@@ -15,15 +15,18 @@ Output format:
   "tasks": [
     {
       "difficulty": "easy",
-      "problem": "Your problem here"
+      "problem": "Your problem here",
+      "answer": "Final numeric answer only"
     },
     {
       "difficulty": "medium", 
-      "problem": "Your problem here"
+      "problem": "Your problem here",
+      "answer": "Final numeric answer only"
     },
     {
       "difficulty": "hard",
-      "problem": "Your problem here"
+      "problem": "Your problem here",
+      "answer": "Final numeric answer only"
     }
   ]
 }

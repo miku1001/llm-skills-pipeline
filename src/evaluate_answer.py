@@ -18,25 +18,31 @@ def load_prompt(filename):
   prompt_path = Path('prompts') / filename
   return prompt_path.read_text()
 
+def normalize_answer(raw: str) -> str:
+   text = (raw or "").strip()
+   if "####" in text:
+      text = text.split("####")[-1].strip()
+   return text
+
 # Generate a simple correct answer using LLM
 # Testing purpose
-def get_correct_answer(problem: str) -> str:
-    response = client.chat.completions.create(
-        model="nvidia/nemotron-3-super-120b-a12b:free",
-        messages=[
-            {
-                "role": "user",
-                "content": f"Solve this math problem. Reply with the final numeric answer ONLY, nothing else.\n\nProblem: {problem}"
-            }
-        ],
-        temperature=0
-    )
-    return response.choices[0].message.content.strip()
+# def get_correct_answer(problem: str) -> str:
+#     response = client.chat.completions.create(
+#         model="nvidia/nemotron-3-super-120b-a12b:free",
+#         messages=[
+#             {
+#                 "role": "user",
+#                 "content": f"Solve this math problem. Reply with the final numeric answer ONLY, nothing else.\n\nProblem: {problem}"
+#             }
+#         ],
+#         temperature=0
+#     )
+#     return response.choices[0].message.content.strip()
 
 #evaluate answer 
-def evaluate_answer(task: dict) -> dict:
+def evaluate_answer(task: dict, correct_answer: str) -> dict:
    prompt_template = load_prompt("evaluate_answer.txt")
-   correct_answer = get_correct_answer(task["problem"])
+   #  correct_answer = get_correct_answer(task["problem"])
    prompt = prompt_template.replace("{problem}", task['problem']).replace("{correct_answer}", correct_answer)
 
    response = client.chat.completions.create(
@@ -78,7 +84,7 @@ def evaluate_answer(task: dict) -> dict:
       }
 
 #process all tasks
-def run_evaluate_answer():
+def run_evaluate_answer(problems: list[dict]):
      tasks_path = Path('data') / "tasks.json"
      with open(tasks_path) as f:
         tasks = json.load(f)
@@ -90,10 +96,13 @@ def run_evaluate_answer():
      failed = 0
 
      for i, task in enumerate(tasks):
+        
+        correct_answer = task.get("answer") or problems[i % len(problems)]["answer"]
+        correct_answer = normalize_answer(correct_answer)
         print(f"[{i+1}/{len(tasks)}] [{task['difficulty'].upper()}] {task['problem'][:60]}...")
 
         try:
-           result = evaluate_answer(task)
+           result = evaluate_answer(task, correct_answer)
            all_evaluations.append(result)
 
            status = "✅ PASS" if result["is_correct"] else "❌ FAIL"
@@ -113,5 +122,14 @@ def run_evaluate_answer():
      with open(output_path, "w") as f:
         json.dump(all_evaluations, f, indent=2)
 
-     print(f"\n Done! {len(all_evaluations)} evaluations saved to {output_path} ({passed} passed, {failed} failed)")
+     total = passed + failed
+     rate = (passed / total * 100) if total > 0 else 0
+
+     print(f"\n{'='*50}")
+     print(f"✅ PASSED : {passed}/{total}")
+     print(f"❌ FAILED : {failed}/{total}")
+     print(f"📊 PASS RATE: {rate:.1f}%")
+     print(f"{'='*50}")
+     print(f"\n💾 Saved to data/evaluations.json")
+     
      return all_evaluations
