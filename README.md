@@ -13,14 +13,31 @@ Baseline pipeline for pulling out skills from math problems, then producing synt
 
 ## Outputs and Figures
 
-Generated figures are saved in the outputs directory:
+Generated figures are saved in the outputs directory and displayed below:
 
-- outputs/heatmap.png
-- outputs/before_after_improvement.png
-- outputs/model_vs_skill.png
-- outputs/model_vs_task.png
-- outputs/skill_vs_task.png
-- outputs/task_vs_skill.png
+### Heatmap
+
+![Pass-rate heatmap](outputs/heatmap.png)
+
+### Training Loop Improvement
+
+![Before vs after improvement](outputs/before_after_improvement.png)
+
+### Model vs Skill
+
+![Model vs skill heatmap](outputs/model_vs_skill.png)
+
+### Model vs Task
+
+![Model vs task heatmap](outputs/model_vs_task.png)
+
+### Skill vs Task
+
+![Skill vs task heatmap](outputs/skill_vs_task.png)
+
+### Task vs Skill
+
+![Task vs skill heatmap](outputs/task_vs_skill.png)
 
 ## Pipeline Overview
 
