@@ -1,150 +1,150 @@
 [
   {
-    "uid": "c4f1-b34e-335b-303c",
-    "skill_name": "calculate_total_sales_amount"
+    "uid": "3693-a64b-c153-3cb8",
+    "skill_name": "apply_arithmetic_operations"
   },
   {
-    "uid": "7092-69ab-7855-9079",
-    "skill_name": "apply_fractional_operations"
+    "uid": "8e13-a2e9-dec2-f8c7",
+    "skill_name": "calculate_total_amount_sold"
   },
   {
-    "uid": "7205-498b-0dfc-7639",
-    "skill_name": "perform_addition_of_numbers"
+    "uid": "d939-75ba-3d3e-4eaf",
+    "skill_name": "identify_relevant_information"
   },
   {
-    "uid": "3fd8-b979-f729-6d3b",
+    "uid": "50da-0d35-3062-8c94",
+    "skill_name": "perform_fractional_calculation"
+  },
+  {
+    "uid": "442e-f25f-7882-65a5",
     "skill_name": "calculate_hourly_earnings"
   },
   {
-    "uid": "cceb-e520-3caa-e26d",
-    "skill_name": "convert_time_to_hours"
+    "uid": "9561-7718-992e-e147",
+    "skill_name": "convert_minutes_to_hours"
   },
   {
-    "uid": "1ab5-fd59-95ca-cf36",
-    "skill_name": "apply_multiplication_to_find_earnings"
-  },
-  {
-    "uid": "3f89-2118-9731-376d",
-    "skill_name": "calculate_total_amount_saved"
-  },
-  {
-    "uid": "a480-e0d3-4c3a-29cc",
-    "skill_name": "determine_remaining_amount_needed"
-  },
-  {
-    "uid": "4b2d-3a51-45c0-1a09",
-    "skill_name": "apply_basic_arithmetic_operations"
-  },
-  {
-    "uid": "a5d7-0b27-db4b-0eac",
-    "skill_name": "interpret_word_problem_context"
-  },
-  {
-    "uid": "9399-47ae-5447-748b",
-    "skill_name": "calculate_total_pages_read"
-  },
-  {
-    "uid": "8cb9-77dd-2056-7331",
-    "skill_name": "determine_remaining_pages"
-  },
-  {
-    "uid": "6038-ffca-c881-a285",
+    "uid": "3c03-1dcf-81d6-14bb",
     "skill_name": "apply_multiplication_to_find"
   },
   {
-    "uid": "946b-bc64-ef68-2b87",
-    "skill_name": "compute_half_of_quantity"
+    "uid": "b8a5-dd78-9eb5-57ef",
+    "skill_name": "identify_total_money_needed"
   },
   {
-    "uid": "516d-dc9c-9464-543f",
+    "uid": "c7d1-f507-82e6-7d27",
+    "skill_name": "calculate_money_from_parents"
+  },
+  {
+    "uid": "9314-0ad0-eb29-507d",
+    "skill_name": "calculate_money_from_grandparents"
+  },
+  {
+    "uid": "b375-d0ae-f470-14fd",
+    "skill_name": "determine_remaining_amount_needed"
+  },
+  {
+    "uid": "ddd6-90ed-86b5-015e",
+    "skill_name": "calculate_total_pages_read"
+  },
+  {
+    "uid": "c621-c83a-7432-c1b7",
+    "skill_name": "determine_remaining_pages_count"
+  },
+  {
+    "uid": "42c2-36f7-6188-9a54",
+    "skill_name": "apply_multiplication_for_pages"
+  },
+  {
+    "uid": "4592-b536-cecf-4c1b",
+    "skill_name": "solve_for_future_reading"
+  },
+  {
+    "uid": "1c5a-4b8b-3f22-a217",
     "skill_name": "calculate_total_pages_written"
   },
   {
-    "uid": "e055-63a1-d963-5163",
+    "uid": "01c2-9bd9-15ac-11bf",
     "skill_name": "convert_weeks_to_years"
   },
   {
-    "uid": "5552-2764-4399-864d",
+    "uid": "5c26-7e0d-7317-5a5d",
     "skill_name": "identify_repetitive_writing_pattern"
   },
   {
-    "uid": "9d49-6ce0-ef91-04e0",
+    "uid": "d227-0426-b00a-04a5",
     "skill_name": "calculate_percentage_increase"
   },
   {
-    "uid": "6bfb-7e56-b221-63a1",
+    "uid": "9a60-6ac5-f765-9868",
     "skill_name": "apply_fractional_relationships"
   },
   {
-    "uid": "860a-096d-9e03-fc9c",
+    "uid": "ce74-7070-c5dc-f8c1",
     "skill_name": "perform_basic_arithmetic_operations"
   },
   {
-    "uid": "a6f0-e0b7-5a39-08f3",
-    "skill_name": "analyze_multi_step_problem"
+    "uid": "4f70-10c6-626d-23f1",
+    "skill_name": "synthesize_information_from_text"
   },
   {
-    "uid": "2914-2e6b-f2de-65c0",
-    "skill_name": "calculate_total_number_slices"
+    "uid": "f76f-f8ee-d03c-8df6",
+    "skill_name": "calculate_total_pizza_slices"
   },
   {
-    "uid": "13c8-5eb3-0af1-243f",
-    "skill_name": "apply_multiplication_to_quantities"
+    "uid": "276b-5c24-8ec2-c8cd",
+    "skill_name": "apply_multiplication_for_totals"
   },
   {
-    "uid": "3196-a319-c830-0784",
-    "skill_name": "sum_parts_to_find_total"
+    "uid": "b004-f704-28e3-4ff0",
+    "skill_name": "sum_multiple_values_together"
   },
   {
-    "uid": "add9-e9f4-3e7e-d0b1",
+    "uid": "9913-c4da-d101-116f",
     "skill_name": "interpret_problem_context_correctly"
   },
   {
-    "uid": "4da8-8b43-2695-80b7",
+    "uid": "8add-9f2d-8794-4d87",
+    "skill_name": "apply_weight_calculation_steps"
+  },
+  {
+    "uid": "9595-6ed7-a1d2-131a",
     "skill_name": "track_weight_changes_over_time"
   },
   {
-    "uid": "2e09-99dd-bf12-93f3",
-    "skill_name": "apply_multiplicative_reasoning"
+    "uid": "af0e-bd81-1c18-3ecd",
+    "skill_name": "perform_addition_and_multiplication"
   },
   {
-    "uid": "39cf-9efc-5d72-3df9",
-    "skill_name": "perform_additive_calculations"
+    "uid": "b2df-3cae-0473-6363",
+    "skill_name": "interpret_problem_statement_correctly"
   },
   {
-    "uid": "b5e4-33bc-2a1d-a67e",
-    "skill_name": "interpret_weight_measurements"
+    "uid": "4e33-1e12-c5ac-7afa",
+    "skill_name": "apply_budgeting_concepts"
   },
   {
-    "uid": "7b33-c17e-1b28-a25a",
+    "uid": "444f-2f51-f0a7-2c57",
     "skill_name": "calculate_total_spent_amount"
   },
   {
-    "uid": "19df-4ac4-ce26-840c",
+    "uid": "3211-1006-1574-71b0",
     "skill_name": "determine_remaining_budget"
   },
   {
-    "uid": "cc1d-c576-11a7-264d",
+    "uid": "d2b1-b98c-e6ea-9c4e",
     "skill_name": "solve_for_unknown_value"
   },
   {
-    "uid": "f863-926e-22ad-3fef",
-    "skill_name": "apply_subtraction_to_find"
-  },
-  {
-    "uid": "801f-08d6-a0b2-51c1",
+    "uid": "3c82-a31a-a2e1-3642",
     "skill_name": "calculate_total_hours_worked"
   },
   {
-    "uid": "f5e8-5d68-0e86-da60",
+    "uid": "c82f-610b-6a14-8851",
     "skill_name": "apply_overtime_pay_formula"
   },
   {
-    "uid": "e600-9bd4-52b1-94b1",
-    "skill_name": "perform_multiplication_operations"
-  },
-  {
-    "uid": "0c3e-383c-cb53-1caa",
-    "skill_name": "add_regular_and_overtime_pay"
+    "uid": "a5a7-212d-2ce4-76dc",
+    "skill_name": "determine_weekly_earnings"
   }
 ]

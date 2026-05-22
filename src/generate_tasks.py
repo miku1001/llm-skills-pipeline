@@ -20,7 +20,8 @@ def load_prompt(filename):
 
 #unique id
 def generate_uid():
-    return "-".join(secrets.token_hex(2) for _ in range(4))
+   hex_str = secrets.token_hex(8)
+   return "-".join(hex_str[i:i+4] for i in range(0, 16, 4))
 
 #generate tasks each skill
 def generate_tasks(skill: dict) -> list[dict]:

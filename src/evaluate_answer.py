@@ -19,7 +19,7 @@ def load_prompt(filename):
   return prompt_path.read_text()
 
 def normalize_answer(raw: str) -> str:
-   text = (raw or "").strip()
+   text = str(raw or "").strip()
    if "####" in text:
       text = text.split("####")[-1].strip()
    return text
@@ -84,52 +84,53 @@ def evaluate_answer(task: dict, correct_answer: str) -> dict:
       }
 
 #process all tasks
-def run_evaluate_answer(problems: list[dict]):
-     tasks_path = Path('data') / "tasks.json"
-     with open(tasks_path) as f:
+def run_evaluate_answer():  # ← remove problems parameter
+    tasks_path = Path('data') / "tasks.json"
+    with open(tasks_path) as f:
         tasks = json.load(f)
 
-     print(f"Evaluating {len(tasks)} tasks...\n")
+    print(f"Evaluating {len(tasks)} tasks...\n")
 
-     all_evaluations = []
-     passed = 0
-     failed = 0
+    all_evaluations = []
+    passed = 0
+    failed = 0
 
-     for i, task in enumerate(tasks):
+    for i, task in enumerate(tasks):
+        correct_answer = normalize_answer(task.get("answer", ""))  # ← from task itself
         
-        correct_answer = task.get("answer") or problems[i % len(problems)]["answer"]
-        correct_answer = normalize_answer(correct_answer)
+        if not correct_answer:
+            print(f"[{i+1}] ⚠️  Skipping — no answer in task: {task['problem'][:60]}")
+            continue
+
         print(f"[{i+1}/{len(tasks)}] [{task['difficulty'].upper()}] {task['problem'][:60]}...")
 
         try:
-           result = evaluate_answer(task, correct_answer)
-           all_evaluations.append(result)
+            result = evaluate_answer(task, correct_answer)
+            all_evaluations.append(result)
 
-           status = "✅ PASS" if result["is_correct"] else "❌ FAIL"
-           print(f"  {status} | Steps: {result['num_steps']} | Answer: {result['final_answer']}")
+            status = "✅ PASS" if result["is_correct"] else "❌ FAIL"
+            print(f"  {status} | Steps: {result['num_steps']} | Answer: {result['final_answer']}")
 
-           if result['is_correct']:
-               passed += 1
-           else:
-               failed += 1
+            if result['is_correct']:
+                passed += 1
+            else:
+                failed += 1
         except Exception as e:
-           print(f"ERROR: {e}")
-           continue
-           
+            print(f"  ERROR: {e}")
+            continue
 
-     # Outputs/evaluations.json
-     output_path = Path("data") / "evaluations.json"
-     with open(output_path, "w") as f:
+    output_path = Path("data") / "evaluations.json"
+    with open(output_path, "w") as f:
         json.dump(all_evaluations, f, indent=2)
 
-     total = passed + failed
-     rate = (passed / total * 100) if total > 0 else 0
+    total = passed + failed
+    rate = (passed / total * 100) if total > 0 else 0
 
-     print(f"\n{'='*50}")
-     print(f"✅ PASSED : {passed}/{total}")
-     print(f"❌ FAILED : {failed}/{total}")
-     print(f"📊 PASS RATE: {rate:.1f}%")
-     print(f"{'='*50}")
-     print(f"\n💾 Saved to data/evaluations.json")
-     
-     return all_evaluations
+    print(f"\n{'='*50}")
+    print(f"✅ PASSED : {passed}/{total}")
+    print(f"❌ FAILED : {failed}/{total}")
+    print(f"📊 PASS RATE: {rate:.1f}%")
+    print(f"{'='*50}")
+    print(f"\n💾 Saved to data/evaluations.json")
+
+    return all_evaluations

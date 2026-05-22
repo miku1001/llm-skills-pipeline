@@ -20,7 +20,8 @@ def load_prompt(filename):
 
 #unique id
 def generate_uid():
-    return "-".join(secrets.token_hex(2) for _ in range(4))
+   hex_str = secrets.token_hex(8)
+   return "-".join(hex_str[i:i+4] for i in range(0, 16, 4))
 
 #Extract skill from single problem
 def extract_skills(problem: str) -> list[dict]:
@@ -72,8 +73,8 @@ def run_extract_skill(problems: list[str]):
               print(f"  ✅ {skill['uid']} | {skill['skill_name']}")
 
     except Exception as e:
-     print(f"  ❌ Error: {e}")
-    continue
+      print(f"  ❌ Error: {e}")
+      continue
 
    # Save to data/skills.json
    output_path = Path("data") / "skills.json"

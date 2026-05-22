@@ -7,6 +7,13 @@ Rules:
 - Each problem must clearly require the given skill
 - Problems should be realistic and relatable
 - Keep language simple and clear
+- Each problem must also have a size: SMALL, MEDIUM, or LARGE
+  - SMALL: 1-2 steps to solve (single operation, direct)
+  - MEDIUM: 3-5 steps to solve (multi-step, requires planning)
+  - LARGE: 6+ steps to solve (complex, like a multi-part ticket or scenario)
+- Easy problems should generally be SMALL size
+- Medium problems should generally be MEDIUM size
+- Hard problems should generally be LARGE size
 
 Output ONLY valid JSON. No explanation, no markdown, no extra text.
 
@@ -15,16 +22,22 @@ Output format:
   "tasks": [
     {
       "difficulty": "easy",
+      "size": "small",
+      "estimated_steps": 2,
       "problem": "Your problem here",
       "answer": "Final numeric answer only"
     },
     {
-      "difficulty": "medium", 
+      "difficulty": "medium",
+      "size": "medium",
+      "estimated_steps": 4,
       "problem": "Your problem here",
       "answer": "Final numeric answer only"
     },
     {
       "difficulty": "hard",
+      "size": "large",
+      "estimated_steps": 7,
       "problem": "Your problem here",
       "answer": "Final numeric answer only"
     }
