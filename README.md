@@ -63,6 +63,10 @@ Generated figures are saved in the outputs directory and displayed below:
 
 Build a skill-centric evaluation pipeline that can: (a) extract skills from math problems, (b) generate skill-targeted tasks, (c) evaluate model performance with step-level skill tagging, and (d) rank skills and tasks by difficulty.
 
+### Model Used
+
+The pipeline uses `openai/gpt-4o-mini` through OpenRouter, with the API key loaded from `OPENROUTER_API_KEY`.
+
 ### Method
 
 - Skills are extracted with a fixed prompt and standardized to 4-word, underscore-separated labels.
