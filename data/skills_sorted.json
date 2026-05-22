@@ -7,13 +7,6 @@
     "total": 3
   },
   {
-    "uid": "442e-f25f-7882-65a5",
-    "skill_name": "calculate_hourly_earnings",
-    "pass_rate": 1.0,
-    "passed": 3,
-    "total": 3
-  },
-  {
     "uid": "b8a5-dd78-9eb5-57ef",
     "skill_name": "identify_total_money_needed",
     "pass_rate": 1.0,
@@ -37,27 +30,6 @@
   {
     "uid": "b375-d0ae-f470-14fd",
     "skill_name": "determine_remaining_amount_needed",
-    "pass_rate": 1.0,
-    "passed": 3,
-    "total": 3
-  },
-  {
-    "uid": "c621-c83a-7432-c1b7",
-    "skill_name": "determine_remaining_pages_count",
-    "pass_rate": 1.0,
-    "passed": 3,
-    "total": 3
-  },
-  {
-    "uid": "01c2-9bd9-15ac-11bf",
-    "skill_name": "convert_weeks_to_years",
-    "pass_rate": 1.0,
-    "passed": 3,
-    "total": 3
-  },
-  {
-    "uid": "d227-0426-b00a-04a5",
-    "skill_name": "calculate_percentage_increase",
     "pass_rate": 1.0,
     "passed": 3,
     "total": 3
@@ -91,8 +63,8 @@
     "total": 3
   },
   {
-    "uid": "8add-9f2d-8794-4d87",
-    "skill_name": "apply_weight_calculation_steps",
+    "uid": "9913-c4da-d101-116f",
+    "skill_name": "interpret_problem_context_correctly",
     "pass_rate": 1.0,
     "passed": 3,
     "total": 3
@@ -115,8 +87,36 @@
     "uid": "b2df-3cae-0473-6363",
     "skill_name": "interpret_problem_statement_correctly",
     "pass_rate": 1.0,
-    "passed": 2,
-    "total": 2
+    "passed": 3,
+    "total": 3
+  },
+  {
+    "uid": "3211-1006-1574-71b0",
+    "skill_name": "determine_remaining_budget",
+    "pass_rate": 1.0,
+    "passed": 3,
+    "total": 3
+  },
+  {
+    "uid": "d2b1-b98c-e6ea-9c4e",
+    "skill_name": "solve_for_unknown_value",
+    "pass_rate": 1.0,
+    "passed": 3,
+    "total": 3
+  },
+  {
+    "uid": "3c82-a31a-a2e1-3642",
+    "skill_name": "calculate_total_hours_worked",
+    "pass_rate": 1.0,
+    "passed": 3,
+    "total": 3
+  },
+  {
+    "uid": "c82f-610b-6a14-8851",
+    "skill_name": "apply_overtime_pay_formula",
+    "pass_rate": 1.0,
+    "passed": 3,
+    "total": 3
   },
   {
     "uid": "3693-a64b-c153-3cb8",
@@ -135,6 +135,13 @@
   {
     "uid": "50da-0d35-3062-8c94",
     "skill_name": "perform_fractional_calculation",
+    "pass_rate": 0.667,
+    "passed": 2,
+    "total": 3
+  },
+  {
+    "uid": "442e-f25f-7882-65a5",
+    "skill_name": "calculate_hourly_earnings",
     "pass_rate": 0.667,
     "passed": 2,
     "total": 3
@@ -161,6 +168,13 @@
     "total": 3
   },
   {
+    "uid": "c621-c83a-7432-c1b7",
+    "skill_name": "determine_remaining_pages_count",
+    "pass_rate": 0.667,
+    "passed": 2,
+    "total": 3
+  },
+  {
     "uid": "42c2-36f7-6188-9a54",
     "skill_name": "apply_multiplication_for_pages",
     "pass_rate": 0.667,
@@ -182,8 +196,22 @@
     "total": 3
   },
   {
+    "uid": "01c2-9bd9-15ac-11bf",
+    "skill_name": "convert_weeks_to_years",
+    "pass_rate": 0.667,
+    "passed": 2,
+    "total": 3
+  },
+  {
     "uid": "5c26-7e0d-7317-5a5d",
     "skill_name": "identify_repetitive_writing_pattern",
+    "pass_rate": 0.667,
+    "passed": 2,
+    "total": 3
+  },
+  {
+    "uid": "d227-0426-b00a-04a5",
+    "skill_name": "calculate_percentage_increase",
     "pass_rate": 0.667,
     "passed": 2,
     "total": 3
@@ -203,8 +231,8 @@
     "total": 3
   },
   {
-    "uid": "9913-c4da-d101-116f",
-    "skill_name": "interpret_problem_context_correctly",
+    "uid": "8add-9f2d-8794-4d87",
+    "skill_name": "apply_weight_calculation_steps",
     "pass_rate": 0.667,
     "passed": 2,
     "total": 3
@@ -212,50 +240,22 @@
   {
     "uid": "4e33-1e12-c5ac-7afa",
     "skill_name": "apply_budgeting_concepts",
-    "pass_rate": null,
-    "passed": 0,
-    "total": 0
+    "pass_rate": 0.667,
+    "passed": 2,
+    "total": 3
   },
   {
     "uid": "444f-2f51-f0a7-2c57",
     "skill_name": "calculate_total_spent_amount",
-    "pass_rate": null,
-    "passed": 0,
-    "total": 0
-  },
-  {
-    "uid": "3211-1006-1574-71b0",
-    "skill_name": "determine_remaining_budget",
-    "pass_rate": null,
-    "passed": 0,
-    "total": 0
-  },
-  {
-    "uid": "d2b1-b98c-e6ea-9c4e",
-    "skill_name": "solve_for_unknown_value",
-    "pass_rate": null,
-    "passed": 0,
-    "total": 0
-  },
-  {
-    "uid": "3c82-a31a-a2e1-3642",
-    "skill_name": "calculate_total_hours_worked",
-    "pass_rate": null,
-    "passed": 0,
-    "total": 0
-  },
-  {
-    "uid": "c82f-610b-6a14-8851",
-    "skill_name": "apply_overtime_pay_formula",
-    "pass_rate": null,
-    "passed": 0,
-    "total": 0
+    "pass_rate": 0.667,
+    "passed": 2,
+    "total": 3
   },
   {
     "uid": "a5a7-212d-2ce4-76dc",
     "skill_name": "determine_weekly_earnings",
-    "pass_rate": null,
-    "passed": 0,
-    "total": 0
+    "pass_rate": 0.667,
+    "passed": 2,
+    "total": 3
   }
 ]

@@ -9,8 +9,8 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_numbers_together",
-        "reasoning": "I added the 3 apples Emma has to the 5 apples she buys, which gives the total number of apples."
+        "skill_used": "add_initial_amounts",
+        "reasoning": "I added the initial 3 apples to the 5 apples that Emma bought."
       }
     ],
     "final_answer": "8",
@@ -27,13 +27,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "subtract_from_initial_amount",
-        "reasoning": "I subtracted the 5 marbles Liam gave to his friend from his initial 20 marbles."
+        "skill_used": "subtract_amount_from_total",
+        "reasoning": "I subtracted the 5 marbles Liam gave to his friend from his initial total of 20 marbles."
       },
       {
         "step_number": 2,
-        "skill_used": "add_to_initial_amount",
-        "reasoning": "I added the 8 marbles Liam found to the remaining amount after giving some away."
+        "skill_used": "add_amount_to_total",
+        "reasoning": "I added the 8 marbles Liam found to the remaining total after giving some away."
       }
     ],
     "final_answer": "23",
@@ -51,25 +51,25 @@
       {
         "step_number": 1,
         "skill_used": "multiply_price_by_quantity",
-        "reasoning": "I calculated the total cost of cupcakes by multiplying the price ($2) by the quantity (4). Total for cupcakes = 2 * 4 = 8."
+        "reasoning": "I calculated the total cost of cupcakes by multiplying the price ($2) by the quantity (4), which equals $8."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_price_by_quantity",
-        "reasoning": "I calculated the total cost of cookies by multiplying the price ($3) by the quantity (5). Total for cookies = 3 * 5 = 15."
+        "reasoning": "I calculated the total cost of cookies by multiplying the price ($3) by the quantity (5), which equals $15."
       },
       {
         "step_number": 3,
         "skill_used": "add_multiple_values",
-        "reasoning": "I added the total costs of cupcakes, cookies, and additional treats to find the total expenditure. Total = 8 + 15 + 10 = 33."
+        "reasoning": "I added the total costs of cupcakes ($8) and cookies ($15) along with the additional treats ($10) to find the total spent: $8 + $15 + $10 = $33."
       },
       {
         "step_number": 4,
         "skill_used": "calculate_total_items",
-        "reasoning": "I calculated the total number of items by adding the quantities of cupcakes and cookies. Total items = 4 + 5 = 9."
+        "reasoning": "I calculated the total number of items by adding the quantities of cupcakes (4) and cookies (5): 4 + 5 = 9."
       }
     ],
-    "final_answer": "33",
+    "final_answer": 33,
     "is_correct": false,
     "num_steps": 4
   },
@@ -84,7 +84,7 @@
       {
         "step_number": 1,
         "skill_used": "multiply_quantity_by_price",
-        "reasoning": "I multiplied the number of cookies (5) by the price per cookie ($2) to find the total amount of money made."
+        "reasoning": "I multiplied the number of cookies (5) by the price per cookie ($2) to find the total amount made."
       }
     ],
     "final_answer": "10",
@@ -102,16 +102,16 @@
       {
         "step_number": 1,
         "skill_used": "multiply_quantity_by_price",
-        "reasoning": "I calculated the revenue from the chocolates by multiplying the number of boxes sold (20) by the price per box ($5)."
+        "reasoning": "I calculated the revenue from the chocolates by multiplying the number of boxes (20) by the price per box ($5)."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_quantity_by_price",
-        "reasoning": "I calculated the revenue from the popcorn by multiplying the number of bags sold (15) by the price per bag ($3)."
+        "reasoning": "I calculated the revenue from the popcorn by multiplying the number of bags (15) by the price per bag ($3)."
       },
       {
         "step_number": 3,
-        "skill_used": "add_total_sales",
+        "skill_used": "add_multiple_values",
         "reasoning": "I added the total revenue from chocolates and popcorn to find the overall total raised."
       }
     ],
@@ -129,28 +129,33 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "calculate_total_revenue",
-        "reasoning": "I calculated the total revenue from cakes, cupcakes, and loaves of bread. Total revenue = (12 * 15) + (30 * 3) + (10 * 8)."
+        "skill_used": "calculate_total_revenue_cakes",
+        "reasoning": "I multiplied the number of cakes sold (12) by the price per cake ($15) to find the total revenue from cakes: 12 * 15 = 180."
       },
       {
         "step_number": 2,
-        "skill_used": "perform_basic_arithmetic",
-        "reasoning": "I performed the arithmetic operations to find the total revenue. Total revenue = 180 + 90 + 80 = 350."
+        "skill_used": "calculate_total_revenue_cupcakes",
+        "reasoning": "I multiplied the number of cupcakes sold (30) by the price per cupcake ($3) to find the total revenue from cupcakes: 30 * 3 = 90."
       },
       {
         "step_number": 3,
-        "skill_used": "calculate_total_costs",
-        "reasoning": "I noted the total cost of ingredients, which is given as $50."
+        "skill_used": "calculate_total_revenue_bread",
+        "reasoning": "I multiplied the number of loaves of bread sold (10) by the price per loaf ($8) to find the total revenue from bread: 10 * 8 = 80."
       },
       {
         "step_number": 4,
+        "skill_used": "calculate_total_cost",
+        "reasoning": "I noted that the total cost of ingredients was $50."
+      },
+      {
+        "step_number": 5,
         "skill_used": "calculate_profit",
-        "reasoning": "I calculated the profit by subtracting total costs from total revenue. Profit = 350 - 50 = 300."
+        "reasoning": "I added the total revenues from cakes, cupcakes, and bread (180 + 90 + 80 = 350) and then subtracted the total cost (350 - 50 = 300) to find the profit."
       }
     ],
     "final_answer": "300",
     "is_correct": false,
-    "num_steps": 4
+    "num_steps": 5
   },
   {
     "task_uid": "045e-cd05-e015-856c",
@@ -163,7 +168,7 @@
       {
         "step_number": 1,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the 3 apples Lily initially had to the 2 apples she bought."
+        "reasoning": "I added the 3 apples Lily has to the 2 apples she buys to find the total."
       }
     ],
     "final_answer": "5",
@@ -181,12 +186,12 @@
       {
         "step_number": 1,
         "skill_used": "subtract_from_initial_amount",
-        "reasoning": "I started with 10 marbles and subtracted 3 marbles that Tom gave to his friend, resulting in 7 marbles."
+        "reasoning": "I started with 10 marbles and subtracted the 3 marbles Tom gave to his friend, resulting in 7 marbles."
       },
       {
         "step_number": 2,
         "skill_used": "add_to_initial_amount",
-        "reasoning": "I then added the 5 marbles that Tom found to the 7 marbles he had left, resulting in a total of 12 marbles."
+        "reasoning": "I then added the 5 marbles Tom found to the 7 marbles he had left, resulting in a total of 12 marbles."
       }
     ],
     "final_answer": "12",
@@ -204,22 +209,22 @@
       {
         "step_number": 1,
         "skill_used": "subtract_numbers_from_total",
-        "reasoning": "I subtracted the 7 stamps given to her brother from the initial 25 stamps."
+        "reasoning": "Emily starts with 25 stamps and gives away 7, so I subtract 7 from 25."
       },
       {
         "step_number": 2,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the 15 stamps she bought to the remaining stamps after giving away."
+        "reasoning": "After giving away 7 stamps, I add the 15 stamps she buys to the remaining total."
       },
       {
         "step_number": 3,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the 5 stamps found in her drawer to the total stamps she currently has."
+        "reasoning": "Next, I add the 5 stamps she finds to the total number of stamps she has."
       },
       {
         "step_number": 4,
-        "skill_used": "divide_number_by_two",
-        "reasoning": "I divided the total number of stamps by 2 to find out how many she will give away."
+        "skill_used": "calculate_half_of_number",
+        "reasoning": "Finally, I calculate half of the total number of stamps to find out how many she will give away."
       }
     ],
     "final_answer": "23",
@@ -236,18 +241,18 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "subtract_fractions",
-        "reasoning": "I calculated how much pizza Emma has left by subtracting the amount she ate (1/4 of 1/2) from the original amount (1/2)."
+        "skill_used": "subtract_fractions_with_common_denominator",
+        "reasoning": "Emma has 1/2 of the pizza and eats 1/4 of it. To find out how much she has left, we subtract 1/4 from 1/2."
       },
       {
         "step_number": 2,
-        "skill_used": "multiply_fraction_by_fraction",
-        "reasoning": "I found out how much pizza Emma ate by multiplying 1/4 by 1/2."
+        "skill_used": "subtract_fractions_with_common_denominator",
+        "reasoning": "To perform the subtraction, we convert 1/2 to a fraction with a common denominator of 4, which is 2/4. Now we subtract: 2/4 - 1/4."
       },
       {
         "step_number": 3,
-        "skill_used": "subtract_fractions",
-        "reasoning": "I subtracted the amount eaten (1/8) from the original amount (1/2) to find the remaining pizza."
+        "skill_used": "subtract_fractions_with_common_denominator",
+        "reasoning": "Now we perform the subtraction: 2/4 - 1/4 = 1/4."
       }
     ],
     "final_answer": "1/4",
@@ -264,13 +269,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_fraction_by_fraction",
-        "reasoning": "Liam has 3/4 of a chocolate bar and gives away 1/2 of it. So, we calculate 1/2 of 3/4, which is (1/2) * (3/4) = 3/8."
+        "skill_used": "multiply_fractions",
+        "reasoning": "Liam has 3/4 of a chocolate bar and gives away 1/2 of it. I calculated 1/2 of 3/4 by multiplying: (1/2) * (3/4) = 3/8."
       },
       {
         "step_number": 2,
         "skill_used": "subtract_fractions",
-        "reasoning": "Now, we subtract the amount Liam gave away (3/8) from what he originally had (3/4). First, we convert 3/4 to eighths: 3/4 = 6/8. Then, we calculate 6/8 - 3/8 = 3/8."
+        "reasoning": "Now I subtract the amount given away from what Liam originally had: 3/4 - 3/8. To do this, I convert 3/4 to 6/8, so 6/8 - 3/8 = 3/8."
       }
     ],
     "final_answer": "3/8",
@@ -288,17 +293,27 @@
       {
         "step_number": 1,
         "skill_used": "multiply_fraction_by_whole",
-        "reasoning": "I multiplied 2/3 cup of sugar by 3 to find the total sugar needed for 3 batches, which equals 2 cups."
+        "reasoning": "I multiplied 2/3 cup of sugar by 3 to find the total sugar needed for 3 batches: (2/3) * 3 = 2 cups."
       },
       {
         "step_number": 2,
         "skill_used": "subtract_fractions",
-        "reasoning": "I subtracted the 1/2 cup of sugar I have from the total of 2 cups to find out how much more sugar I need."
+        "reasoning": "I subtracted the amount of sugar I have (1/2 cup) from the total sugar needed (2 cups). First, I converted 2 cups to a fraction: 2 = 2/1. Then I found a common denominator (2) and performed the subtraction: (4/2) - (1/2) = 3/2."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "subtract_fractions",
+        "reasoning": "I converted 3/2 to a fraction with a common denominator to find how much more sugar I need. 3/2 - 1/2 = 2/2 = 1."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "subtract_fractions",
+        "reasoning": "I realized I needed to convert 1 cup to a fraction with a common denominator to find the remaining sugar needed. 1 = 6/6, so I calculated 6/6 - 3/6 = 3/6, which simplifies to 1/2."
       }
     ],
     "final_answer": "1/6",
     "is_correct": true,
-    "num_steps": 2
+    "num_steps": 4
   },
   {
     "task_uid": "0bd6-2695-d47d-0021",
@@ -310,13 +325,18 @@
     "steps": [
       {
         "step_number": 1,
+        "skill_used": "identify_variables",
+        "reasoning": "I identified the hourly rate ($15) and the time worked (2 hours)."
+      },
+      {
+        "step_number": 2,
         "skill_used": "multiply_rate_by_time",
-        "reasoning": "I multiplied Emily's hourly rate of $15 by the number of hours she worked, which is 2."
+        "reasoning": "I multiplied the hourly rate ($15) by the number of hours (2) to find the total earnings."
       }
     ],
     "final_answer": "30",
     "is_correct": true,
-    "num_steps": 1
+    "num_steps": 2
   },
   {
     "task_uid": "16b3-5906-0776-d57a",
@@ -329,12 +349,12 @@
       {
         "step_number": 1,
         "skill_used": "multiply_rate_by_time",
-        "reasoning": "I calculated Jake's earnings for Saturday by multiplying his hourly rate of $12 by the 3 hours he worked."
+        "reasoning": "I calculated Jake's earnings for Saturday by multiplying his hourly rate ($12) by the number of hours worked (3)."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_rate_by_time",
-        "reasoning": "I calculated Jake's earnings for Sunday by multiplying his hourly rate of $12 by the 4 hours he worked."
+        "reasoning": "I calculated Jake's earnings for Sunday by multiplying his hourly rate ($12) by the number of hours worked (4)."
       },
       {
         "step_number": 3,
@@ -356,23 +376,33 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "calculate_total_hours_worked",
-        "reasoning": "I added the hours worked on each day: 5 hours (Monday) + 6 hours (Wednesday) + 4 hours (Friday) + 3 hours (weekend) to find the total hours."
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "Calculating Monday's earnings: $10/hour * 5 hours = $50."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_rate_by_time",
-        "reasoning": "I multiplied the total hours worked (18 hours) by the hourly wage ($10) to find the total earnings."
+        "reasoning": "Calculating Wednesday's earnings: $10/hour * 6 hours = $60."
       },
       {
         "step_number": 3,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "Calculating Friday's earnings: $10/hour * 4 hours = $40."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "Calculating weekend earnings: $10/hour * 3 hours = $30."
+      },
+      {
+        "step_number": 5,
         "skill_used": "add_multiple_values",
-        "reasoning": "I summed the earnings from each day and the weekend to ensure the total was calculated correctly."
+        "reasoning": "Adding all earnings: $50 (Monday) + $60 (Wednesday) + $40 (Friday) + $30 (Weekend) = $180."
       }
     ],
-    "final_answer": "130",
-    "is_correct": true,
-    "num_steps": 3
+    "final_answer": "180",
+    "is_correct": false,
+    "num_steps": 5
   },
   {
     "task_uid": "28e1-111a-f0ef-a1e6",
@@ -385,7 +415,7 @@
       {
         "step_number": 1,
         "skill_used": "convert_minutes_to_hours",
-        "reasoning": "I divided the total minutes (90) by the number of minutes in an hour (60) to find the equivalent in hours."
+        "reasoning": "I divided the total minutes (90) by 60 to convert it into hours."
       }
     ],
     "final_answer": "1.5",
@@ -402,8 +432,8 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_time_values",
-        "reasoning": "I added the durations of soccer practice (150 minutes) and basketball practice (120 minutes) to get the total time in minutes."
+        "skill_used": "add_time_durations",
+        "reasoning": "I added the durations of soccer practice (150 minutes) and basketball practice (120 minutes) to find the total time in minutes."
       },
       {
         "step_number": 2,
@@ -449,12 +479,12 @@
       {
         "step_number": 1,
         "skill_used": "multiply_number_of_packs",
-        "reasoning": "I multiplied the number of packs (4) by the number of stickers in each pack (5) to find the total."
+        "reasoning": "I multiplied the number of packs (4) by the number of stickers in each pack (5)."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_stickers_per_pack",
-        "reasoning": "I calculated 4 packs times 5 stickers per pack, which equals 20 stickers."
+        "reasoning": "The calculation performed was 4 packs * 5 stickers per pack = 20 stickers."
       }
     ],
     "final_answer": "20",
@@ -471,7 +501,7 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_rows_by_trees",
+        "skill_used": "multiply_number_of_rows",
         "reasoning": "I multiplied the number of rows (6) by the number of trees per row (8) to find the total number of trees."
       },
       {
@@ -504,18 +534,18 @@
       },
       {
         "step_number": 3,
-        "skill_used": "multiply_students_by_cupcakes_per_student",
-        "reasoning": "I calculated the total number of cupcakes needed for the students by multiplying the number of students (30) by the number of cupcakes per student (3). This gives 30 * 3 = 90 cupcakes."
+        "skill_used": "multiply_students_by_cupcakes",
+        "reasoning": "I calculated the total number of cupcakes served by multiplying the number of students (30) by the number of cupcakes served per student (3). This gives 30 * 3 = 90 cupcakes."
       },
       {
         "step_number": 4,
-        "skill_used": "multiply_students_by_cookies_per_student",
-        "reasoning": "I calculated the total number of cookies needed for the students by multiplying the number of students (30) by the number of cookies per student (2). This gives 30 * 2 = 60 cookies."
+        "skill_used": "multiply_students_by_cookies",
+        "reasoning": "I calculated the total number of cookies served by multiplying the number of students (30) by the number of cookies served per student (2). This gives 30 * 2 = 60 cookies."
       },
       {
         "step_number": 5,
         "skill_used": "subtract_total_served_from_total",
-        "reasoning": "I found the extra cupcakes by subtracting the total served (90) from the total available (180), which gives 180 - 90 = 90 extra cupcakes. I found the extra cookies by subtracting the total served (60) from the total available (200), which gives 200 - 60 = 140 extra cookies."
+        "reasoning": "I found the extra cupcakes by subtracting the number of cupcakes served (90) from the total number of cupcakes (180), which gives 180 - 90 = 90. I found the extra cookies by subtracting the number of cookies served (60) from the total number of cookies (200), which gives 200 - 60 = 140."
       },
       {
         "step_number": 6,
@@ -542,8 +572,8 @@
       },
       {
         "step_number": 2,
-        "skill_used": "determine_total_money_needed",
-        "reasoning": "I concluded that Samantha needs $5 to buy the toy."
+        "skill_used": "determine_total_needed",
+        "reasoning": "I determined that Samantha needs $5 to buy the toy."
       }
     ],
     "final_answer": "5",
@@ -560,7 +590,7 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "subtract_saved_from_goal",
+        "skill_used": "subtract_current_amount_from_goal",
         "reasoning": "I subtracted the amount Tom has saved ($10) from the total cost of the video game ($30) to find out how much more he needs."
       }
     ],
@@ -578,23 +608,28 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "subtract_current_savings_from_cost",
-        "reasoning": "I subtracted Lily's current savings of $50 from the cost of the bicycle, which is $150. This gives the amount she still needs to save."
+        "skill_used": "subtract_current_amount_from_goal",
+        "reasoning": "I subtracted the amount Lily has saved ($50) from the cost of the bicycle ($150) to find out how much more she needs."
       },
       {
         "step_number": 2,
-        "skill_used": "divide_amount_needed_by_savings_per_week",
-        "reasoning": "I took the amount needed ($100) and divided it by her weekly savings of $20 to find out how many weeks it will take."
+        "skill_used": "divide_amount_needed_by_savings_rate",
+        "reasoning": "I divided the amount Lily needs to save ($100) by her weekly savings rate ($20) to find out how many weeks it will take."
       },
       {
         "step_number": 3,
-        "skill_used": "multiply_weeks_by_savings_per_week",
-        "reasoning": "I calculated the total amount of money she will have after saving for those weeks by multiplying the number of weeks (5) by her weekly savings ($20) and adding her initial savings."
+        "skill_used": "multiply_weeks_by_savings_rate",
+        "reasoning": "I multiplied the number of weeks (5) by the weekly savings rate ($20) to find out how much money she will save in total."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "add_current_amount_to_savings",
+        "reasoning": "I added the total savings ($100) to the amount she already has saved ($50) to find out the total amount of money she will have."
       }
     ],
     "final_answer": "150",
     "is_correct": true,
-    "num_steps": 3
+    "num_steps": 4
   },
   {
     "task_uid": "cafb-f76b-2366-1535",
@@ -607,17 +642,17 @@
       {
         "step_number": 1,
         "skill_used": "identify_initial_amount",
-        "reasoning": "I start with $0 since no initial amount is mentioned."
+        "reasoning": "Assuming the initial amount of money is $0 since it's not specified."
       },
       {
         "step_number": 2,
         "skill_used": "add_money_received",
-        "reasoning": "I add the $5 received from my mom to my initial amount of $0."
+        "reasoning": "Adding the $5 received from chores to the initial amount of $0."
       },
       {
         "step_number": 3,
-        "skill_used": "calculate_total_money",
-        "reasoning": "The total amount of money I have now is $0 + $5."
+        "skill_used": "calculate_total_amount",
+        "reasoning": "Calculating the total amount of money after the addition, which is $0 + $5."
       }
     ],
     "final_answer": "5",
@@ -634,13 +669,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_money_from_parents",
-        "reasoning": "I added the $10 from my dad and the $15 from my mom to find the total amount received."
+        "skill_used": "add_money_from_sources",
+        "reasoning": "I added the $10 from my dad and $15 from my mom to find the total amount of money received."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_money_spent",
-        "reasoning": "I subtracted the $5 spent on the toy from the total amount of money received."
+        "skill_used": "subtract_expense_from_total",
+        "reasoning": "I subtracted the $5 spent on the toy from the total amount of money to find the remaining balance."
       }
     ],
     "final_answer": "20",
@@ -658,27 +693,22 @@
       {
         "step_number": 1,
         "skill_used": "add_multiple_values_together",
-        "reasoning": "I added the amounts given by my dad ($20), mom ($30), and grandparents ($50) to find the total initial savings."
+        "reasoning": "I added the amounts given by dad, mom, and grandparents: $20 + $30 + $50."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_rate_by_time",
-        "reasoning": "I calculated the additional savings from my parents over two weeks, which is $10 per week for 2 weeks."
+        "reasoning": "I calculated the total additional savings from parents over two weeks: $10 * 2."
       },
       {
         "step_number": 3,
-        "skill_used": "calculate_total_savings",
-        "reasoning": "I combined the initial savings and the additional savings to find the total amount saved."
-      },
-      {
-        "step_number": 4,
-        "skill_used": "subtract_total_from_goal",
-        "reasoning": "I subtracted the total savings from the bike's cost ($100) to find out how much more money is needed."
+        "skill_used": "subtract_from_total_amount",
+        "reasoning": "I subtracted the total amount saved from the bike's cost: $100 - (total received + total additional savings)."
       }
     ],
     "final_answer": "0",
     "is_correct": true,
-    "num_steps": 4
+    "num_steps": 3
   },
   {
     "task_uid": "daeb-258c-976a-5631",
@@ -691,12 +721,12 @@
       {
         "step_number": 1,
         "skill_used": "identify_initial_amount",
-        "reasoning": "I identified that the initial amount of money is $0 since no other amount was mentioned."
+        "reasoning": "I identified that I had $0 before receiving the gift."
       },
       {
         "step_number": 2,
-        "skill_used": "add_money_received",
-        "reasoning": "I added the $10 received from my grandparents to the initial amount of $0."
+        "skill_used": "add_amounts_together",
+        "reasoning": "I added the initial amount of $0 to the gift amount of $10."
       }
     ],
     "final_answer": "10",
@@ -737,12 +767,12 @@
       {
         "step_number": 1,
         "skill_used": "add_multiple_values_together",
-        "reasoning": "I added the amounts received: $20 (birthday) + $30 (Christmas) + $50 (just because) to find the total money received."
+        "reasoning": "I added the amounts received from grandparents: $20 + $30 + $50."
       },
       {
         "step_number": 2,
         "skill_used": "subtract_value_from_total",
-        "reasoning": "I subtracted the cost of the toy ($15) from the total amount of money received to find out how much is left."
+        "reasoning": "I subtracted the amount spent on the toy ($15) from the total amount received."
       }
     ],
     "final_answer": "85",
@@ -777,13 +807,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "subtract_current_savings_from_cost",
-        "reasoning": "I subtracted Emma's current savings of $60 from the bike's cost of $150 to find out how much more she needs."
+        "skill_used": "subtract_current_amount_from_total",
+        "reasoning": "I subtracted the amount Emma has saved ($60) from the total cost of the bike ($150) to find out how much more she needs."
       },
       {
         "step_number": 2,
         "skill_used": "divide_amount_needed_by_savings_per_week",
-        "reasoning": "I divided the remaining amount of $90 by her weekly savings of $15 to find out how many weeks it will take."
+        "reasoning": "I divided the remaining amount needed ($90) by the amount she saves each week ($15) to determine how many weeks it will take."
       }
     ],
     "final_answer": "6",
@@ -801,12 +831,12 @@
       {
         "step_number": 1,
         "skill_used": "add_money_from_events",
-        "reasoning": "I added the amounts raised from the bake sale ($450), car wash ($200), and expected raffle ($300) to find the total funds raised."
+        "reasoning": "I added the amounts raised from the bake sale ($450), car wash ($200), and the expected raffle ($300) to find the total funds raised."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_total_from_goal",
-        "reasoning": "I subtracted the total funds raised ($450 + $200 + $300 = $950) from the goal of $1,200 to find out how much more is needed."
+        "skill_used": "subtract_total_from_cost",
+        "reasoning": "I subtracted the total funds raised ($450 + $200 + $300 = $950) from the total cost of the computers ($1,200) to find out how much more money is needed."
       }
     ],
     "final_answer": "250",
@@ -823,7 +853,7 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_two_numbers",
+        "skill_used": "add_numbers_together",
         "reasoning": "I added the number of pages read on Monday (15) to the number of pages read on Tuesday (10) to find the total."
       }
     ],
@@ -841,18 +871,23 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_rate_by_time",
-        "reasoning": "Tom read 20 pages on Wednesday, so on Friday he read 2 times that amount: 2 * 20 = 40 pages."
+        "skill_used": "interpret_word_problem",
+        "reasoning": "I identified that Tom read 20 pages on Wednesday, 35 pages on Thursday, and twice that on Friday."
       },
       {
         "step_number": 2,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "I calculated the number of pages Tom read on Friday as 2 times 20 pages, which equals 40 pages."
+      },
+      {
+        "step_number": 3,
         "skill_used": "add_numbers_together",
-        "reasoning": "Now, I will add the pages read on Wednesday, Thursday, and Friday: 20 (Wednesday) + 35 (Thursday) + 40 (Friday) = 95 pages."
+        "reasoning": "I added the pages read on all three days: 20 (Wednesday) + 35 (Thursday) + 40 (Friday) = 95 pages."
       }
     ],
     "final_answer": "95",
     "is_correct": false,
-    "num_steps": 2
+    "num_steps": 3
   },
   {
     "task_uid": "8f1b-59ba-1f17-a5b2",
@@ -865,32 +900,27 @@
       {
         "step_number": 1,
         "skill_used": "add_multiple_numbers_together",
-        "reasoning": "I added the pages read on Monday, Tuesday, and Wednesday: 25 + 30 + 20."
+        "reasoning": "I added the pages read from Monday, Tuesday, and Wednesday: 25 + 30 + 20."
       },
       {
         "step_number": 2,
-        "skill_used": "multiply_rate_by_time",
-        "reasoning": "I calculated the pages read on Thursday by multiplying Tuesday's pages by 2: 30 * 2."
+        "skill_used": "multiply_number_by_constant",
+        "reasoning": "I calculated the pages read on Thursday by multiplying Tuesday's pages (30) by 2."
       },
       {
         "step_number": 3,
         "skill_used": "add_multiple_numbers_together",
-        "reasoning": "I added the pages read on Friday: 50 pages."
+        "reasoning": "I added the pages read on Friday (50) to the total from the first week."
       },
       {
         "step_number": 4,
         "skill_used": "add_multiple_numbers_together",
-        "reasoning": "I added the pages read in the second week: 40 + 60."
-      },
-      {
-        "step_number": 5,
-        "skill_used": "add_multiple_numbers_together",
-        "reasoning": "I summed all the pages read over the two weeks."
+        "reasoning": "I added the pages read on Saturday (40) and Sunday (60) to the total from the first week."
       }
     ],
     "final_answer": "305",
     "is_correct": true,
-    "num_steps": 5
+    "num_steps": 4
   },
   {
     "task_uid": "7a72-f8fb-4e26-a257",
@@ -903,7 +933,7 @@
       {
         "step_number": 1,
         "skill_used": "subtract_total_pages_read",
-        "reasoning": "I subtracted the number of pages Emma has read (20) from the total number of pages (50) to find out how many pages are left."
+        "reasoning": "I subtracted the number of pages Emma has read (20) from the total number of pages in the book (50) to find the remaining pages."
       }
     ],
     "final_answer": "30",
@@ -926,7 +956,7 @@
       {
         "step_number": 2,
         "skill_used": "subtract_total_pages_used",
-        "reasoning": "I subtracted the total pages used (60) from the initial total pages (120) to find the remaining pages."
+        "reasoning": "I subtracted the total pages used from the total pages in the notebook: 120 - total pages used."
       }
     ],
     "final_answer": "60",
@@ -944,22 +974,37 @@
       {
         "step_number": 1,
         "skill_used": "multiply_rate_by_time",
-        "reasoning": "I calculated the total pages read during the weekdays by multiplying the number of pages read per day by the number of weekdays (30 pages/day * 5 days)."
+        "reasoning": "I calculated the total pages read during the weekdays by multiplying the daily reading rate (30 pages) by the number of weekdays (5 days). 30 pages/day * 5 days = 150 pages."
       },
       {
         "step_number": 2,
-        "skill_used": "add_multiple_values",
-        "reasoning": "I added the pages read during the weekdays to the pages read on the weekend (total from step 1 + 15 pages for the weekend)."
+        "skill_used": "add_weekend_reading",
+        "reasoning": "I added the pages read on the weekend (15 pages) to the total pages read during the weekdays. 150 pages + 15 pages = 165 pages."
       },
       {
         "step_number": 3,
-        "skill_used": "subtract_from_total",
-        "reasoning": "I subtracted the total pages read from the initial total of 250 pages to find out how many pages are left."
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "I calculated the total pages read over the next 3 weeks (15 weekdays) by multiplying the daily reading rate (30 pages) by the number of weekdays (15 days). 30 pages/day * 15 days = 450 pages."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "add_weekend_reading",
+        "reasoning": "I added the total weekend reading for 3 weeks (3 weekends * 15 pages) to the total pages read during those weeks. 450 pages + (3 * 15 pages) = 450 pages + 45 pages = 495 pages."
+      },
+      {
+        "step_number": 5,
+        "skill_used": "subtract_from_initial_amount",
+        "reasoning": "I subtracted the total pages read (165 pages from the first week + 495 pages from the next 3 weeks) from the initial amount of pages (250 pages). 250 pages - 495 pages = -245 pages."
+      },
+      {
+        "step_number": 6,
+        "skill_used": "subtract_from_initial_amount",
+        "reasoning": "I realized I made a mistake in the previous calculation. I should have calculated the total pages read over 4 weeks correctly. The total pages read in 4 weeks is 165 pages + (3 * 15 pages) = 165 pages + 45 pages = 210 pages. Now, I subtract this from the initial amount. 250 pages - 210 pages = 40 pages."
       }
     ],
-    "final_answer": "70",
-    "is_correct": true,
-    "num_steps": 3
+    "final_answer": "40",
+    "is_correct": false,
+    "num_steps": 6
   },
   {
     "task_uid": "de80-f408-b6ed-ff45",
@@ -971,18 +1016,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_number_of_pages",
-        "reasoning": "I multiplied the number of pages in one book (3) by the number of copies (4)."
-      },
-      {
-        "step_number": 2,
-        "skill_used": "multiply_number_of_copies",
-        "reasoning": "The calculation is 3 pages * 4 copies = 12 pages total."
+        "skill_used": "multiply_copies_by_pages",
+        "reasoning": "I multiplied the number of pages (3) by the number of copies (4) to find the total pages printed."
       }
     ],
     "final_answer": "12",
     "is_correct": true,
-    "num_steps": 2
+    "num_steps": 1
   },
   {
     "task_uid": "9aa4-f31e-da8e-4ec9",
@@ -994,13 +1034,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_pages_per_magazine",
-        "reasoning": "I multiplied the number of pages in one magazine (20) by the number of magazines (5) to find the total pages: 20 * 5 = 100."
+        "skill_used": "multiply_number_of_magazines",
+        "reasoning": "I multiplied the number of magazines (5) by the number of pages in each magazine (20) to find the total pages."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_read_pages_from_total",
-        "reasoning": "I subtracted the total number of pages read from the total pages: 100 - (15 * 5) = 100 - 75 = 25."
+        "skill_used": "subtract_read_pages",
+        "reasoning": "I subtracted the total number of read pages (5 magazines * 15 pages each = 75 pages) from the total pages (100 pages) to find the remaining pages."
       }
     ],
     "final_answer": "25",
@@ -1018,30 +1058,30 @@
       {
         "step_number": 1,
         "skill_used": "multiply_copies_by_classes",
-        "reasoning": "I multiplied the number of copies (8) by the number of classes (5) to find the total number of copies printed."
+        "reasoning": "I calculated the total number of copies by multiplying the number of copies per class (8) by the number of classes (5), resulting in 40 copies."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_pages_by_copies",
-        "reasoning": "I multiplied the total number of copies (40) by the number of pages per textbook (150) to find the total number of pages printed."
+        "reasoning": "I found the total number of pages printed by multiplying the number of pages per textbook (150) by the total number of copies (40), resulting in 6000 pages."
       },
       {
         "step_number": 3,
         "skill_used": "multiply_students_by_classes",
-        "reasoning": "I multiplied the number of students per class (4) by the number of classes (5) to find the total number of students."
+        "reasoning": "I calculated the total number of students by multiplying the number of students per class (4) by the number of classes (5), resulting in 20 students."
       },
       {
         "step_number": 4,
         "skill_used": "multiply_pages_by_students",
-        "reasoning": "I multiplied the total number of students (20) by the number of pages each student reads (10) to find the total number of pages read."
+        "reasoning": "I determined the total number of pages read by multiplying the number of pages read per student (10) by the total number of students (20), resulting in 200 pages read."
       },
       {
         "step_number": 5,
-        "skill_used": "subtract_total_pages_read",
-        "reasoning": "I subtracted the total number of pages read (200) from the total number of pages printed (600) to find the number of unread pages."
+        "skill_used": "subtract_read_pages_from_total",
+        "reasoning": "I calculated the number of pages that remain un-read by subtracting the total pages read (200) from the total pages printed (6000), resulting in 5800 pages un-read."
       }
     ],
-    "final_answer": "400",
+    "final_answer": "5800",
     "is_correct": false,
     "num_steps": 5
   },
@@ -1055,8 +1095,8 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_pages_per_day_by_days",
-        "reasoning": "I multiplied the number of pages Emma reads each day (5 pages) by the number of days (4 days) to find the total pages read."
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "I multiplied the number of pages Emma reads per day (5 pages) by the number of days (4 days) to find the total pages read."
       }
     ],
     "final_answer": "20",
@@ -1078,12 +1118,12 @@
       },
       {
         "step_number": 2,
-        "skill_used": "divide_remaining_by_days",
-        "reasoning": "I divided the remaining pages (90) by the number of days left (10) to find out how many pages he needs to read each day."
+        "skill_used": "divide_total_by_days",
+        "reasoning": "I divided the remaining pages (90) by the number of days left (9) to find out how many pages he needs to read each day."
       }
     ],
-    "final_answer": "9",
-    "is_correct": true,
+    "final_answer": "10",
+    "is_correct": false,
     "num_steps": 2
   },
   {
@@ -1097,21 +1137,21 @@
       {
         "step_number": 1,
         "skill_used": "calculate_total_pages_read",
-        "reasoning": "I added the pages read in the first week (50) and the second week (70) to find the total pages read so far."
+        "reasoning": "Sofia reads 50 pages in the first week and 70 pages in the second week, so I add these to find the total pages read."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_from_goal",
-        "reasoning": "I subtracted the total pages read (120) from the goal (300) to find out how many pages are left."
+        "skill_used": "subtract_from_goal_pages",
+        "reasoning": "I subtract the total pages read from the goal of 300 pages to find out how many pages are left."
       },
       {
         "step_number": 3,
-        "skill_used": "divide_remaining_pages",
-        "reasoning": "I divided the remaining pages (180) by the number of remaining days (10) to find the daily reading goal."
+        "skill_used": "divide_remaining_pages_by_days",
+        "reasoning": "I divide the remaining pages by the number of days left (15 days - 14 days = 1 day) to find out how many pages she needs to read each day."
       }
     ],
-    "final_answer": "18",
-    "is_correct": false,
+    "final_answer": "12",
+    "is_correct": true,
     "num_steps": 3
   },
   {
@@ -1125,7 +1165,7 @@
       {
         "step_number": 1,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the number of pages written on Monday (10) to the number of pages written on Tuesday (5) to find the total."
+        "reasoning": "I added the number of pages Sarah wrote on Monday (10) to the number of pages she wrote on Tuesday (5) to find the total."
       }
     ],
     "final_answer": "15",
@@ -1142,28 +1182,23 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_pages_written_first_week",
-        "reasoning": "I noted that Tom wrote 20 pages in the first week."
+        "skill_used": "sum_previous_pages",
+        "reasoning": "I added the pages written in the first two weeks: 20 + 15 = 35 pages."
       },
       {
         "step_number": 2,
-        "skill_used": "add_pages_written_second_week",
-        "reasoning": "I added the 15 pages he wrote in the second week to the 20 pages from the first week, giving me 35 pages."
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "I calculated the pages planned to be written in the next three weeks: 10 pages/week * 3 weeks = 30 pages."
       },
       {
         "step_number": 3,
-        "skill_used": "multiply_pages_per_week",
-        "reasoning": "I calculated the pages he will write in the next 3 weeks by multiplying 10 pages per week by 3 weeks, resulting in 30 pages."
-      },
-      {
-        "step_number": 4,
-        "skill_used": "add_total_pages_written",
-        "reasoning": "I added the 35 pages already written to the 30 pages he will write in the next 3 weeks, resulting in a total of 65 pages."
+        "skill_used": "add_weekly_page_totals",
+        "reasoning": "I combined the total pages written so far with the planned pages: 35 + 30 = 65 pages."
       }
     ],
     "final_answer": "65",
     "is_correct": false,
-    "num_steps": 4
+    "num_steps": 3
   },
   {
     "task_uid": "11f9-d67c-465b-4af1",
@@ -1186,7 +1221,7 @@
       {
         "step_number": 3,
         "skill_used": "add_numbers_together",
-        "reasoning": "I summed the total pages from the first 3 days and the next 4 days."
+        "reasoning": "I added the total pages from the first three days to the total pages planned for the next four days."
       }
     ],
     "final_answer": "82",
@@ -1221,12 +1256,12 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "divide_weeks_by_weeks_per_year",
-        "reasoning": "I divided the total weeks (90) by the number of weeks in a year (approximately 52) to find the equivalent in years."
+        "skill_used": "convert_weeks_to_years",
+        "reasoning": "I divided the total weeks (90) by the number of weeks in a year (52) to find the equivalent in years."
       }
     ],
     "final_answer": "1.7307692307692308",
-    "is_correct": true,
+    "is_correct": false,
     "num_steps": 1
   },
   {
@@ -1239,23 +1274,23 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_time_periods",
-        "reasoning": "I added the initial 104 weeks of training to the additional 78 weeks to find the total training weeks."
+        "skill_used": "add_weeks_to_weeks",
+        "reasoning": "I added the initial training weeks (104) to the additional training weeks (78) to find the total training weeks."
       },
       {
         "step_number": 2,
         "skill_used": "convert_weeks_to_years",
-        "reasoning": "I converted the total weeks (182 weeks) into years by dividing by 52 weeks per year."
+        "reasoning": "I converted the total training weeks (182) into years by dividing by 52 weeks per year."
       },
       {
         "step_number": 3,
-        "skill_used": "subtract_time_periods",
-        "reasoning": "I subtracted the 26 weeks break from the total weeks before converting to years."
+        "skill_used": "subtract_weeks_from_weeks",
+        "reasoning": "I subtracted the break weeks (26) from the total training weeks (182) to find the adjusted total training weeks."
       },
       {
         "step_number": 4,
         "skill_used": "convert_weeks_to_years",
-        "reasoning": "I converted the adjusted total weeks (156 weeks) into years by dividing by 52 weeks per year."
+        "reasoning": "I converted the adjusted total training weeks (156) into years by dividing by 52 weeks per year."
       }
     ],
     "final_answer": "3",
@@ -1273,7 +1308,7 @@
       {
         "step_number": 1,
         "skill_used": "count_repetitions_in_sequence",
-        "reasoning": "I identified that Sarah writes her name 'Sarah' on 3 pieces of paper, which means she writes it 3 times."
+        "reasoning": "I counted the number of pieces of paper Sarah is using, which is 3."
       }
     ],
     "final_answer": "3",
@@ -1290,7 +1325,7 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_quantity_by_unit",
+        "skill_used": "multiply_number_of_items",
         "reasoning": "I multiplied the number of bracelets (5) by the number of beads per bracelet (6) to find the total number of beads used."
       }
     ],
@@ -1308,23 +1343,28 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_students_by_drafts",
-        "reasoning": "I multiplied the number of students (12) by the number of drafts each student writes (3) to find the total number of drafts."
+        "skill_used": "multiply_drafts_per_student",
+        "reasoning": "Each student writes 3 drafts, so for 12 students, we calculate 12 * 3."
       },
       {
         "step_number": 2,
-        "skill_used": "multiply_sections_by_drafts",
-        "reasoning": "I calculated the total number of sections written by multiplying the total drafts (36) by the number of sections (3)."
+        "skill_used": "multiply_sections_per_draft",
+        "reasoning": "Each draft contains 3 sections (Introduction, Conflict, Resolution), so we calculate 3 drafts * 3 sections."
       },
       {
         "step_number": 3,
-        "skill_used": "calculate_total_writing",
-        "reasoning": "I confirmed the total number of times the sections are written, which is 108."
+        "skill_used": "multiply_number_of_students",
+        "reasoning": "Now we multiply the total drafts (12 * 3) by the number of sections (3)."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "add_section_counts",
+        "reasoning": "We add the total sections written by all students to get the final count."
       }
     ],
     "final_answer": "108",
     "is_correct": true,
-    "num_steps": 3
+    "num_steps": 4
   },
   {
     "task_uid": "7ccf-71b1-c139-4871",
@@ -1337,12 +1377,12 @@
       {
         "step_number": 1,
         "skill_used": "calculate_percentage_increase",
-        "reasoning": "I calculated 10% of the original price of $20, which is $2."
+        "reasoning": "I calculated 10% of the original price ($20), which is $2."
       },
       {
         "step_number": 2,
         "skill_used": "add_value_to_original_price",
-        "reasoning": "I added the increase of $2 to the original price of $20 to find the new price."
+        "reasoning": "I added the increase ($2) to the original price ($20) to find the new price."
       }
     ],
     "final_answer": "22",
@@ -1360,27 +1400,32 @@
       {
         "step_number": 1,
         "skill_used": "calculate_percentage_increase",
-        "reasoning": "First, I calculated the 20% increase on the original price of $15."
+        "reasoning": "I calculated the first increase of 20% on the original price of $15."
       },
       {
         "step_number": 2,
-        "skill_used": "add_amount_to_original",
-        "reasoning": "Next, I added the 20% increase to the original price to find the new price."
+        "skill_used": "apply_percentage_to_amount",
+        "reasoning": "I found that 20% of $15 is $3, so the new price after the first increase is $15 + $3 = $18."
       },
       {
         "step_number": 3,
         "skill_used": "calculate_percentage_increase",
-        "reasoning": "Then, I calculated the 10% increase on the new price."
+        "reasoning": "I calculated the second increase of 10% on the new price of $18."
       },
       {
         "step_number": 4,
-        "skill_used": "add_amount_to_original",
-        "reasoning": "Finally, I added the 10% increase to the new price to find the final price."
+        "skill_used": "apply_percentage_to_amount",
+        "reasoning": "I found that 10% of $18 is $1.80, so the final price after the second increase is $18 + $1.80 = $19.80."
+      },
+      {
+        "step_number": 5,
+        "skill_used": "add_amounts_together",
+        "reasoning": "I added the amounts together to find the final price of the book."
       }
     ],
-    "final_answer": "18",
-    "is_correct": true,
-    "num_steps": 4
+    "final_answer": "19.80",
+    "is_correct": false,
+    "num_steps": 5
   },
   {
     "task_uid": "a124-ae97-ee09-351d",
@@ -1393,17 +1438,17 @@
       {
         "step_number": 1,
         "skill_used": "calculate_percentage_increase",
-        "reasoning": "I calculated the first year's price increase by finding 15% of $200 and adding it to the original price."
+        "reasoning": "First, I calculated the price after the first year's increase of 15%."
       },
       {
         "step_number": 2,
         "skill_used": "calculate_percentage_increase",
-        "reasoning": "I calculated the second year's price increase by finding 25% of the new price after the first increase and adding it to that price."
+        "reasoning": "Next, I calculated the price after the second year's increase of 25%."
       },
       {
         "step_number": 3,
         "skill_used": "apply_discount_percentage",
-        "reasoning": "I calculated the final price after the discount by finding 10% of the final price and subtracting it from that price."
+        "reasoning": "Finally, I applied the 10% discount to the final price to find out how much I would pay."
       }
     ],
     "final_answer": "292.5",
@@ -1420,18 +1465,23 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_fraction_by_fraction",
-        "reasoning": "I calculated the amount of chocolate Lily eats by multiplying 1/2 (the amount she has) by 1/4 (the portion she eats). This gives us the amount eaten."
+        "skill_used": "subtract_fractions_with_common_denominators",
+        "reasoning": "Lily starts with 1/2 of the chocolate bar and eats 1/4 of it. To find out how much she has left, I need to subtract 1/4 from 1/2."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_fractions_from_whole",
-        "reasoning": "I subtracted the amount eaten (1/8) from the amount she originally had (1/2) to find out how much is left."
+        "skill_used": "subtract_fractions_with_common_denominators",
+        "reasoning": "To perform the subtraction, I convert 1/2 to a fraction with a common denominator of 4, which is 2/4. Then I subtract 1/4 from 2/4."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "subtract_fractions_with_common_denominators",
+        "reasoning": "Now, I calculate 2/4 - 1/4 = 1/4, which is the amount of chocolate Lily has left."
       }
     ],
     "final_answer": "1/4",
     "is_correct": true,
-    "num_steps": 2
+    "num_steps": 3
   },
   {
     "task_uid": "7963-bc11-34c7-3202",
@@ -1444,7 +1494,7 @@
       {
         "step_number": 1,
         "skill_used": "add_fractions_together",
-        "reasoning": "I added the fractions of pizza eaten by Tom (3/8) and his friend (2/8) to find the total amount eaten."
+        "reasoning": "I added the fractions of the pizza eaten by Tom (3/8) and his friend (2/8) to find the total amount eaten."
       },
       {
         "step_number": 2,
@@ -1467,17 +1517,17 @@
       {
         "step_number": 1,
         "skill_used": "divide_fraction_by_integer",
-        "reasoning": "I divided 3/4 cup of sugar by 2 servings to find the amount needed for 1 serving."
+        "reasoning": "I divided 3/4 cup of sugar by 2 to find the amount needed for 1 serving."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_fraction_by_integer",
-        "reasoning": "I multiplied the amount of sugar needed for 1 serving by 6 to find the total sugar needed for 6 servings."
+        "reasoning": "I multiplied the sugar needed for 1 serving by 6 to find the total sugar for 6 servings."
       },
       {
         "step_number": 3,
         "skill_used": "subtract_fraction_from_integer",
-        "reasoning": "I compared the total sugar needed with the amount Sarah has (2 cups) to see if she needs more."
+        "reasoning": "I subtracted the amount of sugar Sarah has (2 cups) from the total needed to see if she has enough."
       }
     ],
     "final_answer": "1/2",
@@ -1494,8 +1544,8 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_numbers_together",
-        "reasoning": "I added the 4 apples Sophie already has to the 3 apples she buys, resulting in 7 apples."
+        "skill_used": "add_two_numbers",
+        "reasoning": "I added the 4 apples Sophie already has to the 3 apples she buys."
       }
     ],
     "final_answer": "7",
@@ -1512,13 +1562,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "subtract_marbles_given_away",
-        "reasoning": "I subtracted the 3 marbles that Tom gave to his friend from the original 10 marbles."
+        "skill_used": "subtract_from_total_amount",
+        "reasoning": "I subtracted 3 marbles from Tom's initial 10 marbles to find out how many he has after giving some away."
       },
       {
         "step_number": 2,
-        "skill_used": "add_marbles_found",
-        "reasoning": "I added the 5 marbles that Tom found to the remaining marbles after giving some away."
+        "skill_used": "add_to_total_amount",
+        "reasoning": "I added 5 marbles to the result from the previous step to find out how many marbles Tom has after finding more."
       }
     ],
     "final_answer": "12",
@@ -1536,27 +1586,22 @@
       {
         "step_number": 1,
         "skill_used": "calculate_total_cost_of_items",
-        "reasoning": "Emma buys 5 pencils at $2 each and 3 erasers at $1 each. The total cost is (5 * 2) + (3 * 1) = 10 + 3 = 13."
+        "reasoning": "Emma buys 5 pencils at $2 each and 3 erasers at $1 each. Total cost = (5 * 2) + (3 * 1) = 10 + 3 = 13."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_returned_items_cost",
-        "reasoning": "Emma returns 2 pencils, which cost $2 each. The cost to subtract is 2 * 2 = 4. So, the new total is 13 - 4 = 9."
+        "skill_used": "subtract_items_returned",
+        "reasoning": "Emma returns 2 pencils. The cost of the returned pencils = 2 * 2 = 4. New total = 13 - 4 = 9."
       },
       {
         "step_number": 3,
-        "skill_used": "add_new_item_cost",
-        "reasoning": "Emma buys 1 more eraser for $1. Adding this cost gives 9 + 1 = 10."
-      },
-      {
-        "step_number": 4,
-        "skill_used": "perform_final_total_calculation",
-        "reasoning": "The final total amount spent by Emma is 10."
+        "skill_used": "add_items_purchased",
+        "reasoning": "Emma buys 1 more eraser for $1. New total = 9 + 1 = 10."
       }
     ],
     "final_answer": "10",
     "is_correct": false,
-    "num_steps": 4
+    "num_steps": 3
   },
   {
     "task_uid": "dc62-b1a6-1793-60e1",
@@ -1568,18 +1613,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "identify_initial_quantity",
-        "reasoning": "I identified that Emma starts with 3 apples."
-      },
-      {
-        "step_number": 2,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the 2 apples Emma bought to the 3 apples she already had."
+        "reasoning": "I added the initial 3 apples Emma has to the 2 apples she bought, resulting in a total of 5 apples."
       }
     ],
     "final_answer": "5",
     "is_correct": true,
-    "num_steps": 2
+    "num_steps": 1
   },
   {
     "task_uid": "1ce7-29de-ce03-46ef",
@@ -1592,12 +1632,12 @@
       {
         "step_number": 1,
         "skill_used": "subtract_from_total_amount",
-        "reasoning": "I started with 5 toy cars and subtracted the 2 cars Tom gave to his friend, resulting in 3 cars."
+        "reasoning": "Tom starts with 5 toy cars and gives away 2, so I subtract 2 from 5."
       },
       {
         "step_number": 2,
         "skill_used": "add_to_total_amount",
-        "reasoning": "I then added the 4 cars Tom bought back to the 3 cars he had left, resulting in a total of 7 cars."
+        "reasoning": "After giving away the cars, Tom has 3 left. Then, I add the 4 cars he buys to this amount."
       }
     ],
     "final_answer": "7",
@@ -1614,18 +1654,18 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_students_to_total",
-        "reasoning": "I added the 5 new students to the original 20 students to find the total number of students."
+        "skill_used": "calculate_total_students",
+        "reasoning": "Initially, there are 20 students, and 5 more join, making the total 25."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_students_by_cost",
-        "reasoning": "I multiplied the total number of students (25) by the cost per student ($10) to find the total cost."
+        "reasoning": "I multiply the total number of students (25) by the cost per student ($10) to find the total cost."
       },
       {
         "step_number": 3,
         "skill_used": "subtract_collected_from_total",
-        "reasoning": "I subtracted the already collected amount ($150) from the total cost to find out how much more money is needed."
+        "reasoning": "I subtract the amount already collected ($150) from the total cost to find out how much more is needed."
       }
     ],
     "final_answer": "50",
@@ -1642,18 +1682,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "count_slices_per_pizza",
-        "reasoning": "Identified that one pizza has 8 slices."
-      },
-      {
-        "step_number": 2,
         "skill_used": "multiply_number_of_pizzas",
-        "reasoning": "Multiplied the number of pizzas (2) by the number of slices per pizza (8) to find the total slices."
+        "reasoning": "I multiplied the number of pizzas (2) by the number of slices in each pizza (8) to find the total number of slices."
       }
     ],
     "final_answer": "16",
     "is_correct": true,
-    "num_steps": 2
+    "num_steps": 1
   },
   {
     "task_uid": "3144-090d-e439-cf97",
@@ -1665,13 +1700,13 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "calculate_total_slices",
-        "reasoning": "I calculated the total number of slices by multiplying the number of pizzas (3) by the number of slices per pizza (8)."
+        "skill_used": "multiply_number_of_pizzas",
+        "reasoning": "I multiplied the number of pizzas (3) by the number of slices per pizza (8) to find the total number of slices."
       },
       {
         "step_number": 2,
         "skill_used": "subtract_eaten_slices",
-        "reasoning": "I subtracted the number of slices eaten (10) from the total number of slices (24) to find out how many slices are left."
+        "reasoning": "I subtracted the number of eaten slices (10) from the total number of slices (24) to find the remaining slices."
       }
     ],
     "final_answer": "14",
@@ -1689,17 +1724,17 @@
       {
         "step_number": 1,
         "skill_used": "calculate_total_slices",
-        "reasoning": "I calculated the total number of slices by multiplying the number of pizzas by the number of slices per pizza: 5 pizzas * 10 slices = 50 slices."
+        "reasoning": "I multiplied the number of pizzas by the number of slices per pizza to find the total slices: 5 pizzas * 10 slices = 50 slices."
       },
       {
         "step_number": 2,
         "skill_used": "subtract_eaten_slices",
-        "reasoning": "I calculated the total number of slices eaten by multiplying the number of friends (4) by the number of slices each eats (2): 4 friends * 2 slices = 8 slices. Then I subtracted this from the total: 50 slices - 8 slices = 42 slices."
+        "reasoning": "I calculated the total number of slices eaten by the friends: 4 friends * 2 slices each = 8 slices. Then I subtracted this from the total: 50 slices - 8 slices = 42 slices."
       },
       {
         "step_number": 3,
-        "skill_used": "subtract_saved_slices",
-        "reasoning": "I subtracted the number of slices saved for later (3) from the remaining slices: 42 slices - 3 slices = 39 slices."
+        "skill_used": "subtract_slices_saved",
+        "reasoning": "I subtracted the slices I want to save from the remaining slices: 42 slices - 3 slices saved = 39 slices."
       }
     ],
     "final_answer": "39",
@@ -1716,8 +1751,8 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_cost_per_item",
-        "reasoning": "I multiplied the cost of one apple ($2) by the number of apples (3) to find the total cost."
+        "skill_used": "multiply_cost_by_quantity",
+        "reasoning": "I multiplied the cost of one apple ($2) by the number of apples (3) to find the total spending."
       }
     ],
     "final_answer": "6",
@@ -1739,8 +1774,8 @@
       },
       {
         "step_number": 2,
-        "skill_used": "calculate_total_cost",
-        "reasoning": "I multiplied the total number of balloons (40) by the cost per balloon ($1) to find the total cost."
+        "skill_used": "multiply_balloons_per_pack",
+        "reasoning": "I multiplied the total number of balloons (40) by the cost per balloon ($1) to find the total spending."
       }
     ],
     "final_answer": "40",
@@ -1758,17 +1793,17 @@
       {
         "step_number": 1,
         "skill_used": "multiply_number_of_classes",
-        "reasoning": "I multiplied the number of classes (4) by the number of students per class (25) to find the total number of students: 4 * 25 = 100."
+        "reasoning": "I multiplied the number of classes (4) by the number of students per class (25) to find the total number of students, which is 100."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_students_per_class",
-        "reasoning": "I multiplied the total number of students (100) by the cost per ticket ($10) to find the total ticket cost: 100 * 10 = 1000."
+        "reasoning": "I multiplied the total number of students (100) by the cost per ticket ($10) to find the total ticket cost, which is $1000."
       },
       {
         "step_number": 3,
-        "skill_used": "add_total_costs",
-        "reasoning": "I added the total ticket cost ($1000) to the bus rental cost ($150) to find the total cost: 1000 + 150 = 1150."
+        "skill_used": "add_total_ticket_cost",
+        "reasoning": "I added the total ticket cost ($1000) to the bus rental cost ($150) to find the total cost, which is $1150."
       }
     ],
     "final_answer": "1150",
@@ -1786,7 +1821,7 @@
       {
         "step_number": 1,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the number of apples Mia originally had (3) to the number of apples her friend gave her (2)."
+        "reasoning": "I added the 3 apples Mia already has to the 2 apples her friend gave her."
       }
     ],
     "final_answer": "5",
@@ -1822,27 +1857,27 @@
       {
         "step_number": 1,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the number of cupcakes sold each day: 24 (Monday) + 18 (Tuesday) + 30 (Wednesday) + 22 (Thursday) + 15 (Friday)."
+        "reasoning": "I added the number of cupcakes sold each day: 24 + 18 + 30 + 22 + 15."
       },
       {
         "step_number": 2,
         "skill_used": "add_numbers_together",
-        "reasoning": "I calculated the sum: 24 + 18 = 42."
+        "reasoning": "I calculated the sum step by step: 24 + 18 = 42."
       },
       {
         "step_number": 3,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added Wednesday's sales: 42 + 30 = 72."
+        "reasoning": "Then I added Wednesday's sales: 42 + 30 = 72."
       },
       {
         "step_number": 4,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added Thursday's sales: 72 + 22 = 94."
+        "reasoning": "Next, I added Thursday's sales: 72 + 22 = 94."
       },
       {
         "step_number": 5,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added Friday's sales: 94 + 15 = 109."
+        "reasoning": "Finally, I added Friday's sales: 94 + 15 = 109."
       }
     ],
     "final_answer": "109",
@@ -1859,13 +1894,18 @@
     "steps": [
       {
         "step_number": 1,
+        "skill_used": "identify_initial_amount",
+        "reasoning": "I identified that Tom initially has 3 apples."
+      },
+      {
+        "step_number": 2,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the 3 apples Tom has to the 2 apples he buys, resulting in a total of 5 apples."
+        "reasoning": "I added the 2 apples Tom bought to the 3 apples he already had, resulting in a total of 5 apples."
       }
     ],
     "final_answer": "5",
     "is_correct": true,
-    "num_steps": 1
+    "num_steps": 2
   },
   {
     "task_uid": "68c8-cae4-a928-067e",
@@ -1877,23 +1917,18 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "count_fruits_initially",
-        "reasoning": "Lily has 4 bananas, 3 oranges, and 2 apples, so the total is 4 + 3 + 2 = 9."
+        "skill_used": "add_fruit_quantities",
+        "reasoning": "I first calculated the total number of pieces of fruit by adding the quantities of bananas, oranges, and apples."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_used_fruits",
-        "reasoning": "She uses 1 banana and 1 orange, so we subtract 1 from the bananas and 1 from the oranges: 4 - 1 = 3 bananas and 3 - 1 = 2 oranges."
-      },
-      {
-        "step_number": 3,
-        "skill_used": "calculate_remaining_fruits",
-        "reasoning": "Now we add the remaining fruits: 3 bananas + 2 oranges + 2 apples = 7."
+        "skill_used": "subtract_fruit_from_total",
+        "reasoning": "Next, I subtracted the number of fruits used (1 banana and 1 orange) from the total calculated in the previous step."
       }
     ],
-    "final_answer": "7",
-    "is_correct": false,
-    "num_steps": 3
+    "final_answer": "8",
+    "is_correct": true,
+    "num_steps": 2
   },
   {
     "task_uid": "18e6-6555-9ca3-a256",
@@ -1906,7 +1941,7 @@
       {
         "step_number": 1,
         "skill_used": "add_students_and_chaperones",
-        "reasoning": "I added the number of students (120) and chaperones (15) to find the total number of people initially."
+        "reasoning": "I added the number of students (120) and chaperones (15) to find the total number of people initially going on the trip."
       },
       {
         "step_number": 2,
@@ -1915,23 +1950,18 @@
       },
       {
         "step_number": 3,
-        "skill_used": "add_chaperones_needed",
-        "reasoning": "I added the 2 additional chaperones to the original number of chaperones (15) to find the new total."
+        "skill_used": "add_chaperones_for_total",
+        "reasoning": "I added 2 more chaperones to the initial number of chaperones (15) to find the new total of chaperones."
       },
       {
         "step_number": 4,
-        "skill_used": "add_students_and_chaperones",
-        "reasoning": "I added the new total of chaperones (17) to the number of students (120) to find the updated total number of people."
-      },
-      {
-        "step_number": 5,
-        "skill_used": "divide_total_people_by_capacity",
-        "reasoning": "I divided the new total number of people (137) by the bus capacity (10) to find out how many buses are needed."
+        "skill_used": "calculate_total_people",
+        "reasoning": "I calculated the new total number of people going on the trip by adding the updated number of chaperones (17) to the number of students (120)."
       }
     ],
     "final_answer": "14",
     "is_correct": true,
-    "num_steps": 5
+    "num_steps": 4
   },
   {
     "task_uid": "7d67-c7ca-7466-5e56",
@@ -1943,8 +1973,8 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "multiply_bag_weight_by_quantity",
-        "reasoning": "I multiplied the weight of one bag of apples (3 pounds) by the number of bags (2) to find the total weight."
+        "skill_used": "multiply_quantity_by_weight",
+        "reasoning": "I multiplied the number of bags (2) by the weight of each bag (3 pounds) to find the total weight."
       }
     ],
     "final_answer": "6",
@@ -1962,21 +1992,21 @@
       {
         "step_number": 1,
         "skill_used": "multiply_number_by_weight",
-        "reasoning": "I multiplied the number of initial books (5) by their weight (1.5 pounds) to find the total weight of the first set of books."
+        "reasoning": "I multiplied the number of the first set of books (5) by their weight (1.5 pounds) to find the total weight of these books."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_number_by_weight",
-        "reasoning": "I multiplied the number of additional books (2) by their weight (2 pounds) to find the total weight of the additional books."
+        "reasoning": "I multiplied the number of the additional books (2) by their weight (2 pounds) to find the total weight of these books."
       },
       {
         "step_number": 3,
         "skill_used": "add_multiple_values",
-        "reasoning": "I added the total weight of the first set of books and the total weight of the additional books to find the overall weight."
+        "reasoning": "I added the total weights of the first set of books (7.5 pounds) and the additional books (4 pounds) to find the overall weight."
       }
     ],
-    "final_answer": "13",
-    "is_correct": true,
+    "final_answer": "11.5",
+    "is_correct": false,
     "num_steps": 3
   },
   {
@@ -1990,22 +2020,22 @@
       {
         "step_number": 1,
         "skill_used": "multiply_pallets_by_weight",
-        "reasoning": "I multiplied the number of pallets (3) by the weight of each pallet (50 pounds) to find the total weight of the pallets."
+        "reasoning": "I calculated the total weight of the pallets by multiplying the number of pallets (3) by the weight of each pallet (50 pounds)."
       },
       {
         "step_number": 2,
         "skill_used": "multiply_boxes_by_weight",
-        "reasoning": "I calculated the total weight of the boxes by multiplying the number of boxes per pallet (4) by the number of pallets (3) and then by the weight of each box (5 pounds)."
+        "reasoning": "I calculated the total weight of the boxes by multiplying the number of pallets (3) by the number of boxes per pallet (4) and then by the weight of each box (5 pounds)."
       },
       {
         "step_number": 3,
         "skill_used": "multiply_bags_by_weight",
-        "reasoning": "I multiplied the number of bags of sugar (10) by the weight of each bag (2 pounds) to find the total weight of the sugar."
+        "reasoning": "I calculated the total weight of the bags of sugar by multiplying the number of bags (10) by the weight of each bag (2 pounds)."
       },
       {
         "step_number": 4,
-        "skill_used": "add_multiple_weights",
-        "reasoning": "I added the total weights from the pallets, boxes, and bags together to get the final total weight of the shipment."
+        "skill_used": "add_multiple_values",
+        "reasoning": "I added the total weights from the pallets, boxes, and bags to find the overall weight of the shipment."
       }
     ],
     "final_answer": "206",
@@ -2022,13 +2052,18 @@
     "steps": [
       {
         "step_number": 1,
+        "skill_used": "identify_initial_weight",
+        "reasoning": "I identified Lily's initial weight, which is 50 pounds."
+      },
+      {
+        "step_number": 2,
         "skill_used": "subtract_weight_loss_from_initial",
-        "reasoning": "I subtracted the weight lost (2 pounds) from the initial weight (50 pounds) to find the current weight."
+        "reasoning": "I subtracted the weight she lost (2 pounds) from her initial weight (50 pounds) to find her current weight."
       }
     ],
     "final_answer": "48",
     "is_correct": true,
-    "num_steps": 1
+    "num_steps": 2
   },
   {
     "task_uid": "3f57-b8f1-8786-2f14",
@@ -2040,18 +2075,18 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "subtract_weight_loss_first_week",
-        "reasoning": "I subtracted 5 pounds from Tom's initial weight of 160 pounds, resulting in 155 pounds."
+        "skill_used": "subtract_weight_lost_first_week",
+        "reasoning": "I subtracted the 5 pounds Tom lost in the first week from his starting weight of 160 pounds, resulting in 155 pounds."
       },
       {
         "step_number": 2,
-        "skill_used": "add_weight_gain_second_week",
-        "reasoning": "I added 3 pounds to the weight after the first week (155 pounds), resulting in 158 pounds."
+        "skill_used": "add_weight_gained_second_week",
+        "reasoning": "I added the 3 pounds Tom gained in the second week to his weight after the first week, resulting in 158 pounds."
       },
       {
         "step_number": 3,
         "skill_used": "calculate_final_weight",
-        "reasoning": "I confirmed that the final weight after both changes is 158 pounds."
+        "reasoning": "I confirmed the final weight after both operations, which is 158 pounds."
       }
     ],
     "final_answer": "158",
@@ -2068,23 +2103,28 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "add_weight_changes",
-        "reasoning": "I calculated the total weight changes by summing the weekly changes: -4 + 2 - 3 + 1."
+        "skill_used": "calculate_weight_change",
+        "reasoning": "First, I will calculate the total weight change over the 4 weeks: -4 + 2 - 3 + 1."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_weight_changes",
-        "reasoning": "I subtracted the total weight changes from Sarah's initial weight of 135 pounds."
+        "skill_used": "add_and_subtract_weights",
+        "reasoning": "Now, I will perform the calculations: -4 + 2 = -2, then -2 - 3 = -5, and finally -5 + 1 = -4."
       },
       {
         "step_number": 3,
-        "skill_used": "apply_weight_loss_plan",
-        "reasoning": "I subtracted the additional planned weight loss of 5 pounds from Sarah's current weight."
+        "skill_used": "add_and_subtract_weights",
+        "reasoning": "Next, I will subtract the total weight change from Sarah's initial weight: 135 - 4."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "add_and_subtract_weights",
+        "reasoning": "Finally, I will calculate her weight after losing 5 more pounds: 131 - 5."
       }
     ],
     "final_answer": "126",
     "is_correct": true,
-    "num_steps": 3
+    "num_steps": 4
   },
   {
     "task_uid": "67b5-d25c-ac41-c7bd",
@@ -2097,7 +2137,7 @@
       {
         "step_number": 1,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the initial 3 apples to the 2 apples bought, resulting in a total of 5 apples."
+        "reasoning": "I added the initial 3 apples to the 2 apples bought to find the total."
       }
     ],
     "final_answer": "5",
@@ -2115,12 +2155,12 @@
       {
         "step_number": 1,
         "skill_used": "multiply_rows_by_columns",
-        "reasoning": "I multiplied the number of rows (4) by the number of chocolates in each row (6) to find the total number of chocolates: 4 * 6 = 24."
+        "reasoning": "I multiplied the number of rows (4) by the number of chocolates in each row (6) to find the total number of chocolates."
       },
       {
         "step_number": 2,
         "skill_used": "subtract_from_total",
-        "reasoning": "I subtracted the number of chocolates eaten (5) from the total number of chocolates (24) to find how many are left: 24 - 5 = 19."
+        "reasoning": "I subtracted the number of chocolates eaten (5) from the total number of chocolates (24) to find out how many are left."
       }
     ],
     "final_answer": "19",
@@ -2138,22 +2178,27 @@
       {
         "step_number": 1,
         "skill_used": "multiply_packs_by_stickers",
-        "reasoning": "Liam has 5 packs with 8 stickers each, so I multiply 5 by 8 to find the total stickers."
+        "reasoning": "Liam has 5 packs, each with 8 stickers, so I multiply 5 by 8 to find the total stickers."
       },
       {
         "step_number": 2,
-        "skill_used": "subtract_stickers_given_away",
-        "reasoning": "Liam gives away 10 stickers, so I subtract 10 from the total found in step 1."
+        "skill_used": "subtract_stickers_given",
+        "reasoning": "Liam gives away 10 stickers, so I subtract 10 from the total stickers calculated in step 1."
       },
       {
         "step_number": 3,
-        "skill_used": "add_stickers_after_purchase",
-        "reasoning": "Liam buys 3 more packs, so I calculate the stickers in these packs and add them to the total from step 2."
+        "skill_used": "add_stickers_bought",
+        "reasoning": "Liam buys 3 more packs of stickers, so I multiply 3 by 8 and add that to the total from step 2."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "combine_total_stickers",
+        "reasoning": "I combine the results from step 2 and step 3 to find the final total of stickers Liam has."
       }
     ],
     "final_answer": "34",
     "is_correct": true,
-    "num_steps": 3
+    "num_steps": 4
   },
   {
     "task_uid": "78f8-75c9-5f7b-c3f6",
@@ -2166,7 +2211,7 @@
       {
         "step_number": 1,
         "skill_used": "add_numbers_together",
-        "reasoning": "I added the 5 apples Lily already has to the 3 apples she buys to find the total."
+        "reasoning": "I added the number of apples Lily originally had (5) to the number of apples she bought (3)."
       }
     ],
     "final_answer": "8",
@@ -2183,17 +2228,588 @@
     "steps": [
       {
         "step_number": 1,
-        "skill_used": "subtract_from_initial_amount",
-        "reasoning": "I subtracted the 4 marbles Tom gave away from his initial 12 marbles, resulting in 8 marbles."
+        "skill_used": "subtract_from_initial_quantity",
+        "reasoning": "I subtracted the 4 marbles Tom gave to his friend from his initial 12 marbles."
       },
       {
         "step_number": 2,
-        "skill_used": "add_to_current_amount",
-        "reasoning": "I added the 6 marbles Tom found to the 8 marbles he had after giving some away, resulting in 14 marbles."
+        "skill_used": "add_to_current_quantity",
+        "reasoning": "I added the 6 marbles Tom found to the remaining number of marbles after giving some away."
       }
     ],
     "final_answer": "14",
     "is_correct": true,
     "num_steps": 2
+  },
+  {
+    "task_uid": "0bb2-e9ca-1770-fa1d",
+    "skill_uid": "b2df-3cae-0473-6363",
+    "skill_name": "interpret_problem_statement_correctly",
+    "difficulty": "hard",
+    "problem": "A school is organizing a field trip. They have 60 students and need to divide them into groups of 5. After forming the groups, 3 students decide not to go. How many groups will there be, and how many students will be left?",
+    "correct_answer": "12 groups, 57 students",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "divide_total_students_by_group_size",
+        "reasoning": "I divided the total number of students (60) by the group size (5) to find out how many groups can be formed."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "subtract_students_not_going",
+        "reasoning": "I subtracted the number of students who decided not to go (3) from the total number of students (60) to find the remaining students."
+      }
+    ],
+    "final_answer": "12 groups, 57 students",
+    "is_correct": true,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "3e6f-2973-003c-9fc9",
+    "skill_uid": "4e33-1e12-c5ac-7afa",
+    "skill_name": "apply_budgeting_concepts",
+    "difficulty": "easy",
+    "problem": "Samantha has $20 to spend on snacks. She buys a bag of chips for $3. How much money does she have left?",
+    "correct_answer": "17",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "identify_initial_amount",
+        "reasoning": "Samantha starts with $20."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "subtract_cost_from_total",
+        "reasoning": "I subtract the cost of the chips ($3) from the initial amount ($20) to find the remaining balance."
+      }
+    ],
+    "final_answer": "17",
+    "is_correct": true,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "a389-d506-e3e8-609d",
+    "skill_uid": "4e33-1e12-c5ac-7afa",
+    "skill_name": "apply_budgeting_concepts",
+    "difficulty": "medium",
+    "problem": "James has a budget of $50 for a school project. He spends $15 on materials and $10 on decorations. If he wants to buy a poster for $8, how much money will he have left?",
+    "correct_answer": "17",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "add_expenses_together",
+        "reasoning": "I added the amounts spent on materials ($15) and decorations ($10) to find the total spent so far."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "subtract_expenses_from_budget",
+        "reasoning": "I subtracted the total spent ($25) from the budget ($50) to find out how much money is left before buying the poster."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "subtract_expenses_from_budget",
+        "reasoning": "I subtracted the cost of the poster ($8) from the remaining budget ($25) to find the final amount left."
+      }
+    ],
+    "final_answer": "17",
+    "is_correct": true,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "6f5f-4750-5506-ff59",
+    "skill_uid": "4e33-1e12-c5ac-7afa",
+    "skill_name": "apply_budgeting_concepts",
+    "difficulty": "hard",
+    "problem": "Lucy has a total budget of $100 for her birthday party. She wants to spend $40 on food, $25 on games, and $15 on decorations. If she also wants to invite 5 friends and buy each of them a small gift for $5, how much money will she have left after all her expenses?",
+    "correct_answer": "5",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "calculate_gift_cost",
+        "reasoning": "I calculated the total cost of the gifts by multiplying the number of friends (5) by the cost per gift ($5), which equals $25."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "add_expenses_together",
+        "reasoning": "I added all the expenses: food ($40), games ($25), decorations ($15), and gifts ($25) to find the total expenses, which equals $105."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "subtract_total_from_budget",
+        "reasoning": "I subtracted the total expenses ($105) from the budget ($100) to find the remaining amount, which equals -$5."
+      }
+    ],
+    "final_answer": "-5",
+    "is_correct": false,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "d3e2-6ffd-2386-9cf3",
+    "skill_uid": "444f-2f51-f0a7-2c57",
+    "skill_name": "calculate_total_spent_amount",
+    "difficulty": "easy",
+    "problem": "Emily bought a sandwich for $5 and a drink for $2. How much did she spend in total?",
+    "correct_answer": "7",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "add_two_numbers",
+        "reasoning": "I added the cost of the sandwich ($5) and the cost of the drink ($2) to find the total spent."
+      }
+    ],
+    "final_answer": "7",
+    "is_correct": true,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "f951-60bf-2920-7589",
+    "skill_uid": "444f-2f51-f0a7-2c57",
+    "skill_name": "calculate_total_spent_amount",
+    "difficulty": "medium",
+    "problem": "Michael went to the store and bought 3 packs of gum for $1 each and a chocolate bar for $2. How much did he spend in total?",
+    "correct_answer": "5",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "multiply_quantity_by_price",
+        "reasoning": "I multiplied the number of packs of gum (3) by the price per pack ($1) to find the total cost of the gum."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "add_multiple_values_together",
+        "reasoning": "I added the total cost of the gum ($3) to the cost of the chocolate bar ($2) to find the total amount spent."
+      }
+    ],
+    "final_answer": "5",
+    "is_correct": true,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "5103-b79a-34aa-135a",
+    "skill_uid": "444f-2f51-f0a7-2c57",
+    "skill_name": "calculate_total_spent_amount",
+    "difficulty": "hard",
+    "problem": "Lily went shopping for school supplies. She bought 4 notebooks for $3 each, 2 packs of pencils for $2 each, and a backpack for $15. How much did she spend in total? After shopping, she used a coupon that gave her 10% off her total purchase. What is the final amount she spent after using the coupon?",
+    "correct_answer": "30.6",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "multiply_quantity_by_price",
+        "reasoning": "I calculated the cost of the notebooks by multiplying the quantity (4) by the price ($3), resulting in $12."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "multiply_quantity_by_price",
+        "reasoning": "I calculated the cost of the packs of pencils by multiplying the quantity (2) by the price ($2), resulting in $4."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "add_multiple_values",
+        "reasoning": "I added the costs of the notebooks ($12), pencils ($4), and backpack ($15) to find the total before discount, which is $31."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "calculate_percentage_discount",
+        "reasoning": "I calculated the discount amount by taking 10% of the total ($31), which is $3.10."
+      },
+      {
+        "step_number": 5,
+        "skill_used": "subtract_discount_from_total",
+        "reasoning": "I subtracted the discount ($3.10) from the total ($31) to find the final amount spent, which is $27.90."
+      }
+    ],
+    "final_answer": "27.90",
+    "is_correct": false,
+    "num_steps": 5
+  },
+  {
+    "task_uid": "0c39-e317-b815-21b0",
+    "skill_uid": "3211-1006-1574-71b0",
+    "skill_name": "determine_remaining_budget",
+    "difficulty": "easy",
+    "problem": "You have $20 to spend on snacks. You buy a bag of chips for $5. How much money do you have left?",
+    "correct_answer": "15",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "subtract_cost_from_total",
+        "reasoning": "I started with $20 and subtracted the cost of the bag of chips, which is $5."
+      }
+    ],
+    "final_answer": "15",
+    "is_correct": true,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "9f63-9dbf-d6ca-6850",
+    "skill_uid": "3211-1006-1574-71b0",
+    "skill_name": "determine_remaining_budget",
+    "difficulty": "medium",
+    "problem": "You have a budget of $50 for a party. You buy decorations for $20 and snacks for $15. How much money do you have left for drinks?",
+    "correct_answer": "15",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "calculate_total_expenses",
+        "reasoning": "I added the costs of decorations and snacks to find the total expenses."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "subtract_expenses_from_budget",
+        "reasoning": "I subtracted the total expenses from the initial budget to find the remaining amount."
+      }
+    ],
+    "final_answer": "15",
+    "is_correct": true,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "2d39-d381-b75f-defb",
+    "skill_uid": "3211-1006-1574-71b0",
+    "skill_name": "determine_remaining_budget",
+    "difficulty": "hard",
+    "problem": "You have a monthly budget of $200. You spend $45 on groceries, $30 on gas, and $25 on a new shirt. If you also want to save $50 this month, how much money can you spend on entertainment?",
+    "correct_answer": "50",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "subtract_expenses_from_budget",
+        "reasoning": "I subtracted the total expenses from the monthly budget to find the remaining amount."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "perform_addition_for_savings",
+        "reasoning": "I added the savings goal to the remaining amount to find out how much can be spent."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "determine_spending_limit",
+        "reasoning": "I calculated the final amount available for entertainment by subtracting the savings from the remaining balance."
+      }
+    ],
+    "final_answer": "50",
+    "is_correct": true,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "b445-aaba-98f3-2798",
+    "skill_uid": "d2b1-b98c-e6ea-9c4e",
+    "skill_name": "solve_for_unknown_value",
+    "difficulty": "easy",
+    "problem": "Sara has 5 apples. She buys some more apples to have a total of 8 apples. How many apples did she buy?",
+    "correct_answer": "3",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "identify_initial_quantity",
+        "reasoning": "Sara starts with 5 apples."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "determine_final_quantity",
+        "reasoning": "Sara wants to have a total of 8 apples."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "calculate_difference",
+        "reasoning": "To find out how many apples Sara bought, I subtract the initial quantity from the final quantity: 8 - 5."
+      }
+    ],
+    "final_answer": "3",
+    "is_correct": true,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "51d3-579d-8a34-c763",
+    "skill_uid": "d2b1-b98c-e6ea-9c4e",
+    "skill_name": "solve_for_unknown_value",
+    "difficulty": "medium",
+    "problem": "Tom has $20. He spends some money on a toy that costs $12. How much money does he have left?",
+    "correct_answer": "8",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "identify_initial_amount",
+        "reasoning": "I identified that Tom starts with $20."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "subtract_total_from_expense",
+        "reasoning": "I subtracted the cost of the toy ($12) from Tom's initial amount ($20) to find the remaining balance."
+      }
+    ],
+    "final_answer": "8",
+    "is_correct": true,
+    "num_steps": 2
+  },
+  {
+    "task_uid": "2adf-adc3-e527-fb0c",
+    "skill_uid": "d2b1-b98c-e6ea-9c4e",
+    "skill_name": "solve_for_unknown_value",
+    "difficulty": "hard",
+    "problem": "A school is organizing a field trip. They need to collect $150 for the trip. If 10 students each contribute $5, how much more money do they need to collect? If 5 more students join, how much will each student need to contribute to meet the goal?",
+    "correct_answer": "3",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "calculate_total_contribution",
+        "reasoning": "I calculated the total contribution from the 10 students by multiplying 10 by 5, which equals 50."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "subtract_from_goal",
+        "reasoning": "I subtracted the total contribution of 50 from the goal of 150, resulting in 100."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "add_students_to_total",
+        "reasoning": "I added 5 more students to the existing 10, making a total of 15 students."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "divide_amount_by_students",
+        "reasoning": "I divided the remaining amount of 100 by the new total of 15 students, which gives approximately 6.67."
+      },
+      {
+        "step_number": 5,
+        "skill_used": "subtract_from_goal",
+        "reasoning": "I realized that each student needs to contribute an additional amount to meet the goal, which is 3 more than the original 5."
+      }
+    ],
+    "final_answer": "3",
+    "is_correct": true,
+    "num_steps": 5
+  },
+  {
+    "task_uid": "e89a-9c98-208a-99b4",
+    "skill_uid": "3c82-a31a-a2e1-3642",
+    "skill_name": "calculate_total_hours_worked",
+    "difficulty": "easy",
+    "problem": "Sarah worked for 3 hours on Monday and 2 hours on Tuesday. How many hours did she work in total?",
+    "correct_answer": "5",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "add_hours_from_different_days",
+        "reasoning": "I added the hours Sarah worked on Monday (3 hours) and Tuesday (2 hours) to find the total."
+      }
+    ],
+    "final_answer": "5",
+    "is_correct": true,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "fb4f-325c-a850-14ed",
+    "skill_uid": "3c82-a31a-a2e1-3642",
+    "skill_name": "calculate_total_hours_worked",
+    "difficulty": "medium",
+    "problem": "Tom worked 5 hours on Wednesday, 4 hours on Thursday, and 3 hours on Friday. How many hours did he work in total this week?",
+    "correct_answer": "12",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "add_numbers_together",
+        "reasoning": "I added the hours worked on each day: 5 (Wednesday) + 4 (Thursday) + 3 (Friday)."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "add_numbers_together",
+        "reasoning": "I calculated 5 + 4 = 9."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "add_numbers_together",
+        "reasoning": "I then added the result to the hours worked on Friday: 9 + 3 = 12."
+      }
+    ],
+    "final_answer": "12",
+    "is_correct": true,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "1c2c-36db-5543-2dd2",
+    "skill_uid": "3c82-a31a-a2e1-3642",
+    "skill_name": "calculate_total_hours_worked",
+    "difficulty": "hard",
+    "problem": "Emily has a part-time job where she works 6 hours on Saturday and 8 hours on Sunday. During the week, she works 5 hours each on Monday and Tuesday, and 4 hours on Wednesday. How many total hours did she work over the entire week?",
+    "correct_answer": "33",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "add_hours_for_each_day",
+        "reasoning": "I calculated the total hours worked on Saturday (6 hours) and Sunday (8 hours)."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "add_hours_for_each_day",
+        "reasoning": "I calculated the total hours worked from Monday (5 hours), Tuesday (5 hours), and Wednesday (4 hours)."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "sum_total_hours_worked",
+        "reasoning": "I summed the total hours from the weekend and the weekdays to find the overall total."
+      }
+    ],
+    "final_answer": "33",
+    "is_correct": true,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "f146-cf80-33e8-1c43",
+    "skill_uid": "c82f-610b-6a14-8851",
+    "skill_name": "apply_overtime_pay_formula",
+    "difficulty": "easy",
+    "problem": "Sarah worked 5 hours of overtime this week. If her overtime pay rate is $15 per hour, how much will she earn for her overtime work?",
+    "correct_answer": "75",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "I multiplied the number of overtime hours (5) by the overtime pay rate ($15) to find the total earnings."
+      }
+    ],
+    "final_answer": "75",
+    "is_correct": true,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "5120-15ec-6c19-5e41",
+    "skill_uid": "c82f-610b-6a14-8851",
+    "skill_name": "apply_overtime_pay_formula",
+    "difficulty": "medium",
+    "problem": "James worked 10 hours of overtime this week. His regular hourly wage is $20. Calculate his total pay for the week, including overtime pay, if overtime is paid at 1.5 times his regular rate.",
+    "correct_answer": "260",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "First, I calculated James's regular pay for the week by multiplying his hourly wage by the total hours worked."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "calculate_overtime_pay",
+        "reasoning": "Next, I calculated the overtime pay by multiplying the overtime hours by the overtime rate (1.5 times the regular rate)."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "add_regular_and_overtime",
+        "reasoning": "Finally, I added the regular pay and the overtime pay to get the total pay for the week."
+      }
+    ],
+    "final_answer": "260",
+    "is_correct": true,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "fc72-575e-4929-3c99",
+    "skill_uid": "c82f-610b-6a14-8851",
+    "skill_name": "apply_overtime_pay_formula",
+    "difficulty": "hard",
+    "problem": "Emily is a nurse who works 40 hours a week at $25 per hour. This week, she worked an additional 15 hours of overtime. Calculate her total earnings for the week, including overtime pay, and determine how much more she earned compared to a week with no overtime.",
+    "correct_answer": "525",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "calculate_regular_pay",
+        "reasoning": "Emily works 40 hours at $25 per hour, so her regular pay is 40 * 25."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "calculate_overtime_pay",
+        "reasoning": "She worked 15 hours of overtime, which is paid at 1.5 times her regular rate, so overtime pay is 15 * (25 * 1.5)."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "add_two_values",
+        "reasoning": "Now, I will add her regular pay and overtime pay to find her total earnings."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "compare_two_values",
+        "reasoning": "Finally, I will compare her total earnings with her regular earnings to find the difference."
+      }
+    ],
+    "final_answer": "525",
+    "is_correct": true,
+    "num_steps": 4
+  },
+  {
+    "task_uid": "e970-439e-9730-faf9",
+    "skill_uid": "a5a7-212d-2ce4-76dc",
+    "skill_name": "determine_weekly_earnings",
+    "difficulty": "easy",
+    "problem": "Emily earns $50 each week for babysitting. How much does she earn in one week?",
+    "correct_answer": "50",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "identify_weekly_earning",
+        "reasoning": "I recognized that Emily earns $50 for babysitting each week, which directly answers the question."
+      }
+    ],
+    "final_answer": "50",
+    "is_correct": true,
+    "num_steps": 1
+  },
+  {
+    "task_uid": "a9b2-c379-0664-ec1c",
+    "skill_uid": "a5a7-212d-2ce4-76dc",
+    "skill_name": "determine_weekly_earnings",
+    "difficulty": "medium",
+    "problem": "James works part-time at a grocery store and earns $15 per hour. If he works 5 hours on Saturday and 3 hours on Sunday, how much does he earn in total for the weekend?",
+    "correct_answer": "120",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "I multiplied James's hourly rate of $15 by the number of hours he worked on Saturday (5 hours) to find his earnings for that day."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "I multiplied James's hourly rate of $15 by the number of hours he worked on Sunday (3 hours) to find his earnings for that day."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "add_multiple_values",
+        "reasoning": "I added the earnings from Saturday and Sunday to find the total earnings for the weekend."
+      }
+    ],
+    "final_answer": "120",
+    "is_correct": true,
+    "num_steps": 3
+  },
+  {
+    "task_uid": "c90e-1d11-d43e-5667",
+    "skill_uid": "a5a7-212d-2ce4-76dc",
+    "skill_name": "determine_weekly_earnings",
+    "difficulty": "hard",
+    "problem": "Lily has two jobs. She earns $20 per hour at her tutoring job and works 10 hours a week. At her dog walking job, she earns $12 per hour and works 15 hours a week. How much does she earn in total each week from both jobs? If she spends $50 weekly on transportation, what is her net earning for the week?",
+    "correct_answer": "290",
+    "steps": [
+      {
+        "step_number": 1,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "Calculating Lily's earnings from her tutoring job: $20/hour * 10 hours = $200."
+      },
+      {
+        "step_number": 2,
+        "skill_used": "multiply_rate_by_time",
+        "reasoning": "Calculating Lily's earnings from her dog walking job: $12/hour * 15 hours = $180."
+      },
+      {
+        "step_number": 3,
+        "skill_used": "add_totals",
+        "reasoning": "Adding the earnings from both jobs: $200 + $180 = $380."
+      },
+      {
+        "step_number": 4,
+        "skill_used": "subtract_expenses",
+        "reasoning": "Calculating net earnings by subtracting transportation costs: $380 - $50 = $330."
+      }
+    ],
+    "final_answer": "330",
+    "is_correct": false,
+    "num_steps": 4
   }
 ]

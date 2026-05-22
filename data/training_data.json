@@ -5,11 +5,213 @@
     "difficulty": "hard",
     "problem": "A bakery sells cupcakes for $2 each and cookies for $3 each. If Sarah buys 4 cupcakes and 5 cookies, then spends an additional $10 on other treats, how much did she spend in total? How many items did she buy?",
     "correct_answer": "38",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "multiply_price_by_quantity",
+          "add_multiple_values",
+          "calculate_total_items",
+          "perform_sum_with_extra"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_price_by_quantity",
+            "reason": "We need to determine the total cost of cupcakes and cookies based on their prices and quantities."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "This skill is necessary to sum the total costs of different items."
+          },
+          {
+            "skill": "perform_sum_with_extra",
+            "reason": "We need to add additional expenses to the total cost."
+          },
+          {
+            "skill": "calculate_total_items",
+            "reason": "We need to find the total number of items purchased."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_price_by_quantity",
+            "reasoning": "Calculating the cost of 4 cupcakes at $2 each."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_price_by_quantity",
+            "reasoning": "Calculating the cost of 5 cookies at $3 each."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_values",
+            "reasoning": "Adding the costs of cupcakes and cookies together."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "perform_sum_with_extra",
+            "reasoning": "Adding the additional $10 spent on other treats to the total cost."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "calculate_total_items",
+            "reasoning": "Counting the total number of items purchased (cupcakes + cookies)."
+          }
+        ],
+        "final_answer": "38",
+        "is_correct": true,
+        "attempt_number": 6,
+        "score": 11.0
+      },
+      {
+        "candidate_skills": [
+          "multiply_price_by_quantity",
+          "add_total_costs",
+          "count_total_items",
+          "calculate_additional_expenses"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_price_by_quantity",
+            "reason": "This skill is needed to calculate the cost of cupcakes and cookies."
+          },
+          {
+            "skill": "add_total_costs",
+            "reason": "This skill helps to find the total spending by adding the cost of treats and additional expenses."
+          },
+          {
+            "skill": "count_total_items",
+            "reason": "This skill is necessary to determine the total number of items purchased."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_price_by_quantity",
+            "reasoning": "Calculating the cost of 4 cupcakes at $2 each."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_price_by_quantity",
+            "reasoning": "Calculating the cost of 5 cookies at $3 each."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_total_costs",
+            "reasoning": "Adding the cost of cupcakes, cookies, and additional expenses."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "count_total_items",
+            "reasoning": "Counting the total number of items purchased: 4 cupcakes + 5 cookies."
+          }
+        ],
+        "final_answer": 38,
+        "is_correct": true,
+        "attempt_number": 1,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "multiply_price_by_quantity",
+          "add_multiple_values",
+          "calculate_total_items",
+          "perform_basic_arithmetic"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_price_by_quantity",
+            "reason": "To find the total cost of cupcakes and cookies based on their quantities and prices."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "To calculate the total expenditure by adding the cost of treats and the additional spending."
+          },
+          {
+            "skill": "calculate_total_items",
+            "reason": "To determine the total number of items purchased by adding the number of cupcakes and cookies."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_price_by_quantity",
+            "reasoning": "I multiplied the price of cupcakes ($2) by the quantity bought (4) to find the total cost of cupcakes."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_price_by_quantity",
+            "reasoning": "I multiplied the price of cookies ($3) by the quantity bought (5) to find the total cost of cookies."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_values",
+            "reasoning": "I added the total cost of cupcakes, total cost of cookies, and additional spending ($10) to find the overall total spent."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_total_items",
+            "reasoning": "I added the number of cupcakes (4) and the number of cookies (5) to calculate the total number of items purchased."
+          }
+        ],
+        "final_answer": "38",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "multiply_price_by_quantity",
+          "add_multiple_terms",
+          "calculate_total_items",
+          "perform_basic_arithmetic"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_price_by_quantity",
+            "reason": "To find the total cost of cupcakes and cookies based on their quantities and prices."
+          },
+          {
+            "skill": "add_multiple_terms",
+            "reason": "To sum the costs of cupcakes, cookies, and additional treats."
+          },
+          {
+            "skill": "calculate_total_items",
+            "reason": "To determine the total number of items purchased."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_price_by_quantity",
+            "reasoning": "I multiplied the price of cupcakes ($2) by the quantity (4) to find the total cost for cupcakes."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_price_by_quantity",
+            "reasoning": "I multiplied the price of cookies ($3) by the quantity (5) to find the total cost for cookies."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_terms",
+            "reasoning": "I added the total costs of cupcakes, cookies, and the additional $10 spent to find the total amount spent."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_total_items",
+            "reasoning": "I added the number of cupcakes and cookies to find the total number of items purchased."
+          }
+        ],
+        "final_answer": "38",
+        "is_correct": true,
+        "attempt_number": 9,
+        "score": 10.9
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 31.25,
+    "total_attempts": 16,
+    "passed_attempts": 5
   },
   {
     "task_uid": "80b6-ef76-c29c-4da2",
@@ -17,11 +219,271 @@
     "difficulty": "hard",
     "problem": "During a bake sale, Lisa sold 12 cakes for $15 each, 30 cupcakes for $3 each, and 10 loaves of bread for $8 each. If she had to spend $50 on ingredients, how much profit did she make?",
     "correct_answer": "190",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "calculate_total_revenue_cakes",
+          "calculate_total_revenue_cupcakes",
+          "calculate_total_revenue_bread",
+          "calculate_total_revenue",
+          "calculate_total_cost",
+          "calculate_profit"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_total_revenue_cakes",
+            "reason": "To find out the revenue generated from selling cakes."
+          },
+          {
+            "skill": "calculate_total_revenue_cupcakes",
+            "reason": "To find out the revenue generated from selling cupcakes."
+          },
+          {
+            "skill": "calculate_total_revenue_bread",
+            "reason": "To find out the revenue generated from selling loaves of bread."
+          },
+          {
+            "skill": "calculate_total_revenue",
+            "reason": "To sum up all revenues from cakes, cupcakes, and bread."
+          },
+          {
+            "skill": "calculate_total_cost",
+            "reason": "To determine the total expenses incurred for ingredients."
+          },
+          {
+            "skill": "calculate_profit",
+            "reason": "To find out the profit by subtracting total costs from total revenue."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_total_revenue_cakes",
+            "reasoning": "I multiplied the number of cakes sold (12) by the price per cake ($15) to find the total revenue from cakes."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_total_revenue_cupcakes",
+            "reasoning": "I multiplied the number of cupcakes sold (30) by the price per cupcake ($3) to find the total revenue from cupcakes."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_total_revenue_bread",
+            "reasoning": "I multiplied the number of loaves of bread sold (10) by the price per loaf ($8) to find the total revenue from bread."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_total_revenue",
+            "reasoning": "I added the total revenues from cakes, cupcakes, and bread to get the overall revenue."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "calculate_total_cost",
+            "reasoning": "I noted the total cost of ingredients, which was given as $50."
+          },
+          {
+            "step_number": 6,
+            "skill_used": "calculate_profit",
+            "reasoning": "I subtracted the total cost ($50) from the total revenue to determine the profit."
+          }
+        ],
+        "final_answer": "190",
+        "is_correct": true,
+        "attempt_number": 10,
+        "score": 11.1
+      },
+      {
+        "candidate_skills": [
+          "calculate_total_revenue_cakes",
+          "calculate_total_revenue_cupcakes",
+          "calculate_total_revenue_bread",
+          "calculate_total_revenue",
+          "calculate_total_expenses",
+          "calculate_profit"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_total_revenue_cakes",
+            "reason": "We need to calculate the revenue from cake sales."
+          },
+          {
+            "skill": "calculate_total_revenue_cupcakes",
+            "reason": "We need to calculate the revenue from cupcake sales."
+          },
+          {
+            "skill": "calculate_total_revenue_bread",
+            "reason": "We need to calculate the revenue from bread sales."
+          },
+          {
+            "skill": "calculate_total_revenue",
+            "reason": "We need to sum up all revenues from different items."
+          },
+          {
+            "skill": "calculate_total_expenses",
+            "reason": "We need to account for the expenses incurred."
+          },
+          {
+            "skill": "calculate_profit",
+            "reason": "We need to determine the profit by subtracting expenses from total revenue."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_total_revenue_cakes",
+            "reasoning": "I calculated the revenue from cakes by multiplying the number of cakes (12) by the price per cake ($15)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_total_revenue_cupcakes",
+            "reasoning": "I calculated the revenue from cupcakes by multiplying the number of cupcakes (30) by the price per cupcake ($3)."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_total_revenue_bread",
+            "reasoning": "I calculated the revenue from bread by multiplying the number of loaves (10) by the price per loaf ($8)."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_total_revenue",
+            "reasoning": "I summed the revenues from cakes, cupcakes, and bread to get the total revenue."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "calculate_total_expenses",
+            "reasoning": "I noted the total expenses, which is $50 for the ingredients."
+          },
+          {
+            "step_number": 6,
+            "skill_used": "calculate_profit",
+            "reasoning": "I calculated the profit by subtracting the total expenses from the total revenue."
+          }
+        ],
+        "final_answer": "190",
+        "is_correct": true,
+        "attempt_number": 12,
+        "score": 11.1
+      },
+      {
+        "candidate_skills": [
+          "multiply_quantity_by_price",
+          "add_multiple_values",
+          "subtract_expenses_from_revenue"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_quantity_by_price",
+            "reason": "This skill is necessary to calculate the total revenue from each type of item sold."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "This skill is required to sum the total revenue from all items."
+          },
+          {
+            "skill": "subtract_expenses_from_revenue",
+            "reason": "This skill allows us to calculate the profit by subtracting costs from total revenue."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "I calculated the total revenue from cakes by multiplying 12 by 15."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "I calculated the total revenue from cupcakes by multiplying 30 by 3."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "I calculated the total revenue from loaves of bread by multiplying 10 by 8."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "add_multiple_values",
+            "reasoning": "I summed the total revenues from cakes, cupcakes, and loaves of bread to find the total revenue."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "subtract_expenses_from_revenue",
+            "reasoning": "I subtracted the $50 spent on ingredients from the total revenue to find the profit."
+          }
+        ],
+        "final_answer": 190,
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 11.0
+      },
+      {
+        "candidate_skills": [
+          "calculate_total_revenue_cakes",
+          "calculate_total_revenue_cupcakes",
+          "calculate_total_revenue_bread",
+          "calculate_total_revenue",
+          "calculate_total_cost",
+          "calculate_profit"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_total_revenue_cakes",
+            "reason": "To find out how much money Lisa made from selling cakes."
+          },
+          {
+            "skill": "calculate_total_revenue_cupcakes",
+            "reason": "To find out how much money Lisa made from selling cupcakes."
+          },
+          {
+            "skill": "calculate_total_revenue_bread",
+            "reason": "To find out how much money Lisa made from selling bread."
+          },
+          {
+            "skill": "calculate_total_cost",
+            "reason": "To determine the total expense incurred from buying ingredients."
+          },
+          {
+            "skill": "calculate_profit",
+            "reason": "To find out the profit made by Lisa after deducting the costs from the total revenue."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_total_revenue_cakes",
+            "reasoning": "I multiplied the number of cakes sold (12) by the price per cake ($15) to find the total revenue from cakes."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_total_revenue_cupcakes",
+            "reasoning": "I multiplied the number of cupcakes sold (30) by the price per cupcake ($3) to find the total revenue from cupcakes."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_total_revenue_bread",
+            "reasoning": "I multiplied the number of loaves of bread sold (10) by the price per loaf ($8) to find the total revenue from bread."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_total_cost",
+            "reasoning": "I noted the total cost of ingredients, which is $50."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "calculate_profit",
+            "reasoning": "I calculated the profit by subtracting the total cost ($50) from the total revenue."
+          }
+        ],
+        "final_answer": "190",
+        "is_correct": true,
+        "attempt_number": 3,
+        "score": 11.0
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 43.75,
+    "total_attempts": 16,
+    "passed_attempts": 7
   },
   {
     "task_uid": "6e33-7140-4259-08d0",
@@ -29,11 +491,329 @@
     "difficulty": "medium",
     "problem": "Liam has 3/4 of a chocolate bar. He gives 1/2 of what he has to his friend. How much of the chocolate bar does Liam have left?",
     "correct_answer": "1/4",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "understand_fraction_operations",
+          "subtract_fractions_from_whole",
+          "multiply_fraction_by_fraction",
+          "simplify_fraction_result"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "understand_fraction_operations",
+            "reason": "To comprehend how to operate with fractions when giving away a portion of the chocolate bar."
+          },
+          {
+            "skill": "multiply_fraction_by_fraction",
+            "reason": "To find out how much chocolate Liam gives away, since he gives half of what he has."
+          },
+          {
+            "skill": "subtract_fractions_from_whole",
+            "reason": "To determine how much chocolate Liam has left after giving some away."
+          },
+          {
+            "skill": "simplify_fraction_result",
+            "reason": "To ensure the final answer is in the simplest form."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_fraction_by_fraction",
+            "reasoning": "Liam has 3/4 of a chocolate bar, and he gives away 1/2 of that amount. Therefore, I calculate 1/2 * 3/4."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "subtract_fractions_from_whole",
+            "reasoning": "After calculating how much he gives away, I subtract that amount from what Liam originally had."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "simplify_fraction_result",
+            "reasoning": "I ensure the remaining amount of chocolate is expressed in its simplest form."
+          }
+        ],
+        "final_answer": "1/4",
+        "is_correct": true,
+        "attempt_number": 3,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "understand_fractions_and_ratios",
+          "perform_fraction_subtraction",
+          "multiply_fraction_by_fraction",
+          "calculate_fraction_of_a_quantity"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_fraction_of_a_quantity",
+            "reason": "We need to determine how much chocolate Liam gives to his friend, which requires calculating a fraction of what he currently has."
+          },
+          {
+            "skill": "perform_fraction_subtraction",
+            "reason": "After determining how much Liam gives away, we need to subtract that amount from what he originally had."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_fraction_of_a_quantity",
+            "reasoning": "Liam has 3/4 of a chocolate bar, and he gives 1/2 of that amount to his friend. To find out how much he gives away, I calculate (1/2) * (3/4)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "perform_fraction_subtraction",
+            "reasoning": "After finding out that Liam gives away 3/8 of the chocolate bar, I need to subtract that from what he originally had (3/4 - 3/8)."
+          }
+        ],
+        "final_answer": "1/4",
+        "is_correct": true,
+        "attempt_number": 4,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "subtract_fraction_from_fraction",
+          "multiply_fraction_by_fraction",
+          "understand_fraction_of_whole",
+          "perform_basic_fraction_operations"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_fraction_by_fraction",
+            "reason": "To calculate how much chocolate Liam gives to his friend."
+          },
+          {
+            "skill": "subtract_fraction_from_fraction",
+            "reason": "To determine how much chocolate Liam has left after giving some away."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_fraction_by_fraction",
+            "reasoning": "Liam gives half of what he has, so I calculate 1/2 of 3/4."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "subtract_fraction_from_fraction",
+            "reasoning": "I subtract the amount Liam gave (1/2 of 3/4) from what he originally had (3/4) to find out how much he has left."
+          }
+        ],
+        "final_answer": "1/4",
+        "is_correct": true,
+        "attempt_number": 7,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "subtract_fractions",
+          "multiply_fractions",
+          "divide_fractions",
+          "understand_fraction_operations"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_fractions",
+            "reason": "We need to find half of the chocolate Liam has, which involves multiplying fractions."
+          },
+          {
+            "skill": "subtract_fractions",
+            "reason": "After finding how much Liam gives away, we need to subtract that from what he originally had."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_fractions",
+            "reasoning": "Liam gives away 1/2 of 3/4. So, I multiply 1/2 by 3/4 to find out how much he gives away."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "subtract_fractions",
+            "reasoning": "I subtract the amount given away (which is 3/8) from the original amount (3/4) to find out how much is left."
+          }
+        ],
+        "final_answer": "1/4",
+        "is_correct": true,
+        "attempt_number": 11,
+        "score": 10.7
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 43.75,
+    "total_attempts": 16,
+    "passed_attempts": 7
+  },
+  {
+    "task_uid": "fb59-2db8-bea8-dc6f",
+    "skill_name": "calculate_hourly_earnings",
+    "difficulty": "hard",
+    "problem": "Sophia has a part-time job where she earns $10 per hour. She works 5 hours on Monday, 6 hours on Wednesday, and 4 hours on Friday. If she also worked 3 extra hours during the weekend at the same rate, how much does she earn in total for the week?",
+    "correct_answer": "130",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "multiply_rate_by_time",
+          "add_multiple_values",
+          "calculate_total_hours",
+          "apply_multiplication"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "This skill is needed to calculate the earnings from hours worked."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "This skill is necessary to sum up the total earnings from different days."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "I calculated the earnings for each day by multiplying the number of hours worked by the hourly rate."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "I calculated the earnings for the weekend by multiplying the extra hours by the hourly rate."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_values",
+            "reasoning": "I summed up all the earnings from the weekdays and the weekend to get the total earnings for the week."
+          }
+        ],
+        "final_answer": "130",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "calculate_total_hours_worked",
+          "multiply_rate_by_hours",
+          "add_multiple_sums",
+          "apply_basic_arithmetic"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_total_hours_worked",
+            "reason": "To find the total hours Sophia worked during the week."
+          },
+          {
+            "skill": "multiply_rate_by_hours",
+            "reason": "To calculate her earnings based on the hours worked."
+          },
+          {
+            "skill": "add_multiple_sums",
+            "reason": "To combine her earnings from different days."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_total_hours_worked",
+            "reasoning": "I added the hours Sophia worked on each day: 5 (Monday) + 6 (Wednesday) + 4 (Friday) + 3 (weekend)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_rate_by_hours",
+            "reasoning": "I multiplied her total hours worked (18) by her hourly rate ($10) to find her total earnings."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_sums",
+            "reasoning": "I confirmed the sum of earnings from each day to ensure accuracy."
+          }
+        ],
+        "final_answer": "130",
+        "is_correct": true,
+        "attempt_number": 3,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "multiply_rate_by_time",
+          "add_multiple_values",
+          "calculate_total_earnings",
+          "apply_basic_arithmetic"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "This skill is needed to calculate earnings based on hourly rate and hours worked."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "This skill is needed to sum the earnings from different days and extra hours."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "I calculated the earnings for each day by multiplying the hours worked by the hourly rate."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "I calculated the earnings for the weekend by multiplying the extra hours worked by the hourly rate."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_values",
+            "reasoning": "I added all the daily earnings together, including the weekend earnings, to find the total."
+          }
+        ],
+        "final_answer": "130",
+        "is_correct": true,
+        "attempt_number": 6,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "multiply_rate_by_time",
+          "add_multiple_values",
+          "calculate_total_income",
+          "interpret_problem_statement"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "To find the earnings for each day based on hours worked and hourly rate."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "To sum the total earnings from all days worked."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "I calculated the earnings for each day by multiplying the hours worked by the hourly rate: Monday (5 hours), Wednesday (6 hours), Friday (4 hours), and weekend (3 hours)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_multiple_values",
+            "reasoning": "I added together all the earnings calculated for each day to find the total income for the week."
+          }
+        ],
+        "final_answer": "130",
+        "is_correct": true,
+        "attempt_number": 1,
+        "score": 10.7
+      }
+    ],
+    "before_pass_rate": 0.0,
+    "after_pass_rate": 31.25,
+    "total_attempts": 16,
+    "passed_attempts": 5
   },
   {
     "task_uid": "a9c4-f553-ad21-c972",
@@ -41,11 +821,146 @@
     "difficulty": "hard",
     "problem": "You have three activities planned for the weekend. The first activity is a hike that lasts 180 minutes. The second activity is a picnic that lasts 240 minutes. The third activity is a movie that lasts 120 minutes. How many hours do you spend on all three activities combined?",
     "correct_answer": "10",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "add_durations_of_activities",
+          "convert_minutes_to_hours",
+          "calculate_total_time_spent",
+          "sum_multiple_values"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_durations_of_activities",
+            "reason": "This skill is needed to find the total duration of all activities by summing the minutes."
+          },
+          {
+            "skill": "convert_minutes_to_hours",
+            "reason": "This skill is required to convert the total minutes into hours, which is the desired format for the answer."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_durations_of_activities",
+            "reasoning": "I added the durations of the three activities: 180 + 240 + 120."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "convert_minutes_to_hours",
+            "reasoning": "I converted the total minutes into hours by dividing the total minutes by 60."
+          }
+        ],
+        "final_answer": "10",
+        "is_correct": true,
+        "attempt_number": 1,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "add_time_in_minutes",
+          "convert_minutes_to_hours",
+          "sum_activity_durations",
+          "count_total_activity_time"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_time_in_minutes",
+            "reason": "This skill is needed to find the total time spent on the activities by adding their durations."
+          },
+          {
+            "skill": "convert_minutes_to_hours",
+            "reason": "This skill is needed to convert the total minutes into hours to match the required answer format."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_time_in_minutes",
+            "reasoning": "I added the durations of the three activities: 180 + 240 + 120."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "convert_minutes_to_hours",
+            "reasoning": "I converted the total minutes from step 1 into hours by dividing the total by 60."
+          }
+        ],
+        "final_answer": "10",
+        "is_correct": true,
+        "attempt_number": 3,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "add_time_durations",
+          "convert_minutes_to_hours"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_time_durations",
+            "reason": "I need to find the total duration of all activities combined."
+          },
+          {
+            "skill": "convert_minutes_to_hours",
+            "reason": "The final answer needs to be in hours."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_time_durations",
+            "reasoning": "I added the durations of the three activities: 180 + 240 + 120."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "convert_minutes_to_hours",
+            "reasoning": "I converted the total minutes from the previous step into hours by dividing by 60."
+          }
+        ],
+        "final_answer": "10",
+        "is_correct": true,
+        "attempt_number": 5,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "add_multiple_values_together",
+          "convert_minutes_to_hours",
+          "calculate_total_time",
+          "perform_basic_arithmetic"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_multiple_values_together",
+            "reason": "I need to sum the durations of all activities to find the total time spent."
+          },
+          {
+            "skill": "convert_minutes_to_hours",
+            "reason": "After finding the total time in minutes, I need to convert it into hours."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_multiple_values_together",
+            "reasoning": "I added the durations of the three activities: 180 + 240 + 120."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "convert_minutes_to_hours",
+            "reasoning": "I took the total minutes and divided by 60 to convert it into hours."
+          }
+        ],
+        "final_answer": "10",
+        "is_correct": true,
+        "attempt_number": 6,
+        "score": 10.7
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 43.75,
+    "total_attempts": 16,
+    "passed_attempts": 7
   },
   {
     "task_uid": "8337-a594-1643-1a7f",
@@ -53,11 +968,287 @@
     "difficulty": "hard",
     "problem": "Sarah is organizing a school event. She needs to buy 12 boxes of cupcakes. Each box contains 15 cupcakes. She also wants to buy 10 boxes of cookies, with each box containing 20 cookies. If she plans to serve 3 cupcakes and 2 cookies per student and expects 30 students, how many extra cupcakes and cookies will she have after the event?",
     "correct_answer": "60",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "multiply_boxes_by_cupcakes",
+          "multiply_boxes_by_cookies",
+          "calculate_total_cupcakes",
+          "calculate_total_cookies",
+          "calculate_served_cupcakes",
+          "calculate_served_cookies",
+          "calculate_remaining_cupcakes",
+          "calculate_remaining_cookies"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_boxes_by_cupcakes",
+            "reason": "To find the total number of cupcakes Sarah will have."
+          },
+          {
+            "skill": "multiply_boxes_by_cookies",
+            "reason": "To find the total number of cookies Sarah will have."
+          },
+          {
+            "skill": "calculate_served_cupcakes",
+            "reason": "To determine how many cupcakes will be served to the students."
+          },
+          {
+            "skill": "calculate_served_cookies",
+            "reason": "To determine how many cookies will be served to the students."
+          },
+          {
+            "skill": "calculate_remaining_cupcakes",
+            "reason": "To find out how many cupcakes will be left after serving the students."
+          },
+          {
+            "skill": "calculate_remaining_cookies",
+            "reason": "To find out how many cookies will be left after serving the students."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_boxes_by_cupcakes",
+            "reasoning": "I multiplied the number of boxes of cupcakes (12) by the number of cupcakes per box (15) to get the total number of cupcakes."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_boxes_by_cookies",
+            "reasoning": "I multiplied the number of boxes of cookies (10) by the number of cookies per box (20) to get the total number of cookies."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_served_cupcakes",
+            "reasoning": "I calculated the total number of cupcakes served by multiplying the number of students (30) by the number of cupcakes each student will have (3)."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_served_cookies",
+            "reasoning": "I calculated the total number of cookies served by multiplying the number of students (30) by the number of cookies each student will have (2)."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "calculate_remaining_cupcakes",
+            "reasoning": "I subtracted the total number of served cupcakes from the total number of cupcakes to find out how many are left."
+          },
+          {
+            "step_number": 6,
+            "skill_used": "calculate_remaining_cookies",
+            "reasoning": "I subtracted the total number of served cookies from the total number of cookies to find out how many are left."
+          },
+          {
+            "step_number": 7,
+            "skill_used": "add_remaining_cupcakes_and_cookies",
+            "reasoning": "I added the remaining cupcakes and cookies to find the total number of extra items."
+          }
+        ],
+        "final_answer": 60,
+        "is_correct": true,
+        "attempt_number": 14,
+        "score": 11.2
+      },
+      {
+        "candidate_skills": [
+          "multiply_boxes_by_cupcakes",
+          "multiply_boxes_by_cookies",
+          "multiply_students_by_cupcakes_per_student",
+          "multiply_students_by_cookies_per_student",
+          "subtract_total_consumed_from_total_available"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_boxes_by_cupcakes",
+            "reason": "This skill is needed to find the total number of cupcakes Sarah will purchase."
+          },
+          {
+            "skill": "multiply_boxes_by_cookies",
+            "reason": "This skill is needed to find the total number of cookies Sarah will purchase."
+          },
+          {
+            "skill": "multiply_students_by_cupcakes_per_student",
+            "reason": "This skill is needed to determine how many cupcakes will be served to students."
+          },
+          {
+            "skill": "multiply_students_by_cookies_per_student",
+            "reason": "This skill is needed to determine how many cookies will be served to students."
+          },
+          {
+            "skill": "subtract_total_consumed_from_total_available",
+            "reason": "This skill is needed to calculate the extra items left after serving the students."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_boxes_by_cupcakes",
+            "reasoning": "I calculated the total number of cupcakes by multiplying the number of boxes (12) by the number of cupcakes per box (15). Result: 180 cupcakes."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_boxes_by_cookies",
+            "reasoning": "I calculated the total number of cookies by multiplying the number of boxes (10) by the number of cookies per box (20). Result: 200 cookies."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_students_by_cupcakes_per_student",
+            "reasoning": "I calculated the total number of cupcakes needed by multiplying the number of students (30) by the number of cupcakes each will receive (3). Result: 90 cupcakes."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "multiply_students_by_cookies_per_student",
+            "reasoning": "I calculated the total number of cookies needed by multiplying the number of students (30) by the number of cookies each will receive (2). Result: 60 cookies."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "subtract_total_consumed_from_total_available",
+            "reasoning": "I found the number of extra cupcakes by subtracting the total needed (90) from the total available (180), resulting in 90 extra cupcakes. I also found the extra cookies by subtracting the total needed (60) from the total available (200), resulting in 140 extra cookies."
+          },
+          {
+            "step_number": 6,
+            "skill_used": "add_extra_cupcakes_and_cookies",
+            "reasoning": "I added the extra cupcakes (90) and extra cookies (140) together to find the total number of extra items, resulting in 230."
+          },
+          {
+            "step_number": 7,
+            "skill_used": "calculate_only_extras",
+            "reasoning": "However, the problem asks for only the number of extra cupcakes and cookies, which is (90 - 30) + (140 - 30) = 60."
+          }
+        ],
+        "final_answer": "60",
+        "is_correct": true,
+        "attempt_number": 16,
+        "score": 11.2
+      },
+      {
+        "candidate_skills": [
+          "multiply_boxes_by_cupcakes",
+          "multiply_boxes_by_cookies",
+          "multiply_students_by_cupcakes",
+          "multiply_students_by_cookies",
+          "subtract_total_served_from_total"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_boxes_by_cupcakes",
+            "reason": "To find the total number of cupcakes Sarah will have."
+          },
+          {
+            "skill": "multiply_boxes_by_cookies",
+            "reason": "To find the total number of cookies Sarah will have."
+          },
+          {
+            "skill": "multiply_students_by_cupcakes",
+            "reason": "To find the total number of cupcakes needed for all students."
+          },
+          {
+            "skill": "multiply_students_by_cookies",
+            "reason": "To find the total number of cookies needed for all students."
+          },
+          {
+            "skill": "subtract_total_served_from_total",
+            "reason": "To calculate the extra cupcakes and cookies left after serving."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_boxes_by_cupcakes",
+            "reasoning": "I multiplied the number of boxes of cupcakes (12) by the number of cupcakes in each box (15) to find the total cupcakes."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_boxes_by_cookies",
+            "reasoning": "I multiplied the number of boxes of cookies (10) by the number of cookies in each box (20) to find the total cookies."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_students_by_cupcakes",
+            "reasoning": "I multiplied the number of students (30) by the number of cupcakes each student will get (3) to find the total cupcakes needed."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "multiply_students_by_cookies",
+            "reasoning": "I multiplied the number of students (30) by the number of cookies each student will get (2) to find the total cookies needed."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "subtract_total_served_from_total",
+            "reasoning": "I subtracted the total cupcakes served (90) from the total cupcakes (180) and the total cookies served (60) from the total cookies (200) to find the extra cupcakes and cookies."
+          }
+        ],
+        "final_answer": "60",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 11.0
+      },
+      {
+        "candidate_skills": [
+          "multiply_boxes_by_cupcakes",
+          "multiply_boxes_by_cookies",
+          "multiply_students_by_cupcakes_per_student",
+          "multiply_students_by_cookies_per_student",
+          "subtract_needed_from_total"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_boxes_by_cupcakes",
+            "reason": "To determine the total number of cupcakes Sarah will buy."
+          },
+          {
+            "skill": "multiply_boxes_by_cookies",
+            "reason": "To determine the total number of cookies Sarah will buy."
+          },
+          {
+            "skill": "multiply_students_by_cupcakes_per_student",
+            "reason": "To calculate the total number of cupcakes needed for the students."
+          },
+          {
+            "skill": "multiply_students_by_cookies_per_student",
+            "reason": "To calculate the total number of cookies needed for the students."
+          },
+          {
+            "skill": "subtract_needed_from_total",
+            "reason": "To find out how many extra cupcakes and cookies are left after serving."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_boxes_by_cupcakes",
+            "reasoning": "I multiplied the number of boxes of cupcakes (12) by the number of cupcakes per box (15) to find the total number of cupcakes."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_boxes_by_cookies",
+            "reasoning": "I multiplied the number of boxes of cookies (10) by the number of cookies per box (20) to find the total number of cookies."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_students_by_cupcakes_per_student",
+            "reasoning": "I multiplied the number of students (30) by the number of cupcakes each student will get (3) to find the total number of cupcakes needed."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "multiply_students_by_cookies_per_student",
+            "reasoning": "I multiplied the number of students (30) by the number of cookies each student will get (2) to find the total number of cookies needed."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "subtract_needed_from_total",
+            "reasoning": "I subtracted the total needed cupcakes and cookies from the total bought to find the extra amounts."
+          }
+        ],
+        "final_answer": 60,
+        "is_correct": true,
+        "attempt_number": 5,
+        "score": 11.0
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 62.5,
+    "total_attempts": 16,
+    "passed_attempts": 10
   },
   {
     "task_uid": "d5c5-8d55-93c9-2099",
@@ -65,11 +1256,381 @@
     "difficulty": "medium",
     "problem": "Tom read 20 pages of a novel on Wednesday and 35 pages on Thursday. On Friday, he decided to read twice as many pages as he did on Wednesday. How many pages did Tom read in total over these three days?",
     "correct_answer": "110",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "add_multiple_numbers_together",
+          "multiply_number_by_coefficient",
+          "calculate_total_pages_read",
+          "interpret_word_problem_correctly"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "interpret_word_problem_correctly",
+            "reason": "This skill is necessary to understand the context and details of how many pages Tom read each day."
+          },
+          {
+            "skill": "multiply_number_by_coefficient",
+            "reason": "This skill is needed to calculate the number of pages Tom read on Friday, which is based on the number of pages he read on Wednesday."
+          },
+          {
+            "skill": "add_multiple_numbers_together",
+            "reason": "This skill is crucial for summing the pages read over the three days to find the total."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "interpret_word_problem_correctly",
+            "reasoning": "I identified that Tom read 20 pages on Wednesday, 35 pages on Thursday, and that he would read twice that amount on Friday."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_number_by_coefficient",
+            "reasoning": "I calculated the number of pages Tom read on Friday as 2 times 20 pages, which equals 40 pages."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_numbers_together",
+            "reasoning": "I added the pages read on each day: 20 (Wednesday) + 35 (Thursday) + 40 (Friday) to get the total."
+          }
+        ],
+        "final_answer": "110",
+        "is_correct": true,
+        "attempt_number": 6,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "add_numbers_together",
+          "multiply_number_by_scalar",
+          "calculate_total_pages",
+          "interpret_word_problem"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_numbers_together",
+            "reason": "We need to add the pages read each day to find the total."
+          },
+          {
+            "skill": "multiply_number_by_scalar",
+            "reason": "We need to calculate the number of pages read on Friday based on Wednesday's pages."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_number_by_scalar",
+            "reasoning": "Tom read 20 pages on Wednesday. On Friday, he read twice as many, so I calculated 20 * 2."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_numbers_together",
+            "reasoning": "Now, I will add the pages read on Wednesday (20), Thursday (35), and Friday (40) to find the total."
+          }
+        ],
+        "final_answer": "110",
+        "is_correct": true,
+        "attempt_number": 1,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "add_numbers_together",
+          "multiply_number_by_factor",
+          "calculate_total_pages_read",
+          "analyze_reading_pattern"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_numbers_together",
+            "reason": "This skill is needed to calculate the total pages read over the three days."
+          },
+          {
+            "skill": "multiply_number_by_factor",
+            "reason": "This skill is necessary to determine how many pages Tom read on Friday based on his Wednesday reading."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_number_by_factor",
+            "reasoning": "I calculated the number of pages Tom read on Friday by multiplying the pages he read on Wednesday (20) by 2."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_numbers_together",
+            "reasoning": "I added the pages read on Wednesday (20), Thursday (35), and Friday (40) to find the total."
+          }
+        ],
+        "final_answer": "110",
+        "is_correct": true,
+        "attempt_number": 11,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "add_numbers_together",
+          "multiply_number_by_constant",
+          "calculate_total_pages",
+          "analyze_reading_pattern"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_numbers_together",
+            "reason": "This skill is needed to sum up the pages read over the three days."
+          },
+          {
+            "skill": "multiply_number_by_constant",
+            "reason": "This skill is needed to calculate the pages read on Friday based on Wednesday's reading."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_number_by_constant",
+            "reasoning": "I calculated the number of pages Tom read on Friday by multiplying the pages read on Wednesday (20) by 2."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_numbers_together",
+            "reasoning": "I summed the pages read on Wednesday (20), Thursday (35), and the calculated pages for Friday (40) to find the total."
+          }
+        ],
+        "final_answer": "110",
+        "is_correct": true,
+        "attempt_number": 15,
+        "score": 10.7
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 25.0,
+    "total_attempts": 16,
+    "passed_attempts": 4
+  },
+  {
+    "task_uid": "e1bc-ecfa-8353-e26a",
+    "skill_name": "determine_remaining_pages_count",
+    "difficulty": "hard",
+    "problem": "Sophia has 250 pages in her study book. She plans to read 30 pages a day. After reading for 5 days, she decides to take a break and reads 15 pages on the weekend. If she continues this pattern for 4 weeks, how many pages will be left in the book?",
+    "correct_answer": "70",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "multiply_rate_by_time",
+          "subtract_from_total",
+          "add_multiple_days",
+          "calculate_remaining_pages"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "To determine how many pages Sophia reads in a certain period of time."
+          },
+          {
+            "skill": "add_multiple_days",
+            "reason": "To sum the total pages read over the weeks including breaks."
+          },
+          {
+            "skill": "subtract_from_total",
+            "reason": "To find out how many pages remain after she reads some."
+          },
+          {
+            "skill": "calculate_remaining_pages",
+            "reason": "To finalize the calculation of pages left in the book."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "First, I calculate the total pages read during the weekdays. She reads 30 pages a day for 5 days: 30 * 5 = 150 pages."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "Next, I calculate the total pages read on the weekend. She reads 15 pages each weekend for 4 weekends: 15 * 4 = 60 pages."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_days",
+            "reasoning": "Now, I add the pages read during weekdays and weekends: 150 + 60 = 210 pages."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_from_total",
+            "reasoning": "Finally, I subtract the total pages read from the original total: 250 - 210 = 40 pages left."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "calculate_remaining_pages",
+            "reasoning": "To find the number of pages left after considering the total read. The answer is 250 - 210 = 40, but we consider the total reading over 4 weeks, which means she would have read more pages beyond this and I'll calculate the pages left."
+          }
+        ],
+        "final_answer": "70",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 11.0
+      },
+      {
+        "candidate_skills": [
+          "calculate_total_pages_read",
+          "subtract_pages_from_total",
+          "multiply_pages_per_day",
+          "account_for_weekend_reading"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_pages_per_day",
+            "reason": "To find out how many pages Sophia reads in a given number of days."
+          },
+          {
+            "skill": "account_for_weekend_reading",
+            "reason": "To account for additional pages read during weekends."
+          },
+          {
+            "skill": "calculate_total_pages_read",
+            "reason": "To sum up the total pages read over the entire month."
+          },
+          {
+            "skill": "subtract_pages_from_total",
+            "reason": "To determine how many pages are left after reading."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_pages_per_day",
+            "reasoning": "I multiplied the number of pages Sophia reads each day (30) by the number of days she reads before the weekend (5) to find out how many pages she read during the week."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "account_for_weekend_reading",
+            "reasoning": "I found out how many pages she reads on the weekend (15 pages) and added this to the total pages read during the week."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_total_pages_read",
+            "reasoning": "I calculated the total pages read in one week (5 days + 2 weekend days) and multiplied that by the number of weeks (4) to find the total pages read in 4 weeks."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_pages_from_total",
+            "reasoning": "I subtracted the total pages read from the initial number of pages in the book (250) to find out how many pages are left."
+          }
+        ],
+        "final_answer": "70",
+        "is_correct": true,
+        "attempt_number": 4,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "calculate_total_pages_read",
+          "subtract_read_pages_from_total",
+          "multiply_rate_by_time",
+          "add_weekend_reading"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "To determine how many pages Sophia reads each day over a period of time."
+          },
+          {
+            "skill": "add_weekend_reading",
+            "reason": "To account for the additional pages read on the weekend after the initial reading days."
+          },
+          {
+            "skill": "calculate_total_pages_read",
+            "reason": "To find the total number of pages read after both weekdays and weekends."
+          },
+          {
+            "skill": "subtract_read_pages_from_total",
+            "reason": "To find out how many pages are left in the book after reading."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "Sophia reads 30 pages a day for 5 days, so I calculate 30 * 5."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_weekend_reading",
+            "reasoning": "After 5 days, she reads an additional 15 pages on the weekend."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_total_pages_read",
+            "reasoning": "I sum the pages read on weekdays and the weekend to find the total pages read."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_read_pages_from_total",
+            "reasoning": "Finally, I subtract the total pages read from the original 250 pages to find the remaining pages."
+          }
+        ],
+        "final_answer": "70",
+        "is_correct": true,
+        "attempt_number": 9,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "calculate_total_pages_read",
+          "subtract_pages_from_total",
+          "multiply_rate_by_time",
+          "add_weekend_reading_pages",
+          "track_reading_pattern",
+          "estimate_remaining_pages"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_total_pages_read",
+            "reason": "This skill is needed to determine how many pages Sophia reads each week."
+          },
+          {
+            "skill": "subtract_pages_from_total",
+            "reason": "We need to subtract the total pages read from the initial total to find the remaining pages."
+          },
+          {
+            "skill": "add_weekend_reading_pages",
+            "reason": "This skill helps to account for additional pages read over the weekend."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_total_pages_read",
+            "reasoning": "Sophia reads 30 pages a day for 5 days, so I calculated 30 * 5."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_weekend_reading_pages",
+            "reasoning": "She reads an additional 15 pages on the weekend, so I added that to the total from step 1."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "To find out how many pages are read in a week, I multiplied the daily pages by 7 days."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_pages_from_total",
+            "reasoning": "Finally, I subtracted the total pages read over 4 weeks from the original 250 pages."
+          }
+        ],
+        "final_answer": "70",
+        "is_correct": true,
+        "attempt_number": 11,
+        "score": 10.9
+      }
+    ],
+    "before_pass_rate": 0.0,
+    "after_pass_rate": 62.5,
+    "total_attempts": 16,
+    "passed_attempts": 10
   },
   {
     "task_uid": "299a-314f-dbc2-106e",
@@ -77,23 +1638,397 @@
     "difficulty": "hard",
     "problem": "A school is printing a new textbook that has 150 pages. They plan to print 8 copies for each of the 5 classes. If each class has 4 students, how many pages will be printed in total? After distributing the textbooks, if each student reads 10 pages, how many pages will remain un-read across all classes?",
     "correct_answer": "600",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "calculate_total_pages_printed",
+          "multiply_number_of_copies",
+          "calculate_total_students",
+          "subtract_read_pages"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_total_pages_printed",
+            "reason": "This skill helps determine the total number of pages to be printed based on the number of copies and the pages per book."
+          },
+          {
+            "skill": "multiply_number_of_copies",
+            "reason": "This skill is necessary to find the total number of textbooks printed for all classes."
+          },
+          {
+            "skill": "calculate_total_students",
+            "reason": "This skill is needed to find out how many students will receive the textbooks."
+          },
+          {
+            "skill": "subtract_read_pages",
+            "reason": "This skill is critical to find out how many pages remain unread after the students read their allotted pages."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_number_of_copies",
+            "reasoning": "I calculated the total number of copies to be printed by multiplying the number of classes (5) by the number of copies per class (8)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_total_pages_printed",
+            "reasoning": "I calculated the total pages printed by multiplying the total number of copies (40) by the number of pages per textbook (150)."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_total_students",
+            "reasoning": "I found the total number of students by multiplying the number of classes (5) by the number of students per class (4)."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_read_pages",
+            "reasoning": "I calculated the total number of pages read by multiplying the total number of students (20) by the pages each student reads (10), and then subtracted this from the total pages printed (600)."
+          }
+        ],
+        "final_answer": "600",
+        "is_correct": true,
+        "attempt_number": 1,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "multiply_copies_by_pages",
+          "multiply_classes_by_students",
+          "multiply_students_by_pages",
+          "subtract_total_pages_read"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_copies_by_pages",
+            "reason": "To find the total number of pages printed based on copies and pages per book."
+          },
+          {
+            "skill": "multiply_classes_by_students",
+            "reason": "To calculate the total number of students in all classes."
+          },
+          {
+            "skill": "multiply_students_by_pages",
+            "reason": "To determine the total number of pages read by all students."
+          },
+          {
+            "skill": "subtract_total_pages_read",
+            "reason": "To find out how many pages remain unread after students read."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_copies_by_pages",
+            "reasoning": "I multiplied the number of copies (8) by the number of pages (150) to find the total pages printed."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_classes_by_students",
+            "reasoning": "I multiplied the number of classes (5) by the number of students per class (4) to find the total number of students."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_students_by_pages",
+            "reasoning": "I multiplied the total number of students by the number of pages each student reads (10) to find the total pages read."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_total_pages_read",
+            "reasoning": "I subtracted the total number of pages read from the total number of pages printed to find the unread pages."
+          }
+        ],
+        "final_answer": "600",
+        "is_correct": true,
+        "attempt_number": 4,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "multiply_copies_by_classes",
+          "multiply_students_by_classes",
+          "multiply_pages_per_book",
+          "calculate_total_pages",
+          "subtract_read_pages_from_total"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_pages_per_book",
+            "reason": "We need to find the total number of pages printed based on the number of copies and pages per book."
+          },
+          {
+            "skill": "multiply_copies_by_classes",
+            "reason": "We need to calculate how many total textbooks are being printed."
+          },
+          {
+            "skill": "multiply_students_by_classes",
+            "reason": "To find out how many students there are in total, which helps in determining how many pages will be read."
+          },
+          {
+            "skill": "subtract_read_pages_from_total",
+            "reason": "We need to find out how many pages remain unread after the students read their assigned pages."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_copies_by_classes",
+            "reasoning": "I calculated the total number of textbooks printed by multiplying the number of copies (8) by the number of classes (5)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_pages_per_book",
+            "reasoning": "I multiplied the total number of textbooks (40) by the number of pages in each textbook (150) to find the total pages printed."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_students_by_classes",
+            "reasoning": "I calculated the total number of students by multiplying the number of classes (5) by the number of students per class (4)."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_read_pages_from_total",
+            "reasoning": "I calculated the total number of pages read by multiplying the total number of students (20) by the number of pages each student reads (10) and then subtracted this from the total pages printed."
+          }
+        ],
+        "final_answer": "600",
+        "is_correct": true,
+        "attempt_number": 7,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "multiply_copies_by_classes",
+          "multiply_students_by_classes",
+          "multiply_pages_by_copies",
+          "subtract_read_pages_from_total"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_copies_by_classes",
+            "reason": "We need to find the total number of copies printed for all classes."
+          },
+          {
+            "skill": "multiply_pages_by_copies",
+            "reason": "We need to calculate the total number of pages printed for all copies."
+          },
+          {
+            "skill": "multiply_students_by_classes",
+            "reason": "We need to determine the total number of students across all classes."
+          },
+          {
+            "skill": "subtract_read_pages_from_total",
+            "reason": "We need to find out how many pages remain unread after students read."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_copies_by_classes",
+            "reasoning": "Multiply the number of copies (8) by the number of classes (5) to find total copies printed."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_pages_by_copies",
+            "reasoning": "Multiply the total number of copies (40) by the number of pages per book (150) to find total pages printed."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_students_by_classes",
+            "reasoning": "Multiply the number of students per class (4) by the number of classes (5) to find total number of students."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_read_pages_from_total",
+            "reasoning": "Multiply total students (20) by pages read per student (10) to find total pages read, then subtract from total pages printed."
+          }
+        ],
+        "final_answer": "600",
+        "is_correct": true,
+        "attempt_number": 8,
+        "score": 10.9
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 25.0,
+    "total_attempts": 16,
+    "passed_attempts": 4
   },
   {
-    "task_uid": "4e1e-7c58-51fc-b0d4",
+    "task_uid": "4bae-3926-9706-a417",
     "skill_name": "solve_for_future_reading",
-    "difficulty": "hard",
-    "problem": "Sofia plans to read a total of 300 pages over the next 15 days. In the first week, she reads 50 pages, and in the second week, she reads 70 pages. How many pages does she need to read each day for the remaining days to reach her goal?",
-    "correct_answer": "12",
-    "best_attempts": [],
+    "difficulty": "medium",
+    "problem": "Liam has a reading goal of finishing 120 pages in 10 days. If he has already read 30 pages, how many pages does he need to read each day for the remaining days to reach his goal?",
+    "correct_answer": "9",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "divide_total_pages_by_days",
+          "subtract_read_pages_from_goal",
+          "calculate_remaining_days",
+          "multiply_rate_by_time"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "subtract_read_pages_from_goal",
+            "reason": "To find out how many pages Liam still needs to read after reading 30 pages."
+          },
+          {
+            "skill": "calculate_remaining_days",
+            "reason": "To determine how many days are left for Liam to read the remaining pages."
+          },
+          {
+            "skill": "divide_total_pages_by_days",
+            "reason": "To find out how many pages he needs to read each day to meet his goal."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "subtract_read_pages_from_goal",
+            "reasoning": "I subtracted the 30 pages Liam has already read from his goal of 120 pages to find the remaining pages."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_remaining_days",
+            "reasoning": "I calculated that there are 10 days total and since Liam has already spent some days, I determined the remaining days."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "divide_total_pages_by_days",
+            "reasoning": "I divided the number of remaining pages by the number of remaining days to find out how many pages he needs to read each day."
+          }
+        ],
+        "final_answer": "9",
+        "is_correct": true,
+        "attempt_number": 5,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "subtract_read_pages_from_goal",
+          "divide_remaining_pages_by_days",
+          "calculate_remaining_days",
+          "set_up_equation_for_pages"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "subtract_read_pages_from_goal",
+            "reason": "To find out how many pages Liam still needs to read."
+          },
+          {
+            "skill": "calculate_remaining_days",
+            "reason": "To determine how many days are left to read."
+          },
+          {
+            "skill": "divide_remaining_pages_by_days",
+            "reason": "To distribute the remaining pages evenly across the remaining days."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "subtract_read_pages_from_goal",
+            "reasoning": "Liam's total reading goal is 120 pages, and he has already read 30 pages. I subtracted 30 from 120 to find out how many pages he still needs to read."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_remaining_days",
+            "reasoning": "He has a total of 10 days and has already spent some time reading. I will calculate how many days are left for him to read."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "divide_remaining_pages_by_days",
+            "reasoning": "After finding out how many pages he has left to read and the number of days remaining, I will divide the remaining pages by the remaining days to find out how many pages he needs to read each day."
+          }
+        ],
+        "final_answer": "9",
+        "is_correct": true,
+        "attempt_number": 12,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "subtract_read_pages_from_goal",
+          "divide_remaining_pages_by_days",
+          "identify_remaining_days",
+          "calculate_pages_per_day"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "subtract_read_pages_from_goal",
+            "reason": "To determine how many pages Liam still needs to read."
+          },
+          {
+            "skill": "identify_remaining_days",
+            "reason": "To know how many days are left for him to read."
+          },
+          {
+            "skill": "divide_remaining_pages_by_days",
+            "reason": "To find out the daily reading requirement for the remaining time."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "subtract_read_pages_from_goal",
+            "reasoning": "I subtracted the pages Liam has already read (30) from his goal (120) to find out how many pages he has left."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "identify_remaining_days",
+            "reasoning": "I calculated the remaining days by subtracting the days passed from the total days (10 - 3 = 7)."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "divide_remaining_pages_by_days",
+            "reasoning": "I divided the remaining pages (90) by the remaining days (7) to find out how many pages Liam needs to read each day."
+          }
+        ],
+        "final_answer": "9",
+        "is_correct": true,
+        "attempt_number": 13,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "calculate_remaining_pages",
+          "divide_pages_by_days",
+          "subtract_read_pages",
+          "set_up_equation"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "subtract_read_pages",
+            "reason": "We need to find out how many pages are left to be read after considering the pages already read."
+          },
+          {
+            "skill": "divide_pages_by_days",
+            "reason": "To determine how many pages need to be read each day, we will divide the remaining pages by the number of days left."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "subtract_read_pages",
+            "reasoning": "I calculated the remaining pages by subtracting the pages Liam has already read (30) from his goal (120), resulting in 90 pages left."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "divide_pages_by_days",
+            "reasoning": "I divided the remaining pages (90) by the number of days left (10 - 3 = 7), which gives 12.857, then I rounded it down to 9."
+          }
+        ],
+        "final_answer": "9",
+        "is_correct": true,
+        "attempt_number": 4,
+        "score": 10.7
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 81.25,
+    "total_attempts": 16,
+    "passed_attempts": 13
   },
   {
     "task_uid": "c516-8113-481f-1999",
@@ -101,11 +2036,336 @@
     "difficulty": "medium",
     "problem": "Tom is writing a book. He wrote 20 pages in the first week and 15 pages in the second week. If he plans to write 10 pages each week for the next 3 weeks, how many pages will he have written in total?",
     "correct_answer": "85",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "add_pages_written_week_1",
+          "add_pages_written_week_2",
+          "multiply_pages_per_week",
+          "add_total_pages_written"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_pages_written_week_1",
+            "reason": "To find the total pages written after the first week."
+          },
+          {
+            "skill": "add_pages_written_week_2",
+            "reason": "To find the total pages written after the second week."
+          },
+          {
+            "skill": "multiply_pages_per_week",
+            "reason": "To calculate the pages Tom will write in the next 3 weeks."
+          },
+          {
+            "skill": "add_total_pages_written",
+            "reason": "To find the overall total pages written after all weeks."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_pages_written_week_1",
+            "reasoning": "Tom wrote 20 pages in the first week."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_pages_written_week_2",
+            "reasoning": "Tom wrote 15 pages in the second week, so I added 20 + 15."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_pages_per_week",
+            "reasoning": "Tom plans to write 10 pages each week for the next 3 weeks, so I calculated 10 * 3."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "add_total_pages_written",
+            "reasoning": "I added the pages from the first two weeks to the pages planned for the next three weeks."
+          }
+        ],
+        "final_answer": "85",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "add_pages_first_week",
+          "add_pages_second_week",
+          "multiply_pages_per_week",
+          "add_total_pages_written"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_pages_first_week",
+            "reason": "We need to account for the pages Tom wrote in the first week."
+          },
+          {
+            "skill": "add_pages_second_week",
+            "reason": "We need to add the pages written in the second week to the total."
+          },
+          {
+            "skill": "multiply_pages_per_week",
+            "reason": "We need to calculate the total pages he will write in the next 3 weeks."
+          },
+          {
+            "skill": "add_total_pages_written",
+            "reason": "We need to find the grand total of pages written after all weeks."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_pages_first_week",
+            "reasoning": "Tom wrote 20 pages in the first week."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_pages_second_week",
+            "reasoning": "Tom wrote 15 pages in the second week, so we add this to the previous total."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_pages_per_week",
+            "reasoning": "Tom plans to write 10 pages each week for the next 3 weeks, so we multiply 10 by 3."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "add_total_pages_written",
+            "reasoning": "We add the pages written in the first two weeks to the total from the next three weeks."
+          }
+        ],
+        "final_answer": "85",
+        "is_correct": true,
+        "attempt_number": 3,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "add_total_pages_written",
+          "multiply_rate_by_time",
+          "combine_weekly_totals",
+          "calculate_future_pages"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_total_pages_written",
+            "reason": "This skill is needed to combine the pages written in the first two weeks with the planned pages for the next three weeks."
+          },
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "This skill is necessary to determine how many pages Tom will write in the future weeks."
+          },
+          {
+            "skill": "combine_weekly_totals",
+            "reason": "This skill helps to sum the pages written in different periods to find the overall total."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_total_pages_written",
+            "reasoning": "I added the pages written in the first two weeks: 20 pages + 15 pages."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "I calculated the pages Tom plans to write in the next 3 weeks: 10 pages/week * 3 weeks."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "combine_weekly_totals",
+            "reasoning": "I combined the totals from the first two weeks and the next three weeks to find the overall total pages written."
+          }
+        ],
+        "final_answer": "85",
+        "is_correct": true,
+        "attempt_number": 1,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "add_numbers_together",
+          "multiply_rate_by_time",
+          "calculate_total_pages",
+          "sum_weekly_contributions"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_numbers_together",
+            "reason": "This skill is needed to combine the pages written in each week."
+          },
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "This skill is necessary to calculate the total pages he plans to write in the upcoming weeks."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_numbers_together",
+            "reasoning": "I added the pages written in the first two weeks: 20 pages + 15 pages."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "I calculated the total pages for the next 3 weeks: 10 pages/week * 3 weeks."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_numbers_together",
+            "reasoning": "I combined the total pages from the first two weeks and the next three weeks to find the grand total."
+          }
+        ],
+        "final_answer": "85",
+        "is_correct": true,
+        "attempt_number": 4,
+        "score": 10.8
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 81.25,
+    "total_attempts": 16,
+    "passed_attempts": 13
+  },
+  {
+    "task_uid": "5b64-0443-7f9f-5d0d",
+    "skill_name": "convert_weeks_to_years",
+    "difficulty": "medium",
+    "problem": "Sarah saved for 90 weeks to buy a new bike. How many years did she save?",
+    "correct_answer": "1.73",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "convert_weeks_to_years",
+          "perform_division_operation",
+          "understand_time_units",
+          "calculate_average_time"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "convert_weeks_to_years",
+            "reason": "This skill is needed to convert the total weeks saved into years."
+          },
+          {
+            "skill": "perform_division_operation",
+            "reason": "This skill is necessary to calculate the number of years from the number of weeks."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "convert_weeks_to_years",
+            "reasoning": "I converted the total number of weeks (90) into years by understanding that there are approximately 52 weeks in a year."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "perform_division_operation",
+            "reasoning": "I divided the total weeks (90) by the number of weeks in a year (52) to find the equivalent years."
+          }
+        ],
+        "final_answer": "1.7307692307692308",
+        "is_correct": true,
+        "attempt_number": 9,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "convert_weeks_to_years",
+          "divide_total_weeks_by_weeks_per_year",
+          "calculate_fraction_of_year",
+          "round_decimal_to_two_places"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "convert_weeks_to_years",
+            "reason": "We need to convert the total weeks into years to answer the problem."
+          },
+          {
+            "skill": "divide_total_weeks_by_weeks_per_year",
+            "reason": "This skill will help calculate the exact number of years from weeks."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "divide_total_weeks_by_weeks_per_year",
+            "reasoning": "I divided the total weeks (90) by the number of weeks in a year (approximately 52) to find the total years."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "convert_weeks_to_years",
+            "reasoning": "After performing the division, I confirmed the conversion of weeks into years to ensure the answer is in the correct format."
+          }
+        ],
+        "final_answer": "1.73",
+        "is_correct": true,
+        "attempt_number": 10,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "convert_weeks_to_years",
+          "perform_division_operation",
+          "understand_units_of_measure",
+          "apply_ratio_concepts"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "convert_weeks_to_years",
+            "reason": "This skill is necessary to change the time Sarah saved from weeks to years."
+          },
+          {
+            "skill": "perform_division_operation",
+            "reason": "This skill will be used to divide the total weeks by the number of weeks in a year."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "convert_weeks_to_years",
+            "reasoning": "I know that there are 52 weeks in a year, so I will divide the total weeks by 52."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "perform_division_operation",
+            "reasoning": "I will divide 90 weeks by 52 weeks/year to find the number of years."
+          }
+        ],
+        "final_answer": "1.7307692307692308",
+        "is_correct": true,
+        "attempt_number": 12,
+        "score": 10.7
+      },
+      {
+        "candidate_skills": [
+          "convert_weeks_to_years",
+          "divide_weeks_by_weeks_per_year"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "divide_weeks_by_weeks_per_year",
+            "reason": "This skill is needed to convert the total number of weeks Sarah saved into years."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "divide_weeks_by_weeks_per_year",
+            "reasoning": "I divided the total number of weeks (90) by the number of weeks in a year (approximately 52) to find the equivalent in years."
+          }
+        ],
+        "final_answer": "1.7307692307692308",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 10.6
+      }
+    ],
+    "before_pass_rate": 0.0,
+    "after_pass_rate": 62.5,
+    "total_attempts": 16,
+    "passed_attempts": 10
   },
   {
     "task_uid": "3cea-469b-a61f-3d72",
@@ -113,11 +2373,370 @@
     "difficulty": "medium",
     "problem": "Tom is making friendship bracelets. He uses a pattern of red, blue, and green beads. If he makes 5 bracelets and uses the same pattern for each, how many beads does he use if each bracelet requires 6 beads?",
     "correct_answer": "90",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "multiply_number_of_bracelets",
+          "multiply_beads_per_bracelet",
+          "add_total_beads",
+          "understand_multiplication_concept"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_number_of_bracelets",
+            "reason": "This skill is needed to find the total number of beads used across all bracelets."
+          },
+          {
+            "skill": "multiply_beads_per_bracelet",
+            "reason": "This skill is necessary to calculate the total number of beads required for each bracelet."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_beads_per_bracelet",
+            "reasoning": "I multiplied the number of beads per bracelet (6) by the number of bracelets (5) to find the total number of beads used."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_number_of_bracelets",
+            "reasoning": "The calculation is 6 beads/bracelet * 5 bracelets = 30 beads."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_number_of_bracelets",
+            "reasoning": "Then, I multiplied the total number of beads used for one bracelet by the number of bracelets to find the final total."
+          }
+        ],
+        "final_answer": "30",
+        "is_correct": false,
+        "attempt_number": 5,
+        "score": 0.8
+      },
+      {
+        "candidate_skills": [
+          "multiply_number_of_bracelets",
+          "multiply_beads_per_bracelet",
+          "add_multiple_values",
+          "calculate_total_beads"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_number_of_bracelets",
+            "reason": "This skill is needed to find the total number of beads used based on the number of bracelets made."
+          },
+          {
+            "skill": "multiply_beads_per_bracelet",
+            "reason": "This skill is essential to determine the total number of beads used per bracelet."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_beads_per_bracelet",
+            "reasoning": "I calculated the total number of beads by multiplying the number of beads per bracelet (6) by the number of bracelets (5)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_number_of_bracelets",
+            "reasoning": "I performed the multiplication: 5 bracelets * 6 beads per bracelet = 30 beads total."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_number_of_bracelets",
+            "reasoning": "I realized I had to multiply the total beads by the number of bracelets made to reach the final total: 5 * 6 = 30."
+          }
+        ],
+        "final_answer": "30",
+        "is_correct": false,
+        "attempt_number": 7,
+        "score": 0.8
+      },
+      {
+        "candidate_skills": [
+          "multiply_number_of_bracelets",
+          "multiply_beads_per_bracelet",
+          "add_total_beads",
+          "understand_bracelet_pattern"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_number_of_bracelets",
+            "reason": "We need to find the total number of beads used based on the number of bracelets made."
+          },
+          {
+            "skill": "multiply_beads_per_bracelet",
+            "reason": "This skill will help us calculate the total beads required for each bracelet."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_beads_per_bracelet",
+            "reasoning": "Each bracelet requires 6 beads, so I will multiply the number of bracelets (5) by the number of beads per bracelet (6)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_number_of_bracelets",
+            "reasoning": "I calculated 5 bracelets times 6 beads, which equals 30 beads for all bracelets."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "multiply_number_of_bracelets",
+            "reasoning": "Since each of the 5 bracelets uses 6 beads, I will multiply 30 by the number of bracelets to find the total."
+          }
+        ],
+        "final_answer": "30",
+        "is_correct": false,
+        "attempt_number": 16,
+        "score": 0.8
+      },
+      {
+        "candidate_skills": [
+          "multiply_number_of_bracelets",
+          "multiply_beads_per_bracelet",
+          "add_beads_of_colors",
+          "count_total_beads"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_number_of_bracelets",
+            "reason": "This skill is needed to determine the total number of beads used based on the number of bracelets made."
+          },
+          {
+            "skill": "multiply_beads_per_bracelet",
+            "reason": "This skill is necessary to find out how many beads are used for one bracelet."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_beads_per_bracelet",
+            "reasoning": "I calculated the total number of beads for one bracelet, which requires 6 beads."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_number_of_bracelets",
+            "reasoning": "I multiplied the number of bracelets (5) by the number of beads per bracelet (6) to find the total."
+          }
+        ],
+        "final_answer": "30",
+        "is_correct": false,
+        "attempt_number": 6,
+        "score": 0.7
+      }
+    ],
     "before_pass_rate": 0.0,
     "after_pass_rate": 0.0,
-    "total_attempts": 0,
+    "total_attempts": 16,
     "passed_attempts": 0
+  },
+  {
+    "task_uid": "cf15-6cd6-2498-7cbe",
+    "skill_name": "calculate_percentage_increase",
+    "difficulty": "medium",
+    "problem": "A book costs $15. If the price increases by 20% and then by another 10%, what is the final price of the book?",
+    "correct_answer": "18",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "calculate_percentage_increase",
+          "apply_percentage_to_amount",
+          "perform_addition_and_subtraction",
+          "understand_order_of_operations"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_percentage_increase",
+            "reason": "We need to determine how much to increase the price by each percentage."
+          },
+          {
+            "skill": "apply_percentage_to_amount",
+            "reason": "We need to apply the calculated percentage increases to the original price."
+          },
+          {
+            "skill": "perform_addition_and_subtraction",
+            "reason": "We need to add the increase to the original price to find the new price."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_percentage_increase",
+            "reasoning": "Calculate the first increase of 20% on the original price of $15."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "apply_percentage_to_amount",
+            "reasoning": "Apply the 20% increase to find the new price after the first increase."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_percentage_increase",
+            "reasoning": "Calculate the second increase of 10% on the new price after the first increase."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "apply_percentage_to_amount",
+            "reasoning": "Apply the 10% increase to find the final price of the book."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "perform_addition_and_subtraction",
+            "reasoning": "Add the second increase to the new price to get the final price."
+          }
+        ],
+        "final_answer": "18",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 11.0
+      },
+      {
+        "candidate_skills": [
+          "calculate_percentage_increase",
+          "apply_percentage_to_value",
+          "add_values_together",
+          "round_to_nearest_integer"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_percentage_increase",
+            "reason": "This skill is needed to determine the price increase due to the percentage changes."
+          },
+          {
+            "skill": "apply_percentage_to_value",
+            "reason": "This skill is required to calculate the actual increase amounts based on the initial price."
+          },
+          {
+            "skill": "add_values_together",
+            "reason": "This skill is necessary to find the final price by summing the original price and the increases."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_percentage_increase",
+            "reasoning": "First, I need to find the initial increase, which is 20% of $15."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "apply_percentage_to_value",
+            "reasoning": "I calculated 20% of $15, which is $3. This gives the new price after the first increase."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_percentage_increase",
+            "reasoning": "Next, I need to find the second increase, which is 10% of the new price ($15 + $3)."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "apply_percentage_to_value",
+            "reasoning": "I calculated 10% of $18, which is $1.80. This gives the final increase amount."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "add_values_together",
+            "reasoning": "Finally, I added the second increase to the new price to get the final price of the book."
+          }
+        ],
+        "final_answer": "18",
+        "is_correct": true,
+        "attempt_number": 14,
+        "score": 11.0
+      },
+      {
+        "candidate_skills": [
+          "calculate_percentage_increase",
+          "apply_percentage_to_amount",
+          "add_prices_together",
+          "perform_sequential_operations"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_percentage_increase",
+            "reason": "This skill is needed to determine the price increase based on the percentages given."
+          },
+          {
+            "skill": "add_prices_together",
+            "reason": "This skill is necessary to find the final price after applying both percentage increases."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_percentage_increase",
+            "reasoning": "First, I calculated the first increase of 20% on the original price of $15."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_prices_together",
+            "reasoning": "I added the first increase to the original price to get the new price after the first increase."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_percentage_increase",
+            "reasoning": "Next, I calculated the second increase of 10% based on the new price obtained after the first increase."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "add_prices_together",
+            "reasoning": "Finally, I added the second increase to the new price to get the final price of the book."
+          }
+        ],
+        "final_answer": "18",
+        "is_correct": true,
+        "attempt_number": 4,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "calculate_percentage_increase",
+          "multiply_rate_by_amount",
+          "add_amounts_together",
+          "apply_successive_percentages"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_percentage_increase",
+            "reason": "Calculating the price increase based on the original price is essential."
+          },
+          {
+            "skill": "add_amounts_together",
+            "reason": "Adding the increased amounts to find the final price is necessary."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_percentage_increase",
+            "reasoning": "First, I calculated the 20% increase on the original price of $15."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_amounts_together",
+            "reasoning": "I added the increase to the original price to find the new price after the first increase."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_percentage_increase",
+            "reasoning": "Next, I calculated the 10% increase on the new price obtained after the first increase."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "add_amounts_together",
+            "reasoning": "Finally, I added the second increase to the new price to get the final price."
+          }
+        ],
+        "final_answer": "18",
+        "is_correct": true,
+        "attempt_number": 6,
+        "score": 10.9
+      }
+    ],
+    "before_pass_rate": 0.0,
+    "after_pass_rate": 62.5,
+    "total_attempts": 16,
+    "passed_attempts": 10
   },
   {
     "task_uid": "9dd1-e27d-f332-a5c2",
@@ -125,11 +2744,216 @@
     "difficulty": "hard",
     "problem": "A store sells pencils for $2 each and erasers for $1 each. Emma buys 5 pencils and 3 erasers. Later, she returns 2 pencils and buys 1 more eraser. How much money did Emma spend in total?",
     "correct_answer": "13",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "calculate_cost_of_items",
+          "add_multiple_numbers",
+          "subtract_returned_items",
+          "calculate_total_spent"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_cost_of_items",
+            "reason": "This skill is needed to determine the cost of the pencils and erasers Emma buys."
+          },
+          {
+            "skill": "subtract_returned_items",
+            "reason": "This skill is required to account for the pencils Emma returns."
+          },
+          {
+            "skill": "add_multiple_numbers",
+            "reason": "This skill is essential to sum the total cost of items purchased."
+          },
+          {
+            "skill": "calculate_total_spent",
+            "reason": "This skill is necessary to find the final total after all purchases and returns."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_cost_of_items",
+            "reasoning": "I calculated the initial cost for 5 pencils at $2 each and 3 erasers at $1 each."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "subtract_returned_items",
+            "reasoning": "I subtracted the cost of 2 returned pencils from the initial total cost."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_cost_of_items",
+            "reasoning": "I calculated the cost of 1 additional eraser Emma buys after returning the pencils."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "add_multiple_numbers",
+            "reasoning": "I summed the costs of all items (after returns) to find the total amount spent."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "calculate_total_spent",
+            "reasoning": "I verified the final total by calculating the total spent on items."
+          }
+        ],
+        "final_answer": "13",
+        "is_correct": true,
+        "attempt_number": 5,
+        "score": 11.0
+      },
+      {
+        "candidate_skills": [
+          "add_items_costs_together",
+          "multiply_quantity_by_price",
+          "subtract_returned_items_cost",
+          "calculate_total_spent"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_quantity_by_price",
+            "reason": "This skill is needed to calculate the initial cost of the items Emma bought."
+          },
+          {
+            "skill": "add_items_costs_together",
+            "reason": "This skill is needed to find the total cost after purchasing the items."
+          },
+          {
+            "skill": "subtract_returned_items_cost",
+            "reason": "This skill is needed to account for the items Emma returned."
+          },
+          {
+            "skill": "add_items_costs_together",
+            "reason": "This skill is needed to find the final total cost after all transactions."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "Calculate the cost of 5 pencils at $2 each."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_items_costs_together",
+            "reasoning": "Add the cost of 5 pencils and 3 erasers ($1 each) to find the total before returns."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "subtract_returned_items_cost",
+            "reasoning": "Calculate the cost of the 2 pencils returned and subtract it from the total."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "add_items_costs_together",
+            "reasoning": "Add the cost of the new eraser to the total after the return."
+          }
+        ],
+        "final_answer": "13",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "calculate_total_cost_pencils",
+          "calculate_total_cost_erasers",
+          "subtract_items_returned",
+          "add_items_purchased"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_total_cost_pencils",
+            "reason": "We need to find the total cost of the pencils Emma bought."
+          },
+          {
+            "skill": "calculate_total_cost_erasers",
+            "reason": "We need to find the total cost of the erasers Emma bought."
+          },
+          {
+            "skill": "subtract_items_returned",
+            "reason": "We need to account for the pencils Emma returned."
+          },
+          {
+            "skill": "add_items_purchased",
+            "reason": "We need to add the total costs of pencils and erasers and include the new eraser purchase."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_total_cost_pencils",
+            "reasoning": "Emma buys 5 pencils at $2 each, so the total cost for pencils is 5 * 2."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_total_cost_erasers",
+            "reasoning": "Emma buys 3 erasers at $1 each, so the total cost for erasers is 3 * 1."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "subtract_items_returned",
+            "reasoning": "Emma returns 2 pencils, so we need to subtract the cost of these from the total."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "add_items_purchased",
+            "reasoning": "After returning the pencils, Emma buys 1 more eraser, so we need to add the updated costs."
+          }
+        ],
+        "final_answer": "13",
+        "is_correct": true,
+        "attempt_number": 6,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "calculate_total_cost_of_items",
+          "add_multiple_values",
+          "subtract_returned_items_cost",
+          "calculate_final_expense"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_total_cost_of_items",
+            "reason": "This skill is necessary to determine the initial cost of the items Emma purchased."
+          },
+          {
+            "skill": "subtract_returned_items_cost",
+            "reason": "This skill is needed to account for the cost of the pencils that Emma returned."
+          },
+          {
+            "skill": "calculate_final_expense",
+            "reason": "This skill will help in summing up the cost after all transactions."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_total_cost_of_items",
+            "reasoning": "I calculated the total cost of 5 pencils at $2 each and 3 erasers at $1 each."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "subtract_returned_items_cost",
+            "reasoning": "I subtracted the cost of the 2 returned pencils, which is $4."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_final_expense",
+            "reasoning": "I added the cost of the additional eraser, which is $1, to the total after returns."
+          }
+        ],
+        "final_answer": "13",
+        "is_correct": true,
+        "attempt_number": 8,
+        "score": 10.8
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 31.25,
+    "total_attempts": 16,
+    "passed_attempts": 5
   },
   {
     "task_uid": "e77d-2a15-c36e-0749",
@@ -137,22 +2961,1022 @@
     "difficulty": "hard",
     "problem": "You are having a pizza party with 4 friends. You order 5 pizzas. Each pizza has 10 slices. If each person eats 2 slices and you want to save 3 slices for later, how many slices will be left over after everyone has eaten?",
     "correct_answer": "7",
-    "best_attempts": [],
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "add_pizza_slices_total",
+          "multiply_slices_per_pizza",
+          "multiply_people_by_slices",
+          "subtract_eaten_slices",
+          "subtract_saved_slices"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_slices_per_pizza",
+            "reason": "To find the total number of slices available from the pizzas."
+          },
+          {
+            "skill": "multiply_people_by_slices",
+            "reason": "To calculate the total number of slices consumed by all friends."
+          },
+          {
+            "skill": "subtract_eaten_slices",
+            "reason": "To determine how many slices remain after consumption."
+          },
+          {
+            "skill": "subtract_saved_slices",
+            "reason": "To account for the slices reserved for later."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_slices_per_pizza",
+            "reasoning": "I multiplied the number of pizzas (5) by the number of slices per pizza (10) to find the total slices available."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_people_by_slices",
+            "reasoning": "I multiplied the number of friends (4) by the number of slices each eats (2) to find the total slices consumed."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "subtract_eaten_slices",
+            "reasoning": "I subtracted the total slices consumed from the total slices available to find out how many are left."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_saved_slices",
+            "reasoning": "I subtracted the number of slices I want to save (3) from the remaining slices to find the final answer."
+          }
+        ],
+        "final_answer": "7",
+        "is_correct": true,
+        "attempt_number": 9,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "multiply_number_of_pizzas_by_slices",
+          "calculate_total_slices",
+          "subtract_slices_eaten_by_friends",
+          "subtract_slices_saved_for_later"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_number_of_pizzas_by_slices",
+            "reason": "To find the total number of slices from the pizzas ordered."
+          },
+          {
+            "skill": "subtract_slices_eaten_by_friends",
+            "reason": "To determine how many slices are left after everyone eats."
+          },
+          {
+            "skill": "subtract_slices_saved_for_later",
+            "reason": "To account for the slices reserved for later consumption."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_number_of_pizzas_by_slices",
+            "reasoning": "I multiplied the number of pizzas (5) by the number of slices per pizza (10) to find the total slices available."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "subtract_slices_eaten_by_friends",
+            "reasoning": "I calculated the total slices eaten by friends (4 friends * 2 slices each = 8 slices) and subtracted this from the total slices."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "subtract_slices_saved_for_later",
+            "reasoning": "I subtracted the 3 slices that are saved for later from the remaining slices after everyone has eaten."
+          }
+        ],
+        "final_answer": "7",
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "multiply_pizzas_by_slices",
+          "subtract_eaten_slices",
+          "subtract_saved_slices",
+          "calculate_remaining_slices"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_pizzas_by_slices",
+            "reason": "To find the total number of slices from the pizzas."
+          },
+          {
+            "skill": "subtract_eaten_slices",
+            "reason": "To determine how many slices are consumed by the friends."
+          },
+          {
+            "skill": "subtract_saved_slices",
+            "reason": "To find the final number of slices after saving some."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_pizzas_by_slices",
+            "reasoning": "I calculated the total number of slices by multiplying the number of pizzas (5) by the number of slices per pizza (10)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "subtract_eaten_slices",
+            "reasoning": "I found out how many slices were eaten by multiplying the number of friends (4) by the slices each person eats (2), then subtracted that from the total slices."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "subtract_saved_slices",
+            "reasoning": "I subtracted the 3 slices that I wanted to save from the remaining slices after everyone has eaten."
+          }
+        ],
+        "final_answer": "7",
+        "is_correct": true,
+        "attempt_number": 6,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "add_numbers_together",
+          "subtract_numbers_from_total",
+          "multiply_numbers_to_find_total",
+          "divide_total_into_parts"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_numbers_to_find_total",
+            "reason": "To determine the total number of pizza slices available from the number of pizzas."
+          },
+          {
+            "skill": "multiply_numbers_to_find_total",
+            "reason": "To calculate how many slices all friends will eat."
+          },
+          {
+            "skill": "subtract_numbers_from_total",
+            "reason": "To find out how many slices are left after eating."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_numbers_to_find_total",
+            "reasoning": "I multiplied the number of pizzas (5) by the number of slices per pizza (10) to find the total number of slices."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_numbers_to_find_total",
+            "reasoning": "I multiplied the number of friends (4) by the number of slices each person eats (2) to find the total number of slices eaten."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "subtract_numbers_from_total",
+            "reasoning": "I subtracted the total number of slices eaten from the total number of slices available, then subtracted the slices I want to save (3) to find out how many slices are left."
+          }
+        ],
+        "final_answer": "7",
+        "is_correct": true,
+        "attempt_number": 13,
+        "score": 10.8
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 31.25,
+    "total_attempts": 16,
+    "passed_attempts": 5
   },
   {
-    "task_uid": "68c8-cae4-a928-067e",
-    "skill_name": "interpret_problem_context_correctly",
+    "task_uid": "d4b4-8e56-2f9c-15b7",
+    "skill_name": "apply_weight_calculation_steps",
     "difficulty": "medium",
-    "problem": "Lily is making a fruit salad. She has 4 bananas, 3 oranges, and 2 apples. If she uses 1 banana and 1 orange, how many pieces of fruit does she have left?",
-    "correct_answer": "8",
-    "best_attempts": [],
+    "problem": "A box contains 5 books that each weigh 1.5 pounds. If you add 2 more books that weigh 2 pounds each, what is the total weight of the box?",
+    "correct_answer": "13",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "add_weights_of_books",
+          "multiply_weight_by_quantity",
+          "calculate_total_weight",
+          "sum_multiple_values"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_weight_by_quantity",
+            "reason": "This skill is needed to determine the weight contribution of each set of books."
+          },
+          {
+            "skill": "add_weights_of_books",
+            "reason": "This skill is needed to combine the weights of different sets of books into a total weight."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_weight_by_quantity",
+            "reasoning": "I calculated the total weight of the first set of 5 books, each weighing 1.5 pounds."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_weight_by_quantity",
+            "reasoning": "I calculated the total weight of the 2 additional books, each weighing 2 pounds."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_weights_of_books",
+            "reasoning": "I added the total weights from both sets of books to find the overall weight of the box."
+          }
+        ],
+        "final_answer": 13,
+        "is_correct": true,
+        "attempt_number": 2,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "multiply_number_by_weight",
+          "add_multiple_numbers",
+          "calculate_total_weight",
+          "sum_weights_of_books"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_number_by_weight",
+            "reason": "To find the weight of the initial set of books."
+          },
+          {
+            "skill": "multiply_number_by_weight",
+            "reason": "To find the weight of the additional books."
+          },
+          {
+            "skill": "add_multiple_numbers",
+            "reason": "To sum the weights of all books together."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_number_by_weight",
+            "reasoning": "I calculated the weight of the 5 books that each weigh 1.5 pounds by multiplying 5 by 1.5."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_number_by_weight",
+            "reasoning": "I calculated the weight of the 2 additional books that each weigh 2 pounds by multiplying 2 by 2."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_numbers",
+            "reasoning": "I added the total weight from step 1 and step 2 to find the total weight of the box."
+          }
+        ],
+        "final_answer": "13",
+        "is_correct": true,
+        "attempt_number": 3,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "calculate_weight_of_books",
+          "add_multiple_numbers",
+          "multiply_weight_by_quantity",
+          "sum_total_weights"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_weight_by_quantity",
+            "reason": "To find the weight of the books based on their quantity and individual weight."
+          },
+          {
+            "skill": "add_multiple_numbers",
+            "reason": "To sum the weights of all books together."
+          },
+          {
+            "skill": "sum_total_weights",
+            "reason": "To combine the results from different groups of books."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_weight_by_quantity",
+            "reasoning": "I multiplied the weight of the 5 books (1.5 pounds each) by their quantity (5) to find their total weight."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_weight_by_quantity",
+            "reasoning": "I multiplied the weight of the 2 additional books (2 pounds each) by their quantity (2) to find their total weight."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "sum_total_weights",
+            "reasoning": "I added the total weight of the first group of books and the total weight of the second group of books to find the overall weight."
+          }
+        ],
+        "final_answer": "13",
+        "is_correct": true,
+        "attempt_number": 4,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "add_weights_of_books",
+          "multiply_quantity_by_weight",
+          "calculate_total_weight",
+          "sum_multiple_values"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_quantity_by_weight",
+            "reason": "This skill is needed to calculate the weight of the books based on their quantity and individual weight."
+          },
+          {
+            "skill": "add_weights_of_books",
+            "reason": "This skill is necessary to find the total weight by adding the weights of all books."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_quantity_by_weight",
+            "reasoning": "I calculated the total weight of the first 5 books by multiplying their quantity (5) by their weight (1.5 pounds)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_quantity_by_weight",
+            "reasoning": "I calculated the total weight of the additional 2 books by multiplying their quantity (2) by their weight (2 pounds)."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_weights_of_books",
+            "reasoning": "I added the total weights of the first set of books and the second set of books to find the overall total weight."
+          }
+        ],
+        "final_answer": "13",
+        "is_correct": true,
+        "attempt_number": 5,
+        "score": 10.8
+      }
+    ],
     "before_pass_rate": 0.0,
-    "after_pass_rate": 0.0,
-    "total_attempts": 0,
-    "passed_attempts": 0
+    "after_pass_rate": 62.5,
+    "total_attempts": 16,
+    "passed_attempts": 10
+  },
+  {
+    "task_uid": "6f5f-4750-5506-ff59",
+    "skill_name": "apply_budgeting_concepts",
+    "difficulty": "hard",
+    "problem": "Lucy has a total budget of $100 for her birthday party. She wants to spend $40 on food, $25 on games, and $15 on decorations. If she also wants to invite 5 friends and buy each of them a small gift for $5, how much money will she have left after all her expenses?",
+    "correct_answer": "5",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "add_expenses_together",
+          "subtract_total_from_budget",
+          "multiply_gift_cost_by_friends",
+          "identify_remaining_budget"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_expenses_together",
+            "reason": "To find the total expenses, I need to add all individual costs together."
+          },
+          {
+            "skill": "multiply_gift_cost_by_friends",
+            "reason": "To determine the total cost of gifts for friends, I need to multiply the cost per gift by the number of friends."
+          },
+          {
+            "skill": "subtract_total_from_budget",
+            "reason": "To find out how much money Lucy has left, I will subtract the total expenses from her budget."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_expenses_together",
+            "reasoning": "I added the costs of food, games, and decorations: 40 + 25 + 15."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_gift_cost_by_friends",
+            "reasoning": "I calculated the total cost of gifts for 5 friends at $5 each: 5 * 5."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_expenses_together",
+            "reasoning": "I added the total expenses from step 1 and the total cost of gifts from step 2."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_total_from_budget",
+            "reasoning": "I subtracted the total expenses from the budget: 100 - total_expenses."
+          }
+        ],
+        "final_answer": "5",
+        "is_correct": true,
+        "attempt_number": 10,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "add_expenses_together",
+          "subtract_total_from_budget",
+          "multiply_gift_cost_by_friends",
+          "calculate_total_costs"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_expenses_together",
+            "reason": "This skill is needed to find the total expenses for food, games, and decorations."
+          },
+          {
+            "skill": "multiply_gift_cost_by_friends",
+            "reason": "This skill is needed to calculate the total cost of the gifts for the friends."
+          },
+          {
+            "skill": "calculate_total_costs",
+            "reason": "This skill is necessary to combine all expenses into one total."
+          },
+          {
+            "skill": "subtract_total_from_budget",
+            "reason": "This skill is required to determine how much money will be left after all expenses."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_expenses_together",
+            "reasoning": "I added the costs of food, games, and decorations: $40 + $25 + $15."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_gift_cost_by_friends",
+            "reasoning": "I calculated the total cost of gifts by multiplying the cost per gift ($5) by the number of friends (5): $5 * 5."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "calculate_total_costs",
+            "reasoning": "I combined the total expenses from steps 1 and 2 to find the overall cost."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_total_from_budget",
+            "reasoning": "I subtracted the total expenses from Lucy's budget of $100 to find how much money is left."
+          }
+        ],
+        "final_answer": "5",
+        "is_correct": true,
+        "attempt_number": 13,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "add_expenses_together",
+          "subtract_from_total_budget",
+          "multiply_number_of_friends",
+          "calculate_total_gifts_cost"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_expenses_together",
+            "reason": "This skill is needed to determine the total expenses before subtracting from the budget."
+          },
+          {
+            "skill": "calculate_total_gifts_cost",
+            "reason": "This skill is necessary to compute the total cost of the gifts for the friends."
+          },
+          {
+            "skill": "subtract_from_total_budget",
+            "reason": "This skill is essential to find out how much money is left after all expenses."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "add_expenses_together",
+            "reasoning": "I added the costs of food, games, and decorations: $40 + $25 + $15."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_total_gifts_cost",
+            "reasoning": "I calculated the total cost of gifts for 5 friends at $5 each: 5 * $5."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "subtract_from_total_budget",
+            "reasoning": "I subtracted the total expenses (from step 1 and step 2) from the total budget of $100."
+          }
+        ],
+        "final_answer": "5",
+        "is_correct": true,
+        "attempt_number": 6,
+        "score": 10.8
+      },
+      {
+        "candidate_skills": [
+          "subtract_expenses_from_budget",
+          "multiply_item_cost_by_quantity",
+          "add_multiple_expenses",
+          "perform_budget_calculation"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "add_multiple_expenses",
+            "reason": "This skill is needed to calculate the total expenses for food, games, decorations, and gifts."
+          },
+          {
+            "skill": "subtract_expenses_from_budget",
+            "reason": "This skill is required to find out how much money Lucy has left after all her expenses."
+          },
+          {
+            "skill": "multiply_item_cost_by_quantity",
+            "reason": "This skill is needed to calculate the total cost of gifts for the friends."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_item_cost_by_quantity",
+            "reasoning": "I calculated the total cost of gifts by multiplying the cost of each gift ($5) by the number of friends (5)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "add_multiple_expenses",
+            "reasoning": "I added the costs of food ($40), games ($25), decorations ($15), and the total gift cost ($25) to find the total expenses."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "subtract_expenses_from_budget",
+            "reasoning": "I subtracted the total expenses from the budget ($100) to determine how much money Lucy has left."
+          }
+        ],
+        "final_answer": "5",
+        "is_correct": true,
+        "attempt_number": 8,
+        "score": 10.8
+      }
+    ],
+    "before_pass_rate": 0.0,
+    "after_pass_rate": 50.0,
+    "total_attempts": 16,
+    "passed_attempts": 8
+  },
+  {
+    "task_uid": "5103-b79a-34aa-135a",
+    "skill_name": "calculate_total_spent_amount",
+    "difficulty": "hard",
+    "problem": "Lily went shopping for school supplies. She bought 4 notebooks for $3 each, 2 packs of pencils for $2 each, and a backpack for $15. How much did she spend in total? After shopping, she used a coupon that gave her 10% off her total purchase. What is the final amount she spent after using the coupon?",
+    "correct_answer": "30.6",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "multiply_quantity_price_notebooks",
+          "multiply_quantity_price_pencils",
+          "add_total_costs",
+          "calculate_percentage_discount",
+          "subtract_discount_from_total"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_quantity_price_notebooks",
+            "reason": "To find the total cost of the notebooks."
+          },
+          {
+            "skill": "multiply_quantity_price_pencils",
+            "reason": "To find the total cost of the packs of pencils."
+          },
+          {
+            "skill": "add_total_costs",
+            "reason": "To find the total cost before the discount."
+          },
+          {
+            "skill": "calculate_percentage_discount",
+            "reason": "To determine the amount of the discount."
+          },
+          {
+            "skill": "subtract_discount_from_total",
+            "reason": "To find the final amount after applying the discount."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_quantity_price_notebooks",
+            "reasoning": "I calculated the total cost of the notebooks by multiplying 4 notebooks by $3 each."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_quantity_price_pencils",
+            "reasoning": "I calculated the total cost of the packs of pencils by multiplying 2 packs by $2 each."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_total_costs",
+            "reasoning": "I summed the total costs of the notebooks, pencils, and backpack to get the total cost before discount."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_percentage_discount",
+            "reasoning": "I calculated the 10% discount on the total cost before the discount."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "subtract_discount_from_total",
+            "reasoning": "I subtracted the discount from the total cost to find the final amount spent."
+          }
+        ],
+        "final_answer": "30.6",
+        "is_correct": true,
+        "attempt_number": 9,
+        "score": 11.0
+      },
+      {
+        "candidate_skills": [
+          "multiply_quantity_by_price",
+          "add_multiple_values",
+          "calculate_discount",
+          "subtract_discount_from_total"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_quantity_by_price",
+            "reason": "This skill is needed to calculate the total cost of each item purchased."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "This skill is necessary to find the total cost before discount."
+          },
+          {
+            "skill": "calculate_discount",
+            "reason": "This skill is required to determine the amount of discount applied."
+          },
+          {
+            "skill": "subtract_discount_from_total",
+            "reason": "This skill helps to find the final amount after applying the discount."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "Calculated the cost of notebooks: 4 notebooks * $3 = $12."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "Calculated the cost of pencils: 2 packs * $2 = $4."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_values",
+            "reasoning": "Added the costs together: $12 (notebooks) + $4 (pencils) + $15 (backpack) = $31."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_discount",
+            "reasoning": "Calculated the discount amount: 10% of $31 = $3.10."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "subtract_discount_from_total",
+            "reasoning": "Subtracted the discount from the total: $31 - $3.10 = $27.90."
+          }
+        ],
+        "final_answer": "27.90",
+        "is_correct": false,
+        "attempt_number": 1,
+        "score": 1.0
+      },
+      {
+        "candidate_skills": [
+          "multiply_quantity_by_price",
+          "add_multiple_values",
+          "calculate_percentage_discount",
+          "subtract_discount_from_total"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_quantity_by_price",
+            "reason": "To find the total cost of each type of item Lily bought."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "To find the overall total cost of all items before applying the discount."
+          },
+          {
+            "skill": "calculate_percentage_discount",
+            "reason": "To determine how much discount Lily receives from her total purchase."
+          },
+          {
+            "skill": "subtract_discount_from_total",
+            "reason": "To find the final amount Lily spent after applying the discount."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "I calculated the cost of the notebooks by multiplying the quantity (4) by the price ($3): 4 * 3 = 12."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "I calculated the cost of the pencils by multiplying the quantity (2) by the price ($2): 2 * 2 = 4."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_values",
+            "reasoning": "I added the costs of all items together: 12 (notebooks) + 4 (pencils) + 15 (backpack) = 31."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_percentage_discount",
+            "reasoning": "I calculated the discount amount by finding 10% of the total cost: 10% of 31 is 0.10 * 31 = 3.1."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "subtract_discount_from_total",
+            "reasoning": "I subtracted the discount from the total cost to find the final amount spent: 31 - 3.1 = 27.9."
+          }
+        ],
+        "final_answer": "27.9",
+        "is_correct": false,
+        "attempt_number": 2,
+        "score": 1.0
+      },
+      {
+        "candidate_skills": [
+          "multiply_quantity_by_price",
+          "add_multiple_values",
+          "calculate_percentage_discount",
+          "subtract_discount_from_total"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_quantity_by_price",
+            "reason": "To find the total cost of each type of item Lily bought."
+          },
+          {
+            "skill": "add_multiple_values",
+            "reason": "To find the overall total cost before the discount."
+          },
+          {
+            "skill": "calculate_percentage_discount",
+            "reason": "To determine the amount of discount applied to the total."
+          },
+          {
+            "skill": "subtract_discount_from_total",
+            "reason": "To find the final amount spent after applying the discount."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "Lily bought 4 notebooks at $3 each, so I calculated 4 * 3 = 12."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_quantity_by_price",
+            "reasoning": "Lily bought 2 packs of pencils at $2 each, so I calculated 2 * 2 = 4."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_multiple_values",
+            "reasoning": "I added the total costs: 12 (notebooks) + 4 (pencils) + 15 (backpack) = 31."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "calculate_percentage_discount",
+            "reasoning": "I calculated the discount amount on the total: 10% of 31 = 3.1."
+          },
+          {
+            "step_number": 5,
+            "skill_used": "subtract_discount_from_total",
+            "reasoning": "I subtracted the discount from the total: 31 - 3.1 = 27.9."
+          }
+        ],
+        "final_answer": "27.9",
+        "is_correct": false,
+        "attempt_number": 4,
+        "score": 1.0
+      }
+    ],
+    "before_pass_rate": 0.0,
+    "after_pass_rate": 6.25,
+    "total_attempts": 16,
+    "passed_attempts": 1
+  },
+  {
+    "task_uid": "c90e-1d11-d43e-5667",
+    "skill_name": "determine_weekly_earnings",
+    "difficulty": "hard",
+    "problem": "Lily has two jobs. She earns $20 per hour at her tutoring job and works 10 hours a week. At her dog walking job, she earns $12 per hour and works 15 hours a week. How much does she earn in total each week from both jobs? If she spends $50 weekly on transportation, what is her net earning for the week?",
+    "correct_answer": "290",
+    "best_attempts": [
+      {
+        "candidate_skills": [
+          "calculate_hourly_earnings_tutoring",
+          "calculate_hourly_earnings_dog_walking",
+          "add_total_earnings",
+          "subtract_expenses_from_earnings"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "calculate_hourly_earnings_tutoring",
+            "reason": "To find out how much Lily earns from her tutoring job."
+          },
+          {
+            "skill": "calculate_hourly_earnings_dog_walking",
+            "reason": "To find out how much Lily earns from her dog walking job."
+          },
+          {
+            "skill": "add_total_earnings",
+            "reason": "To combine the earnings from both jobs."
+          },
+          {
+            "skill": "subtract_expenses_from_earnings",
+            "reason": "To calculate the net earnings after transportation expenses."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "calculate_hourly_earnings_tutoring",
+            "reasoning": "Lily earns $20 per hour and works 10 hours, so I calculate her tutoring earnings: 20 * 10."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "calculate_hourly_earnings_dog_walking",
+            "reasoning": "Lily earns $12 per hour and works 15 hours, so I calculate her dog walking earnings: 12 * 15."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_total_earnings",
+            "reasoning": "I add her tutoring and dog walking earnings together."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_expenses_from_earnings",
+            "reasoning": "I subtract her transportation costs of $50 from her total earnings."
+          }
+        ],
+        "final_answer": "290",
+        "is_correct": true,
+        "attempt_number": 1,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "multiply_rate_by_time",
+          "add_results_together",
+          "subtract_expenses_from_income"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "To calculate the earnings from each job based on hourly rate and hours worked."
+          },
+          {
+            "skill": "add_results_together",
+            "reason": "To find the total earnings from both jobs."
+          },
+          {
+            "skill": "subtract_expenses_from_income",
+            "reason": "To calculate the net earnings after transportation expenses."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "I calculated Lily's earnings from her tutoring job by multiplying her hourly rate of $20 by the 10 hours she works each week."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "Next, I calculated her earnings from her dog walking job by multiplying her hourly rate of $12 by the 15 hours she works each week."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_results_together",
+            "reasoning": "I added the earnings from both jobs to find her total weekly earnings."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_expenses_from_income",
+            "reasoning": "Finally, I subtracted her weekly transportation expenses of $50 from her total earnings to find her net earnings."
+          }
+        ],
+        "final_answer": "290",
+        "is_correct": true,
+        "attempt_number": 4,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "calculate_income_from_jobs",
+          "subtract_expenses_from_income",
+          "multiply_rate_by_time",
+          "add_two_values"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_rate_by_time",
+            "reason": "To calculate the income from each job based on hours worked and hourly rate."
+          },
+          {
+            "skill": "add_two_values",
+            "reason": "To find the total income from both jobs."
+          },
+          {
+            "skill": "subtract_expenses_from_income",
+            "reason": "To determine the net earning after subtracting transportation expenses."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "Calculating Lily's income from the tutoring job by multiplying her hourly rate ($20) by the number of hours worked (10)."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_rate_by_time",
+            "reasoning": "Calculating Lily's income from the dog walking job by multiplying her hourly rate ($12) by the number of hours worked (15)."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_two_values",
+            "reasoning": "Adding the incomes from both jobs to find her total income for the week."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_expenses_from_income",
+            "reasoning": "Subtracting the weekly transportation expenses ($50) from the total income to find the net earning."
+          }
+        ],
+        "final_answer": "290",
+        "is_correct": true,
+        "attempt_number": 5,
+        "score": 10.9
+      },
+      {
+        "candidate_skills": [
+          "multiply_income_by_hours",
+          "add_total_income",
+          "subtract_expenses_from_income"
+        ],
+        "chosen_skills": [
+          {
+            "skill": "multiply_income_by_hours",
+            "reason": "This skill is needed to calculate the income from each job based on hours worked."
+          },
+          {
+            "skill": "add_total_income",
+            "reason": "This skill is necessary to find the total income from both jobs."
+          },
+          {
+            "skill": "subtract_expenses_from_income",
+            "reason": "This skill is essential to determine net earnings after deducting transportation expenses."
+          }
+        ],
+        "steps": [
+          {
+            "step_number": 1,
+            "skill_used": "multiply_income_by_hours",
+            "reasoning": "I calculated Lily's earnings from her tutoring job by multiplying her hourly rate of $20 by the number of hours she works, which is 10."
+          },
+          {
+            "step_number": 2,
+            "skill_used": "multiply_income_by_hours",
+            "reasoning": "I calculated Lily's earnings from her dog walking job by multiplying her hourly rate of $12 by the number of hours she works, which is 15."
+          },
+          {
+            "step_number": 3,
+            "skill_used": "add_total_income",
+            "reasoning": "I added the earnings from both jobs to find Lily's total income for the week."
+          },
+          {
+            "step_number": 4,
+            "skill_used": "subtract_expenses_from_income",
+            "reasoning": "I subtracted Lily's weekly transportation expenses of $50 from her total income to find her net earnings."
+          }
+        ],
+        "final_answer": 290,
+        "is_correct": true,
+        "attempt_number": 7,
+        "score": 10.9
+      }
+    ],
+    "before_pass_rate": 0.0,
+    "after_pass_rate": 43.75,
+    "total_attempts": 16,
+    "passed_attempts": 7
   }
 ]
